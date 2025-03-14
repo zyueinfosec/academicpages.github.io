@@ -38,7 +38,7 @@ author:
   orcid            : "http://orcid.org/0000-0002-7786-0231"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://dblp.org/pid/47/722-25.html"
   scopus           : # URL
 
   # Repositories and software development
