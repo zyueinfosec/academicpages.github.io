@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Yue Zhang's Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Yue Zhang (张悦)"
+  pronouns         : # example: "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Qindao, China"
+  employer         : "[Shandong University](https://www.cs.sdu.edu.cn/)"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "zyueinfosec@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
