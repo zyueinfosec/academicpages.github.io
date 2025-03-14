@@ -1,11 +1,24 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Yue Zhang's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Yue Zhang (张悦)
+Professor, [Computer Science and Technology](https://www.cs.sdu.edu.cn/), Shandong University
+
+Qindao, Shandong, China  
+
+<span style="color: lightblue;">
+I am currently recruiting Master and PhD students for cutting-edge research in the following areas: LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis. Join us to explore innovative solutions and advance the field of cybersecurity!
+</span>
+
+Email:  [zyueinfosec@gmail.com](mailto:zyueinfosec@gmail.com)
+
+⌫ You can also find me at [Google Scholar](https://scholar.google.com/citations?user=2RpZGTYAAAAJ) [DBLP](https://dblp.org/pers/hd/z/Zhang_0025:Yue) 
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
