@@ -1,10 +1,13 @@
-## 
+   ---
+layout: archive
+title: "Academic and Professional Publications"
+permalink: /publications/
+author_profile: true
+redirect_from:
+  - /resume
+---
 
-Academic and Professional Publications
-
-  
-
-I have published 30+ papers (29 CCF-A). My publications appears in top tier conferences (e.g., ACM CCS, Usenix Security, NDSS, Blackhat, INFOCOM), and top tier journals (e.g., TDSC, TPDS).
+I have published 40+ papers (29 CCF-A). My publications appears in top tier conferences (e.g., ACM CCS, Usenix Security, NDSS, Blackhat, INFOCOM), and top tier journals (e.g., TDSC, TPDS).
  
 
 **Book Chapters** 
