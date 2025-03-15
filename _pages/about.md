@@ -34,7 +34,7 @@ Research Interests:
 LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
 
 
-✒ Selected Publications:  
+✒ Selected Publications ([Complete List](\publications\)):  
 ------
 
 <span style="color: red;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
