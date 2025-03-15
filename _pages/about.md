@@ -13,12 +13,12 @@ I am currently recruiting Master and PhD students for cutting-edge research in t
 
  
 Biography
-======
+------
 I am professor in a Computer Science and Technology, [Shandong University](https://www.en.sdu.edu.cn/), working with Professor [Xiuzhen Cheng](https://scholar.google.com/citations?user=O1yGhH0AAAAJ&hl=en). Before joining Shandong University, I was a tenure-track assistant professor in the Department of Computer Science at [Drexel University](https://drexel.edu/) (2024 - 2025). I spent three years as a postdoc researcher at The [Ohio State University (OSU)](http://www.osu.edu/) (2020 - 2023), working with Prof. [Zhiqiang Lin](https://zhiqlin.github.io/). Before coming to OSU, I graduated from [Jinan University](https://www.jnu.edu.cn/main.htm) (2016 - 2020),  under the supervision of [Jian Weng](https://scholar.google.com/citations?user=7xRkSZAAAAAJ&hl=en) and [Weiqi Luo](https://english.jnu.edu.cn/2012/0709/c2027a48148/page.htm).    Also, I ever visited/worked at  [University of Central Florida (UCF)](https://www.ucf.edu/) / [University of Massachusetts Lowell (UML)](https://www.uml.edu/) (2018 -2020),  under the supervision of  [Xinwen Fu](https://www.cs.uml.edu/~xinwenfu/index.html).  My research focuses on system security, especially IoT security.  
 
  
 News
-======
+------
 **✯** 2025. Mar - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
 **✯** 2025. Mar - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**  
 **✯** 2025. Feb - I’m excited to share that I was recognized as an **NDSS** Distinguished Reviewer 2025  **- 𝕟𝕖𝕨 !**  
@@ -29,13 +29,36 @@ News
 **✯** 2024. Oct - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)    
 
 
-Site-wide configuration
+Research Interests
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
 
-Create content & metadata
+TPC Member
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+-   TPC Member for ACM Conference on Computer and Communications Security 2025, Network Security Track <span style="color: blue;">(ACM CCS 2025)</span>  
+-   TPC Member for WWW 2025 (Security and Privacy Track)  
+-   TPC Member for ICDCS 2025 (Security, Privacy, and Trust Track)  
+-   TPC Member for USENIX Security Symposium 2025 (USENIX Security 2025)  
+-   TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P 2025)  
+-   TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2024  
+-   TPC Member for The Network and Distributed System Security Symposium 2025  (NDSS 2025)  
+-   TPC Member for The International Conference on Computer Communications and Networks 2023 (ICCCN 2024)  
+-   TPC Member for the International Artificial Intelligence Conference 2024  
+-   TPC Member for the Annual Computer Security Applications Conference 2024 (ACSAC 2024)  
+-   TPC Member for ACM Conference on Computer and Communications Security 2024, Network Security Track (ACM CCS 2024)  
+-   TPC Member for Workshop on Measurements, Attacks, and Defenses for the Web 2024, co-located with NDSS 2024  
+-   TPC Member for the Junior Program Committee of Mining Software Repositories 2024 (MSR 2024)  
+-   TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P  2024)  
+-   TPC Member for IoT-SCTI-23 (co-located with ACSAC 2023)  
+-   TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2023  
+-   TPC Member for USENIX Security Symposium 2024 (USENIX Security 2024)  
+-   TPC Member for The Network and Distributed System Security Symposium 2024 (NDSS 2024)  
+-   TPC Member for The International Conference on Computer Communications and Networks 2023 (ICCCN 2023)  
+-   TPC Member for The 26th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2023)  
+-   TPC Member for ACM Conference on Computer and Communications Security 2023, Network Security Track (ACM CCS 2023)  
+-   TPC Member for IEEE Conference on Dependable and Secure Computing 2023 (IEEE DSC 2023)  
+-   TPC Member for 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)  
+-   TPC Member for IEEE Conference on Dependable and Secure Computing 2022 (IEEE DSC 2022)
 
 **Markdown generator**
 
