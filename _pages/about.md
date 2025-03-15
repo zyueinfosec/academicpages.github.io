@@ -133,7 +133,7 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 ✺ SERVICES:
 ------
 
-I am actively engaged in organizing and contributing to major security conferences, serving as TPC Chair (STIM 2024), General Chair (EAI ICECI 2024), Session Chair (NDSS 2024, ACM SaTS 2023), Track Chair (MASS 2024, MSN 2023), and Publicity Chair (ACM SaTS 2023). I have also served as a TPC Member for top-tier conferences, including ACM CCS, USENIX Security, and NDSS from 2023 to 2025. I hold key editorial roles, including Associate Editor for IEEE TIFS and High-Confidence Computing, along with Guest Editor for special issues on cybersecurity, IoT security, and AI security in various journals. Please see more details in the [services](\cv) page. 
+I am actively engaged in organizing and contributing to major security conferences, serving as TPC Chair (STIM 2024), General Chair (EAI ICECI 2024), Session Chair (NDSS 2024, ACM SaTS 2023), Track Chair (MASS 2024, MSN 2023), and Publicity Chair (ACM SaTS 2023). I have also served as a TPC Member for top-tier conferences, including **ACM CCS, USENIX Security, and NDSS** from 2023 to 2025. I hold key editorial roles, including **Associate Editor for IEEE TIFS** and High-Confidence Computing, along with Guest Editor for special issues on cybersecurity, IoT security, and AI security in various journals. Please see more details in the [services](\service) page. 
 
  
   
