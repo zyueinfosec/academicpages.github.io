@@ -37,6 +37,13 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 Publications
 ------
 
+<span style="color: blue;">I have published more than 30 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS, SIGMETRICS, Blackhat Asia, INFOCOM), and top-tier journals (e.g., TDSC, TPDS).  
+
+Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25*3), CCS ('24*3, '23*2, '22*2),  NDSS ('23*3, '25*2)
+
+**Ranking Statistics:** CCF A: 28 papers, CCF B: 6 papers, CCF C: 5 papers
+Authors with "_" are the students under my supervision.</span>
+
 **2025:**
 
 1.  <span style="color: blue;">**[IEEE S&P 25]**</span> - Xiao Li, Yue Li, Hao Wu, **Yue Zhang**, Kaidi Xu, Xiuzhen Cheng, Sheng Zhong, and Fengyuan Xu. Make a Feint to the East While Attacking in the West: Blinding LLM-Based Code Auditors with Flashboom Attacks. IEEE Symposium on Security and Privacy.   **[Tier 1] [BIG4] [CCF-A]**  
