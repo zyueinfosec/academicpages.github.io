@@ -1,4 +1,4 @@
-   ---
+---
 layout: archive
 title: "Academic and Professional Publications"
 permalink: /publications/
