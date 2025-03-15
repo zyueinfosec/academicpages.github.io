@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Awards"
+title: "Awards and CVEs"
 permalink: /awards/
 author_profile: true
 redirect_from:
