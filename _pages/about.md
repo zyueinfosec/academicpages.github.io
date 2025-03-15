@@ -118,7 +118,7 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 **Selected CVEs & Vulnerabilities:**
 
 - 2025: A bug bounty of $5000 (0.05154318 BTC).
-- 2024: We analyzed 26 TB of traffic, revealing 45 vulnerabilities, including 29 zero-day exploits with **25 CVE-IDs** assigned (**5 CRITICAL, 3 HIGH, 16 MEDIUM, and 1 LOW**) and an estimated value of approximately **$312,000**. These vulnerabilities affect around 12.71 million devices across 148 countries, exposing them to severe risks such as information disclosure, authentication bypass, and arbitrary command execution. The findings have attracted significant attention, sparking widespread discussion in cybersecurity circles, reaching the top 25 on Hacker News, and generating over **190,000 views**.
+- 2024: We analyzed 26 TB of traffic, revealing 45 vulnerabilities, including 29 zero-day exploits with **25 CVE-IDs** assigned (5 CRITICAL, 3 HIGH, 16 MEDIUM, and 1 LOW) and an estimated value of approximately **$312,000**. These vulnerabilities affect around 12.71 million devices across 148 countries, exposing them to severe risks such as information disclosure, authentication bypass, and arbitrary command execution. The findings have attracted significant attention, sparking widespread discussion in cybersecurity circles, reaching the top 25 on Hacker News, and generating over **190,000 views**.
 - 2022: Tencent has confirmed with 6 vulnerabilities, ranked 3 low, 2 medium and 1 high, and awarded us with bug bounties (5,000 USD). 
 - 2021: We discovered two vulnerabilities in Mosquitto version 2.0.7 (CVE-2021-28166 and CVE-2021-34432). 
 - 2020: We identified a vulnerability with wide-reaching implications across Bluetooth specifications (CVE-2020-35473), impacting all Bluetooth devices. 
@@ -184,11 +184,11 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 - A member of the Youth Editorial Board for Blockchain (ISSN 2958-8138), 2023 - 2025
 - Guest Editor,  Special Issue "[Privacy and Security for IoT Devices](https://www.mdpi.com/journal/electronics/special_issues/1814886TYC)" Electronics (ISSN 2079-9292). JCR-Q3, IF 2.9
 
-**Reviewer:** 
+**Reviewer (Selected):** 
 
-- IEEE Transactions on Dependable and Secure Computing - (TDSC) 2019-2023  
-- IEEE Transactions on Information Forensics and Security - (TIFS) 2023  
-- IEEE Internet of Things Journal (IOT-J) 2018-2023  
+- IEEE Transactions on Dependable and Secure Computing - (TDSC) 2019-2025  
+- IEEE Transactions on Information Forensics and Security - (TIFS) 2023-2025  
+- IEEE Internet of Things Journal (IOT-J) 2018-2025  
 - IEEE International Conference on Computer Communications (INFOCOM) 2021  
 - IEEE Transactions on Services Computing (TSC) 2019-2023.  
 - IEEE Transactions on Mobile Computing (TMC) 2016,2023  
