@@ -1,3 +1,13 @@
+---
+layout: archive
+title: "Services"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+
 **Conference Organization:**
 
 - TPC Chair for The IEEE MetaCom Workshop on Secure and Trustworthy Infrastructures for Metaverse (STIM 2024)  
