@@ -34,7 +34,7 @@ Research Interests
 LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
 
 
-Publications
+✒ Selected Publications
 ------
 
 <span style="color: blue;">I have published more than 30 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS, SIGMETRICS, Blackhat Asia, INFOCOM), and top-tier journals (e.g., TDSC, TPDS).  
@@ -96,11 +96,32 @@ Authors with "_" are the students under my supervision.</span>
 23.  **[RAID 19]**-Wenrui Diao, **Yue Zhang**, Li Zhang, Zhou Li, Fenghao Xu, Xiaorui Pan, Xiangyu Liu, Jian Weng, Kehuan Zhang, XiaoFeng Wang. Kindness is a Risky Business: On the Usage of the Accessibility APIs in Android. In Proceedings of the 22nd International Symposium on Research in Attacks, Intrusions and Defenses, Beijing, China, September, 2019. **[CCF-B][AR 22%]**  
 24.  **[TPDS 18]** - Li, Ming, Jian Weng, Anjia Yang, Wei Lu, **Yue Zhang**, Lin Hou, Jia-Nan Liu, Yang Xiang, and Robert H. Deng. "CrowdBC: A blockchain-based decentralized framework for crowdsourcing." IEEE Transactions on Parallel and Distributed Systems ,30, no. 6 (2018): 1251-1266. **[CCF-A] [Highly Cited Paper]**
  
-
-Services
+♚ MAJOR HONORS AND AWARDS
 ------
 
-**Conference Organization**
+**Awards:**
+
+- 2025: NDSS Distinguished Reviewer (<span style="color: blue;">NDSS 2025</span>)   
+- 2022: CCS'22 Best Paper Honorable Mention (<span style="color: blue;">ACM CCS 2022</span>)  
+- 2021: The First Prize, Outstanding Research Paper Award of Guang Dong Computer Federation ("DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-based Incentive.")  
+- 2020: Excellent Graduate Students of Guangdong Province [0.25%]  
+- 2019: The First Prize, Outstanding Research Paper Award of Guang Dong Computer Federation ("CrowdBC: A blockchain-based decentralized framework for crowdsourcing.")  
+- 2019: Best Paper Award, IEEE International Conference on Industrial Internet  
+- 2019: One paper was listed on Essential Science Indicators (ESI)  ranking as "Highly Cited Paper" from Web of Science  
+- 2018: National scholarship for Ph. D Students in Cyber Security, 50000 RMB   
+- 2016: Outstanding Graduates   
+- 2015: National scholarship for Master Students, 20000 RMB   
+- 2015: Reaching Fund on Android Security, 4000 RMB  
+- 2014: The Third Prize, Microsoft ImagineCup for College Students in Shannxi Province,1000RMB  
+- 2014: The First Prize,  Science and Technology Contest for College Students, Zhongxing Telecommunication Equipment Corporation  
+- 2014: The Second Prize , Software Design Competition, Programmable System Inc, Shanghai, China
+
+
+
+✺ SERVICES:
+------
+
+**Conference Organization:**
 
 - TPC Chair for The IEEE MetaCom Workshop on Secure and Trustworthy Infrastructures for Metaverse (STIM 2024)  
 - Session Chair for  The Network and Distributed System Security Symposium  2024 (NDSS 2024)  
@@ -110,7 +131,7 @@ Services
 - Publicity Chair for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2023  (CCS Workshop)  
 - Track Chair (Track 6: Smart Cities, Metaverse and Applications) for The 19th International Conference on Mobility, Sensing and Networking (MSN 2023)
 
-**TPC Member**
+**TPC Member:**
 
 - TPC Member for ACM CCS 2025, Network Security Track (<span style="color: blue;">ACM CCS 2025</span>)  
 - TPC Member for WWWW 2025 (Security and Privacy Track)  
@@ -137,7 +158,7 @@ Services
 - TPC Member for 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)  
 - TPC Member for IEEE Conference on Dependable and Secure Computing 2022 (IEEE DSC 2022)
 
-**Editor**
+**Editor:**
 
 - Associate Editor,  **IEEE Transactions on Information Forensics and Security (TIFS) (ISSN 1556-6021)**, 2024 - 
 - Associate Editor, High-Confidence Computing (ISSN 2667-2952), 2024 - 
@@ -151,6 +172,22 @@ Services
 - A member of the Early Career Editorial Board for Computers, Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1, 2023 - 2025
 - A member of the Youth Editorial Board for Blockchain (ISSN 2958-8138), 2023 - 2025
 - Guest Editor,  Special Issue "[Privacy and Security for IoT Devices](https://www.mdpi.com/journal/electronics/special_issues/1814886TYC)" Electronics (ISSN 2079-9292). JCR-Q3, IF 2.9
+
+**Reviewer:** 
+
+- IEEE Transactions on Dependable and Secure Computing - (TDSC) 2019-2023  
+- IEEE Transactions on Information Forensics and Security - (TIFS) 2023  
+- IEEE Internet of Things Journal (IOT-J) 2018-2023  
+- IEEE International Conference on Computer Communications (INFOCOM) 2021  
+- IEEE Transactions on Services Computing (TSC) 2019-2023.  
+- IEEE Transactions on Mobile Computing (TMC) 2016,2023  
+- IEEE Global Communications Conference (GlobalComm) 2016-2020  
+- Secure Communication Systems (SecureComm) 2019, 2023  
+- IEEE International Conference on Communications (ICC) 2017  
+- International Conference on Technological Emerging Challenges (ICTEC)  2017  
+- IEEE Conference on Communications and Network Security (CNS) 2017  
+- IEEE International Conference on Cloud Computing Technology and Science (CloudCom) 2017  
+- IEEE Conference on Dependable and Secure Computing (IDSC) 2017  
 
 How to edit your site's GitHub repository
 ------
