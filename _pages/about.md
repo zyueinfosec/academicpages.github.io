@@ -12,12 +12,12 @@ I am currently recruiting Master and PhD students for cutting-edge research in t
 </span>
 
  
-Biography
+BIO:
 ------
 I am professor in a Computer Science and Technology, [Shandong University](https://www.en.sdu.edu.cn/), working with Professor [Xiuzhen Cheng](https://scholar.google.com/citations?user=O1yGhH0AAAAJ&hl=en). Before joining Shandong University, I was a tenure-track assistant professor in the Department of Computer Science at [Drexel University](https://drexel.edu/) (2024 - 2025). I spent three years as a postdoc researcher at The [Ohio State University (OSU)](http://www.osu.edu/) (2020 - 2023), working with Prof. [Zhiqiang Lin](https://zhiqlin.github.io/). Before coming to OSU, I graduated from [Jinan University](https://www.jnu.edu.cn/main.htm) (2016 - 2020),  under the supervision of [Jian Weng](https://scholar.google.com/citations?user=7xRkSZAAAAAJ&hl=en) and [Weiqi Luo](https://english.jnu.edu.cn/2012/0709/c2027a48148/page.htm).    Also, I ever visited/worked at  [University of Central Florida (UCF)](https://www.ucf.edu/) / [University of Massachusetts Lowell (UML)](https://www.uml.edu/) (2018 -2020),  under the supervision of  [Xinwen Fu](https://www.cs.uml.edu/~xinwenfu/index.html).  My research focuses on system security, especially IoT security.  
 
  
-News
+NEWS:
 ------
 **✯** 2025. Mar - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
 **✯** 2025. Mar - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**  
@@ -29,18 +29,18 @@ News
 **✯** 2024. Oct - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)    
 
 
-Research Interests
+REASEARCH INTERESTS:
 ------
 LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
 
 
-✒ Selected Publications
+✒ SELECTED PUBLICATIONS:  
 ------
 
-<span style="color: red;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>
+<span style="color: red;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
 <span style="color: red;">Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25*3), CCS ('24*3, '23*2, '22*2),  NDSS ('23*3, '25*2)  </span>
 
-<span style="color: red;">**Ranking Statistics:** CCF A: 29 papers, CCF B: 6 papers, CCF C: 5 papers  </span>
+<span style="color: red;">**Ranking Statistics:** CCF A: 29 papers, CCF B: 6 papers, CCF C: 5 papers  </span>  
 <span style="color: red;">Authors with "_" are the students under my supervision.  </span>
 
 **2025:**
