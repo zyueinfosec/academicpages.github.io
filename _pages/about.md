@@ -80,19 +80,16 @@ Services
 
 - Associate Editor,  **IEEE Transactions on Information Forensics and Security (TIFS) (ISSN 1556-6021)**, 2024 - 
 - Associate Editor, High-Confidence Computing (ISSN 2667-2952), 2024 - 
-- Guest Editor, Special Issue "Utilizing and Securing Large Language Models for Cybersecurity and Beyond", Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,  2025
-- Guest Editor, Special Issue “Information Security: Threats and Attacks”, Applied Sciences-Basel (ISSN 2076-3417), JCR-Q4, IF 1.77, 2024 - 
-- Guest Editor, Special Issue “Secure Data Privacy and Encryption in Digital Networks”, MDPI Electronics (ISSN 2079-9292), JCR-Q2, IF 2.6, 2024 - 
-- Guest Editor for special issue “Symmetry and Asymmetry in IoT Security” of MDPI Symmetry (ISSN 2073-8994), JCR-Q2, IF 2.7, 2024 - 
-- Guest Editor, Special Issue "Blockchain in IoT Security" Blockchain (ISSN 2958-8138), 2024 - 
-- Guest Editor, Special Issue "Enhancing IoT Cyber-Resilience: Convergence of AI, Digital Twins, and the Metaverse"  Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,
+- Guest Editor, Special Issue "[Utilizing and Securing Large Language Models for Cybersecurity and Beyond](https://www.techscience.com/cmc/special_detail/large_language_models_security)", Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,  2025
+- Guest Editor, Special Issue “[Information Security: Threats and Attacks](https://www.mdpi.com/journal/applsci/special_issues/4G881D3A12)”, Applied Sciences-Basel (ISSN 2076-3417), JCR-Q4, IF 1.77, 2024 - 
+- Guest Editor, Special Issue “[Secure Data Privacy and Encryption in Digital Networks](https://www.mdpi.com/journal/electronics/special_issues/8K87O1YV29)”, MDPI Electronics (ISSN 2079-9292), JCR-Q2, IF 2.6, 2024 - 
+- Guest Editor for special issue “[Symmetry and Asymmetry in IoT Security](https://www.mdpi.com/journal/symmetry/special_issues/I29705V1C3)” of MDPI Symmetry (ISSN 2073-8994), JCR-Q2, IF 2.7, 2024 - 
+- Guest Editor, Special Issue "[Blockchain in IoT Security](https://elspublishing.com/journals/blockchain/special_issues/blockchain-in-iot-security)" Blockchain (ISSN 2958-8138), 2024 - 
+- Guest Editor, Special Issue "[Enhancing IoT Cyber-Resilience: Convergence of AI, Digital Twins, and the Metaverse](https://www.techscience.com/cmc/special_detail/IoT_cyber-resilience)"  Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,
 - Editor, PeerJ Computer Science (ISSN 2376-5992),  JCR-Q4, IF 3.8, 2023 -
 - A member of the Early Career Editorial Board for Computers, Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1, 2023 - 2025
 - A member of the Youth Editorial Board for Blockchain (ISSN 2958-8138), 2023 - 2025
-- Guest Editor,  Special Issue "Privacy and Security for IoT Devices" Electronics (ISSN 2079-9292). JCR-Q3, IF 2.9
-- Editor,  IgMin-Research-STEM a Multi-disciplinary Journal in the area of Internet Security
-- Editor for Security, Privacy and Authentication of Frontiers in Communications and Networks
-- Editor for Security, Privacy and Authentication of Frontiers in the Internet of Things
+- Guest Editor,  Special Issue "[Privacy and Security for IoT Devices](https://www.mdpi.com/journal/electronics/special_issues/1814886TYC)" Electronics (ISSN 2079-9292). JCR-Q3, IF 2.9
 
 How to edit your site's GitHub repository
 ------
