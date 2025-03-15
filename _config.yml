@@ -13,7 +13,7 @@ title                    : "Yue Zhang's Homepage"
 title_separator          : "-"
 name                     : &name "Yue Zhang"
 description              : &description "personal description"
-url                      : https://test2.zyueinfosec.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://yue.zyueinfosec.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
