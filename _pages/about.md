@@ -31,7 +31,11 @@ News:
 
 Research Interests:
 ------
-LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
+LLM for Security: [IEEE S&P 25],[EAAI 2024],[EMNLP 2024],
+LLM Security: [USENIX Security 25c],[IoT-J25]
+Mobile Security: [USENIX Security 25b],[NDSS 25b],
+IoT Security: [USENIX Security 25a],[NDSS 25a] 
+Program Analysis: 
 
 
 Selected Publications ([Complete List](\publications\)):  
@@ -59,9 +63,9 @@ Selected Publications ([Complete List](\publications\)):
 
 1.  **[EAAI 2024]** - Zhiyuan Wang, Jinhao Duan, Chenxi Yuan, Qingyu Chen, Tianlong Chen, Huaxiu Yao, **Yue Zhang**, Ren Wang, Kaidi Xu, Xiaoshuang Shi. "Word-Sequence Entropy: Towards Uncertainty Estimation in Free-Form Medical Question Answering Applications and Beyond", Engineering Applications of Artificial Intelligence.  **[CCF-C]**  
 2.  **[EMNLP 2024]** - Zhiyuan Wang, Jinhao Duan, Lu Cheng, **Yue Zhang**, Qingni Wang, Hengtao Shen, Xiaofeng Zhu, Xiaoshuang Shi, and Kaidi Xu. "ConU: Conformal Uncertainty in Large Language Models with Correctness Coverage Guarantees." in Proceedings of The 2024 Conference on Empirical Methods in Natural Language Processing, Miami, Florida, U.S.A. **[Tier 1] [CCF-B]**   
-3.  <span style="color: blue;">**[CCS 2024]** </span>  - **Yue Zhang**, Zhen Ling, Michael Cash, Qiguang Zhang, Christopher Morales-Gonzalez, Qun Zhou Sun, Xinwen Fu, "Collapse Like A House of Cards: Hacking Building Automation System Through Fuzzing", in Proceedings of the 31th ACM Conference on Computer and Communications Security, Salt Lake City, USA, October 14-18, 2024.**[Tier 1] [BIG4] [CCF-A]**   
-4.  <span style="color: blue;">**[CCS 2024]** </span>  - **Yue Zhang**, Melih Sirlanci, Ruoyu "Fish" Wang, and Zhiqiang Lin, When Compiler Optimizations Meet Symbolic Execution: An Empirical Study, in Proceedings of ACM CCS, October 14-18, 2024, Salt Lake City, U.S.A.**[Tier 1] [BIG4] [CCF-A]**  
-5. <span style="color: blue;"> **[CCS 2024]** </span> - Kaizhen Liu, Ming Yang, Zhen Ling, **Yue Zhang**, Chongqing Lei, Junzhou Luo and Xinwen Fu, RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices, in Proceedings of ACM CCS, October 14-18, 2024, Salt Lake City, U.S.A.**[Tier 1] [BIG4] [CCF-A]**  
+3.  <span style="color: blue;">**[CCS 2024c]** </span>  - **Yue Zhang**, Zhen Ling, Michael Cash, Qiguang Zhang, Christopher Morales-Gonzalez, Qun Zhou Sun, Xinwen Fu, "Collapse Like A House of Cards: Hacking Building Automation System Through Fuzzing", in Proceedings of the 31th ACM Conference on Computer and Communications Security, Salt Lake City, USA, October 14-18, 2024.**[Tier 1] [BIG4] [CCF-A]**   
+4.  <span style="color: blue;">**[CCS 2024b]** </span>  - **Yue Zhang**, Melih Sirlanci, Ruoyu "Fish" Wang, and Zhiqiang Lin, When Compiler Optimizations Meet Symbolic Execution: An Empirical Study, in Proceedings of ACM CCS, October 14-18, 2024, Salt Lake City, U.S.A.**[Tier 1] [BIG4] [CCF-A]**  
+5. <span style="color: blue;"> **[CCS 2024a]** </span> - Kaizhen Liu, Ming Yang, Zhen Ling, **Yue Zhang**, Chongqing Lei, Junzhou Luo and Xinwen Fu, RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices, in Proceedings of ACM CCS, October 14-18, 2024, Salt Lake City, U.S.A.**[Tier 1] [BIG4] [CCF-A]**  
 6. **[JSA 2024]** - Shan Wang, Ming Yang, Shan Jiang, Fei Chen, **Yue Zhang**, Xinwen Fu, “BBS: A Secure and Autonomous Blockchain-based Big-Data Sharing System”, Elsevier Journal of Systems Architecture (JSA). **[CCF-B][JCR Q1]**  
 7.  **[ICMC 24]** - Biwei Yan, Kun Li, Minghui Xu*, Yueyan Dong, **Yue Zhang**, Zhaochun Ren, Xiuzhen Cheng, "On Protecting the Data Privacy of Large Language Models (LLMs): A Survey", IEEE International Conference on Meta Computing (ICMC), 2024  
 8.  **[HCC 24]** - <u> Yifan Yao</u>, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Eric Sun, **Yue Zhang**. A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly. High-Confidence Computing.  
