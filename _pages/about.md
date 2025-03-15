@@ -37,22 +37,21 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 ✒ Selected Publications
 ------
 
-<span style="color: blue;">I have published more than 30 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS, SIGMETRICS, Blackhat Asia, INFOCOM), and top-tier journals (e.g., TDSC, TPDS).  
+<span style="color: red;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>
+<span style="color: red;">Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25*3), CCS ('24*3, '23*2, '22*2),  NDSS ('23*3, '25*2)  </span>
 
-Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25*3), CCS ('24*3, '23*2, '22*2),  NDSS ('23*3, '25*2)
-
-**Ranking Statistics:** CCF A: 28 papers, CCF B: 6 papers, CCF C: 5 papers
-Authors with "_" are the students under my supervision.</span>
+<span style="color: red;">**Ranking Statistics:** CCF A: 29 papers, CCF B: 6 papers, CCF C: 5 papers  </span>
+<span style="color: red;">Authors with "_" are the students under my supervision.  </span>
 
 **2025:**
 
 1.  <span style="color: blue;">**[IEEE S&P 25]**</span> - Xiao Li, Yue Li, Hao Wu, **Yue Zhang**, Kaidi Xu, Xiuzhen Cheng, Sheng Zhong, and Fengyuan Xu. Make a Feint to the East While Attacking in the West: Blinding LLM-Based Code Auditors with Flashboom Attacks. IEEE Symposium on Security and Privacy.   **[Tier 1] [BIG4] [CCF-A]**  
-2.  <span style="color: blue;">**[USENIX Security 25]**</span> - Yumingzhi Pan, Zhen Ling, **Yue Zhang**, Hongze Wang, Guangchi Liu, Junzhou Luo, Xinwen Fu. "TORCHLIGHT: Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the TOR Network." To appear in Proceedings of the 34th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**  
-3. <span style="color: blue;"> **[USENIX Security 25]**</span> - Yifan Yao, Shawn McCollum, Zhibo Sun,**Yue Zhang.** "Easy As Child’s Play: An Empirical Study on Age Verification of Adult-Oriented Android Apps." To appear in Proceedings of the 34th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**   
-4.  **[IoT-J25]** - Ye Cheng, Minghui Xu, **Yue Zhang**, Kun Li, Ruoxi Wang, and Lian Yang. "AutoIoT: Automated IoT Platform Using Large Language Models." IEEE Internet of Things Journal (2025).**[JCR-Q1][CCF-C]**  
-5.   <span style="color: blue;">**[USENIX Security 25]** </span> - Xinhui Shao, Zhen Ling, **Yue Zhang**, Huaiyu Yan, Yumeng Wei, Lan Luo, Zixia Liu, Junzhou Luo, Xinwen Fu. "The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks". To appear in  Proceedings of the 34th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**   
-6.  <span style="color: blue;">**[NDSS 25]** </span>- Christopher Ellis, **Yue Zhang,** Mohit Kumar Jangid, Shixuan Zhao, Zhiqiang Lin. "Deanonymizing Device Identities via Side-channel Attacks in Exclusive-use IoTs and Mitigation." To appear in The Network and Distributed System Security Symposium (NDSS), 2025.**[Tier 1] [BIG4] [CCF-A]**   
-7.  <span style="color: blue;">**[NDSS 25]** </span>- Yuqing Yang, **Yue Zhang**, Zhiqiang Lin. "Understanding the Miniapp Malware: Identification, Dissection, and Characterization." To appear in The Network and Distributed System Security Symposium (NDSS), 2025.**[Tier 1] [BIG4] [CCF-A]**
+2.  <span style="color: blue;">**[USENIX Security 25c]**</span> - Yumingzhi Pan, Zhen Ling, **Yue Zhang**, Hongze Wang, Guangchi Liu, Junzhou Luo, Xinwen Fu. "TORCHLIGHT: Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the TOR Network." To appear in Proceedings of the 34th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**  
+3. <span style="color: blue;"> **[USENIX Security 25b]**</span> - <u> Yifan Yao</u>, Shawn McCollum, Zhibo Sun,**Yue Zhang.** "Easy As Child’s Play: An Empirical Study on Age Verification of Adult-Oriented Android Apps." To appear in Proceedings of the 34th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**   
+4.  **[IoT-J25]** - <u> Ye Cheng,</u> Minghui Xu, **Yue Zhang**, Kun Li, Ruoxi Wang, and Lian Yang. "AutoIoT: Automated IoT Platform Using Large Language Models." IEEE Internet of Things Journal (2025).**[JCR-Q1][CCF-C]**  
+5.   <span style="color: blue;">**[USENIX Security 25a]** </span> - Xinhui Shao, Zhen Ling, **Yue Zhang**, Huaiyu Yan, Yumeng Wei, Lan Luo, Zixia Liu, Junzhou Luo, Xinwen Fu. "The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks". To appear in  Proceedings of the 34th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**   
+6.  <span style="color: blue;">**[NDSS 25b]** </span>- Christopher Ellis, **Yue Zhang,** Mohit Kumar Jangid, Shixuan Zhao, Zhiqiang Lin. "Deanonymizing Device Identities via Side-channel Attacks in Exclusive-use IoTs and Mitigation." To appear in The Network and Distributed System Security Symposium (NDSS), 2025.**[Tier 1] [BIG4] [CCF-A]**   
+7.  <span style="color: blue;">**[NDSS 25a]** </span>- Yuqing Yang, **Yue Zhang**, Zhiqiang Lin. "Understanding the Miniapp Malware: Identification, Dissection, and Characterization." To appear in The Network and Distributed System Security Symposium (NDSS), 2025.**[Tier 1] [BIG4] [CCF-A]**
     
 
 **2024:**
@@ -64,7 +63,7 @@ Authors with "_" are the students under my supervision.</span>
 5. <span style="color: blue;"> **[CCS 2024]** </span> - Kaizhen Liu, Ming Yang, Zhen Ling, **Yue Zhang**, Chongqing Lei, Junzhou Luo and Xinwen Fu, RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices, in Proceedings of ACM CCS, October 14-18, 2024, Salt Lake City, U.S.A.**[Tier 1] [BIG4] [CCF-A]**  
 6. **[JSA 2024]** - Shan Wang, Ming Yang, Shan Jiang, Fei Chen, **Yue Zhang**, Xinwen Fu, “BBS: A Secure and Autonomous Blockchain-based Big-Data Sharing System”, Elsevier Journal of Systems Architecture (JSA). **[CCF-B][JCR Q1]**  
 7.  **[ICMC 24]** - Biwei Yan, Kun Li, Minghui Xu*, Yueyan Dong, **Yue Zhang**, Zhaochun Ren, Xiuzhen Cheng, "On Protecting the Data Privacy of Large Language Models (LLMs): A Survey", IEEE International Conference on Meta Computing (ICMC), 2024  
-8.  **[HCC 24]** - Yifan Yao, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Eric Sun, **Yue Zhang**. A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly. High-Confidence Computing.  
+8.  **[HCC 24]** - <u> Yifan Yao</u>, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Eric Sun, **Yue Zhang**. A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly. High-Confidence Computing.  
 9.  <span style="color: blue;">**[USENIX Security 24]**</span> - Chongqing Lei, Zhen Ling, **Yue Zhang**, Yan Yang, Junzhou Luo, Xinwen Fu, A Friend's Eye is A Good Mirror: Synthesizing MCU Peripheral Models from Peripheral Driver, in Proceedings of the 33rd USENIX Security Symposium, August 14–16, 2024 Philadephia, PA, USA. **[Tier 1] [BIG4] [CCF-A]**  
 10.  **[AsiaCCS 24]** - Chao Wang, **Yue Zhang,** and Zhiqiang Lin.  RootFree Attacks: Exploiting Mobile Super Apps From Desktop Platforms. The 19th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2024). **[Tier 2] [CCF-C]**  
 11.  **[INFOCOM 24]** - Shan Wang, Ming Yang, Wenxuan Dai, Yu Liu, **Yue Zhang**, and Xinwen Fu, “Deanonymizing Ethereum Users behind Third-Party RPC Services”, accepted to appear in Proceedings of the 43rd IEEE International Conference on Computer Communications (INFOCOM’24), Vancouver, Canada, May 20-23, 2024. **[CCF-A][AR 19.6%]**  
