@@ -33,8 +33,24 @@ Research Interests
 ------
 LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
 
-TPC Member
+
+
+
+Services
 ------
+
+**Conference Organization**
+
+- TPC Chair for The IEEE MetaCom Workshop on Secure and Trustworthy Infrastructures for Metaverse (STIM 2024)  
+- Session Chair for  The Network and Distributed System Security Symposium  2024 (NDSS 2024)  
+- General Chair for EAI ICECI 2024 - International Conference on Edge Computing and IoT: Systems, Management and Security  
+- Track Chair (Security and Privacy Track) for The 21th IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS 2024)  
+- Session Chair for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2023 (CCS Workshop)  
+- Publicity Chair for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2023  (CCS Workshop)  
+- Track Chair (Track 6: Smart Cities, Metaverse and Applications) for The 19th International Conference on Mobility, Sensing and Networking (MSN 2023)
+
+**TPC Member**
+
 - TPC Member for ACM CCS 2025, Network Security Track (<span style="color: blue;">ACM CCS 2025</span>)  
 - TPC Member for WWWW 2025 (Security and Privacy Track)  
 - TPC Member for ICDCS 2025 (Security, Privacy, and Trust Track)  
@@ -60,10 +76,23 @@ TPC Member
 - TPC Member for 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)  
 - TPC Member for IEEE Conference on Dependable and Secure Computing 2022 (IEEE DSC 2022)
 
-**Markdown generator**
+**Editor**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+- Associate Editor,  **IEEE Transactions on Information Forensics and Security (TIFS) (ISSN 1556-6021)**, 2024 - 
+- Associate Editor, High-Confidence Computing (ISSN 2667-2952), 2024 - 
+- Guest Editor, Special Issue "Utilizing and Securing Large Language Models for Cybersecurity and Beyond", Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,  2025
+- Guest Editor, Special Issue “Information Security: Threats and Attacks”, Applied Sciences-Basel (ISSN 2076-3417), JCR-Q4, IF 1.77, 2024 - 
+- Guest Editor, Special Issue “Secure Data Privacy and Encryption in Digital Networks”, MDPI Electronics (ISSN 2079-9292), JCR-Q2, IF 2.6, 2024 - 
+- Guest Editor for special issue “Symmetry and Asymmetry in IoT Security” of MDPI Symmetry (ISSN 2073-8994), JCR-Q2, IF 2.7, 2024 - 
+- Guest Editor, Special Issue "Blockchain in IoT Security" Blockchain (ISSN 2958-8138), 2024 - 
+- Guest Editor, Special Issue "Enhancing IoT Cyber-Resilience: Convergence of AI, Digital Twins, and the Metaverse"  Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,
+- Editor, PeerJ Computer Science (ISSN 2376-5992),  JCR-Q4, IF 3.8, 2023 -
+- A member of the Early Career Editorial Board for Computers, Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1, 2023 - 2025
+- A member of the Youth Editorial Board for Blockchain (ISSN 2958-8138), 2023 - 2025
+- Guest Editor,  Special Issue "Privacy and Security for IoT Devices" Electronics (ISSN 2079-9292). JCR-Q3, IF 2.9
+- Editor,  IgMin-Research-STEM a Multi-disciplinary Journal in the area of Internet Security
+- Editor for Security, Privacy and Authentication of Frontiers in Communications and Networks
+- Editor for Security, Privacy and Authentication of Frontiers in the Internet of Things
 
 How to edit your site's GitHub repository
 ------
