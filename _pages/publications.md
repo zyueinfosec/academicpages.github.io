@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-I have published 40+ papers (29 CCF-A). My publications appears in top tier conferences (e.g., ACM CCS, Usenix Security, NDSS, Blackhat, INFOCOM), and top tier journals (e.g., TDSC, TPDS).
+I have published 40+ papers (29 CCF-A). My publications appears in top tier conferences (e.g., IEEE S&P, ACM CCS, Usenix Security, NDSS), and top tier journals (e.g., TDSC).
  
 
 **Book Chapters** 
