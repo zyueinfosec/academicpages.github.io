@@ -14,17 +14,20 @@ I am currently recruiting Master and PhD students for cutting-edge research in t
  
 Biography
 ======
-I am professor in a Computer Science and Technology, [Shandong University](https://www.en.sdu.edu.cn/), working with Professor Xiuzhen Cheng. Before joining Shandong University, I was a tenure-track assistant professor in the Department of Computer Science at [Drexel University](https://drexel.edu/) (2024 - 2025). I spent three years as a postdoc researcher at The [Ohio State University (OSU)](http://www.osu.edu/) (2020 - 2023), working with Prof. [Zhiqiang Lin](https://zhiqlin.github.io/). Before coming to OSU, I graduated from [Jinan University](https://www.jnu.edu.cn/main.htm) (2016 - 2020),  under the supervision of [Jian Weng](https://scholar.google.com/citations?user=7xRkSZAAAAAJ&hl=en) and [Weiqi Luo](https://english.jnu.edu.cn/2012/0709/c2027a48148/page.htm).    Also, I ever visited/worked at  [University of Central Florida (UCF)](https://www.ucf.edu/) / [University of Massachusetts Lowell (UML)](https://www.uml.edu/) (2018 -2020),  under the supervision of  [Xinwen Fu](https://www.cs.uml.edu/~xinwenfu/index.html).  My research focuses on system security, especially IoT security.  
+I am professor in a Computer Science and Technology, [Shandong University](https://www.en.sdu.edu.cn/), working with Professor [Xiuzhen Cheng](https://scholar.google.com/citations?user=O1yGhH0AAAAJ&hl=en). Before joining Shandong University, I was a tenure-track assistant professor in the Department of Computer Science at [Drexel University](https://drexel.edu/) (2024 - 2025). I spent three years as a postdoc researcher at The [Ohio State University (OSU)](http://www.osu.edu/) (2020 - 2023), working with Prof. [Zhiqiang Lin](https://zhiqlin.github.io/). Before coming to OSU, I graduated from [Jinan University](https://www.jnu.edu.cn/main.htm) (2016 - 2020),  under the supervision of [Jian Weng](https://scholar.google.com/citations?user=7xRkSZAAAAAJ&hl=en) and [Weiqi Luo](https://english.jnu.edu.cn/2012/0709/c2027a48148/page.htm).    Also, I ever visited/worked at  [University of Central Florida (UCF)](https://www.ucf.edu/) / [University of Massachusetts Lowell (UML)](https://www.uml.edu/) (2018 -2020),  under the supervision of  [Xinwen Fu](https://www.cs.uml.edu/~xinwenfu/index.html).  My research focuses on system security, especially IoT security.  
 
  
 News
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**✯** 2025. Mar - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**
+**✯** 2025. Mar - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**
+**✯** 2025. Feb - I’m excited to share that I was recognized as an **NDSS** Distinguished Reviewer 2025  **- 𝕟𝕖𝕨 !**
+**✯** 2025. Jan - Two papers accepted by **USENIX Security 2025  - 𝕟𝕖𝕨 !**
+**✯** 2024. Dec - One paper accepted by **USENIX Security 2025**   
+**✯** 2024. Nov-  One paper accepted by  The Network and Distributed System Security (**NDSS**) Symposium 2025 
+**✯** 2024. Oct - I will serve as a TPC Member (Network Security Track) for ACM CCS 2025  
+**✯** 2024. Oct - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)  
+
 
 Site-wide configuration
 ------
