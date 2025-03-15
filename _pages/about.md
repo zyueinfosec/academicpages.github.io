@@ -19,14 +19,14 @@ I am professor in a Computer Science and Technology, [Shandong University](https
  
 News:
 ------
-**✯** 2025. Mar - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
-**✯** 2025. Mar - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**  
-**✯** 2025. Feb - I’m excited to share that I was recognized as an **NDSS** Distinguished Reviewer 2025  **- 𝕟𝕖𝕨 !**  
-**✯** 2025. Jan - Two papers accepted by **USENIX Security 2025  - 𝕟𝕖𝕨 !**  
-**✯** 2024. Dec - One paper accepted by **USENIX Security 2025**  
-**✯** 2024. Nov-  One paper accepted by  The Network and Distributed System Security (**NDSS**) Symposium 2025  
-**✯** 2024. Oct - I will serve as a TPC Member (Network Security Track) for ACM CCS 2025    
-**✯** 2024. Oct - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)    
+**✯** [2025/03] - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
+**✯** [2025/03] - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**  
+**✯** [2025/02] - I’m excited to share that I was recognized as an **NDSS** Distinguished Reviewer 2025  **- 𝕟𝕖𝕨 !**  
+**✯** [2025/01] - Two papers accepted by **USENIX Security 2025  - 𝕟𝕖𝕨 !**  
+**✯** [2024/12] - One paper accepted by **USENIX Security 2025**  
+**✯** [2025/11] -  One paper accepted by  The Network and Distributed System Security (**NDSS**) Symposium 2025  
+**✯** [2024/10] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2025**    
+**✯** [2024/10] - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)    
 
 
 Research Interests:
@@ -34,7 +34,7 @@ Research Interests:
 LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis
 
 
-✒ Selected Publications ([Complete List](\publications\)):  
+Selected Publications ([Complete List](\publications\)):  
 ------
 
 <span style="color: red;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
@@ -96,13 +96,13 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 23.  **[RAID 19]**-Wenrui Diao, **Yue Zhang**, Li Zhang, Zhou Li, Fenghao Xu, Xiaorui Pan, Xiangyu Liu, Jian Weng, Kehuan Zhang, XiaoFeng Wang. Kindness is a Risky Business: On the Usage of the Accessibility APIs in Android. In Proceedings of the 22nd International Symposium on Research in Attacks, Intrusions and Defenses, Beijing, China, September, 2019. **[CCF-B][AR 22%]**  
 24.  **[TPDS 18]** - Li, Ming, Jian Weng, Anjia Yang, Wei Lu, **Yue Zhang**, Lin Hou, Jia-Nan Liu, Yang Xiang, and Robert H. Deng. "CrowdBC: A blockchain-based decentralized framework for crowdsourcing." IEEE Transactions on Parallel and Distributed Systems ,30, no. 6 (2018): 1251-1266. **[CCF-A] [Highly Cited Paper]**
  
-♚ Honors and Awards  
+Honors and Awards  
 ------
 
 I have been recognized for my contributions to cybersecurity research and peer review, earning awards such as the NDSS 2025 Distinguished Reviewer, CCS 2022 Best Paper Honorable Mention, and multiple Outstanding Research Paper Awards from the Guangdong Computer Federation. My work spans blockchain security, IoT, and Bluetooth vulnerabilities, with high-impact findings, including 45 vulnerabilities (29 zero-days, 25 CVEs) in 2024, affecting 12.71 million devices across 148 countries and valued at $312,000, which gained 190K+ views on Hacker News. My research has influenced major companies like Apple, Google, Tencent, and Texas Instruments, leading to critical patches and bug bounties. Additionally, my findings on cloud storage security were widely covered by [China Central Television (CCTV)](http://tv.cctv.com/2016/05/28/VIDEl3IIYfZsXIVKPuWjaEC9160528.shtml), further highlighting the impact of my work. Please see more details in the [awards](\awards) page. 
  
 
-✺ Services:
+Services:
 ------
 
 I am actively engaged in organizing and contributing to major security conferences, serving as TPC Chair (STIM 2024), General Chair (EAI ICECI 2024), Session Chair (NDSS 2024, ACM SaTS 2023), Track Chair (MASS 2024, MSN 2023), and Publicity Chair (ACM SaTS 2023). I have also served as a TPC Member for top-tier conferences, including **ACM CCS, USENIX Security, and NDSS** from 2023 to 2025. I hold key editorial roles, including **Associate Editor for IEEE TIFS** and High-Confidence Computing, along with Guest Editor for special issues on cybersecurity, IoT security, and AI security in various journals. Please see more details in the [services](\service) page. 
