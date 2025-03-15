@@ -38,7 +38,7 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 ------
 
 <span style="color: red;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
-<span style="color: red;">Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25*3), CCS ('24*3, '23*2, '22*2),  NDSS ('23*3, '25*2)  </span>
+<span style="color: red;">Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25x3), CCS ('24x3, '23x2, '22x2),  NDSS ('23x3, '25x2)  </span>
 
 <span style="color: red;">**Ranking Statistics:** CCF A: 29 papers, CCF B: 6 papers, CCF C: 5 papers  </span>  
 <span style="color: red;">Authors with "_" are the students under my supervision.  </span>
