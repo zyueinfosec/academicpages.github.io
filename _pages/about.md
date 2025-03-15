@@ -20,19 +20,12 @@ I am professor in a Computer Science and Technology, [Shandong University](https
 News
 ======
 **✯** 2025. Mar - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**
-
 **✯** 2025. Mar - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**
-
 **✯** 2025. Feb - I’m excited to share that I was recognized as an **NDSS** Distinguished Reviewer 2025  **- 𝕟𝕖𝕨 !**
-
 **✯** 2025. Jan - Two papers accepted by **USENIX Security 2025  - 𝕟𝕖𝕨 !**
-
 **✯** 2024. Dec - One paper accepted by **USENIX Security 2025**   
-
 **✯** 2024. Nov-  One paper accepted by  The Network and Distributed System Security (**NDSS**) Symposium 2025 
-
 **✯** 2024. Oct - I will serve as a TPC Member (Network Security Track) for ACM CCS 2025  
-
 **✯** 2024. Oct - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)  
 
 
