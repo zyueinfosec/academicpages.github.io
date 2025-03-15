@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Awards"
+permalink: /awards/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 **Awards:**
 
 - 2025: NDSS Distinguished Reviewer (<span style="color: blue;">NDSS 2025</span>)   
