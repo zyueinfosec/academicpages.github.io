@@ -35,30 +35,30 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 
 TPC Member
 ------
--   TPC Member for ACM Conference on Computer and Communications Security 2025, Network Security Track <span style="color: blue;">(ACM CCS 2025)</span>  
--   TPC Member for WWW 2025 (Security and Privacy Track)  
--   TPC Member for ICDCS 2025 (Security, Privacy, and Trust Track)  
--   TPC Member for USENIX Security Symposium 2025 (USENIX Security 2025)  
--   TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P 2025)  
--   TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2024  
--   TPC Member for The Network and Distributed System Security Symposium 2025  (NDSS 2025)  
--   TPC Member for The International Conference on Computer Communications and Networks 2023 (ICCCN 2024)  
--   TPC Member for the International Artificial Intelligence Conference 2024  
--   TPC Member for the Annual Computer Security Applications Conference 2024 (ACSAC 2024)  
--   TPC Member for ACM Conference on Computer and Communications Security 2024, Network Security Track (ACM CCS 2024)  
--   TPC Member for Workshop on Measurements, Attacks, and Defenses for the Web 2024, co-located with NDSS 2024  
--   TPC Member for the Junior Program Committee of Mining Software Repositories 2024 (MSR 2024)  
--   TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P  2024)  
--   TPC Member for IoT-SCTI-23 (co-located with ACSAC 2023)  
--   TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2023  
--   TPC Member for USENIX Security Symposium 2024 (USENIX Security 2024)  
--   TPC Member for The Network and Distributed System Security Symposium 2024 (NDSS 2024)  
--   TPC Member for The International Conference on Computer Communications and Networks 2023 (ICCCN 2023)  
--   TPC Member for The 26th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2023)  
--   TPC Member for ACM Conference on Computer and Communications Security 2023, Network Security Track (ACM CCS 2023)  
--   TPC Member for IEEE Conference on Dependable and Secure Computing 2023 (IEEE DSC 2023)  
--   TPC Member for 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)  
--   TPC Member for IEEE Conference on Dependable and Secure Computing 2022 (IEEE DSC 2022)
+- TPC Member for ACM CCS 2025, Network Security Track <span style="color: blue;">(ACM CCS 2025)</span>  
+- TPC Member for WWWW 2025 (Security and Privacy Track)  
+- TPC Member for ICDCS 2025 (Security, Privacy, and Trust Track)  
+- TPC Member for USENIX Security Symposium 2025 (<span style="color: blue;">USENIX Security 2025</span>)  
+- TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P 2025)  
+- TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2024  
+- TPC Member for The Network and Distributed System Security Symposium 2025  (NDSS 2025)  
+- TPC Member for The International Conference on Computer Communications and Networks 2023 (ICCCN 2024)  
+- TPC Member for the International Artificial Intelligence Conference 2024  
+- TPC Member for the Annual Computer Security Applications Conference 2024 (ACSAC 2024)  
+- TPC Member for ACM Conference on Computer and Communications Security 2024, Network Security Track (ACM CCS 2024)  
+- TPC Member for Workshop on Measurements, Attacks, and Defenses for the Web 2024, co-located with NDSS 2024  
+- TPC Member for the Junior Program Committee of Mining Software Repositories 2024 (MSR 2024)  
+- TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P  2024)  
+- TPC Member for IoT-SCTI-23 (co-located with ACSAC 2023)  
+- TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2023  
+- TPC Member for USENIX Security Symposium 2024 (USENIX Security 2024)  
+- TPC Member for The Network and Distributed System Security Symposium 2024 (NDSS 2024)  
+- TPC Member for The International Conference on Computer Communications and Networks 2023 (ICCCN 2023)  
+- TPC Member for The 26th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2023)  
+- TPC Member for ACM Conference on Computer and Communications Security 2023, Network Security Track (ACM CCS 2023)  
+- TPC Member for IEEE Conference on Dependable and Secure Computing 2023 (IEEE DSC 2023)  
+- TPC Member for 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)  
+- TPC Member for IEEE Conference on Dependable and Secure Computing 2022 (IEEE DSC 2022)
 
 **Markdown generator**
 
