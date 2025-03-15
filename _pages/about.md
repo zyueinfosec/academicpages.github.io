@@ -96,8 +96,10 @@ LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analy
 23.  **[RAID 19]**-Wenrui Diao, **Yue Zhang**, Li Zhang, Zhou Li, Fenghao Xu, Xiaorui Pan, Xiangyu Liu, Jian Weng, Kehuan Zhang, XiaoFeng Wang. Kindness is a Risky Business: On the Usage of the Accessibility APIs in Android. In Proceedings of the 22nd International Symposium on Research in Attacks, Intrusions and Defenses, Beijing, China, September, 2019. **[CCF-B][AR 22%]**  
 24.  **[TPDS 18]** - Li, Ming, Jian Weng, Anjia Yang, Wei Lu, **Yue Zhang**, Lin Hou, Jia-Nan Liu, Yang Xiang, and Robert H. Deng. "CrowdBC: A blockchain-based decentralized framework for crowdsourcing." IEEE Transactions on Parallel and Distributed Systems ,30, no. 6 (2018): 1251-1266. **[CCF-A] [Highly Cited Paper]**
  
-♚ MAJOR HONORS AND AWARDS
+♚ Honors and Awards  
 ------
+
+I have been recognized for my contributions to cybersecurity research and peer review, earning awards such as the NDSS 2025 Distinguished Reviewer, CCS 2022 Best Paper Honorable Mention, and multiple Outstanding Research Paper Awards from the Guangdong Computer Federation. My work spans blockchain security, IoT, and Bluetooth vulnerabilities, with high-impact findings, including 45 vulnerabilities (29 zero-days, 25 CVEs) in 2024, affecting 12.71 million devices across 148 countries and valued at $312,000, which gained 190K+ views on Hacker News. My research has influenced major companies like Apple, Google, Tencent, and Texas Instruments, leading to critical patches and bug bounties. Additionally, my findings on cloud storage security were widely covered by [China Central Television (CCTV)](http://tv.cctv.com/2016/05/28/VIDEl3IIYfZsXIVKPuWjaEC9160528.shtml), further highlighting the impact of my work. Please see more details in the [awards](\awards) page. 
 
 **Awards:**
 
