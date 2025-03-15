@@ -29,13 +29,13 @@ News:
 **✯** [2024/10] - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)    
 
 
-Research Interests:
+Recent Research Interests:
 ------
-LLM for Security: [IEEE S&P 25],[EAAI 2024],[EMNLP 2024],
-LLM Security: [USENIX Security 25c],[IoT-J25]
-Mobile Security: [USENIX Security 25b],[NDSS 25b],
-IoT Security: [USENIX Security 25a],[NDSS 25a] 
-Program Analysis: 
+**LLM for Security**: [IEEE S&P 25],[EAAI 2024],[EMNLP 2024]   
+**LLM Security**: [USENIX Security 25c],[IoT-J25],[CCS 23a]
+**Mobile Security**: [USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[USENIX Security 23],[ICSE 23],[CCS 22b]
+**IoT Security**: [USENIX Security 25a],[NDSS 25a],[CCS 24a],[CCS 24c],[NDSS 23b],[CCS 24b], [USENIX Security 24],[NDSS 23a],[CCS 22a]
+**Program Analysis**: [CCS 24b],[USENIX Security 23],[ICSE 23],[NDSS 23a],[USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[CCS 22b]
 
 
 Selected Publications ([Complete List](\publications\)):  
@@ -76,7 +76,7 @@ Selected Publications ([Complete List](\publications\)):
 **2023 and Before:**
 
 1.  <span style="color: blue;">**[USENIX Security 23]**</span> - Chao Wang, **Yue Zhang**, and Zhiqiang Lin. One Size Does Not Fit All: Uncovering And Exploiting Cross Platform Discrepant APIs in Wechat. In 31st USENIX Security Symposium (USENIX Security 23), 2023. **[Tier 1] [BIG4] [CCF-A]**  
-2.   <span style="color: blue;">**[CCS 23]** </span> - Chao Wang, **Yue Zhang**, and Zhiqiang Lin. Uncovering and Exploiting Hidden APIs in Mobile Super Apps. In Proceedings of the 30th ACM Conference on Computer and Communications Security. November 2023. **[Tier 1] [BIG4] [CCF-A]**  
+2.   <span style="color: blue;">**[CCS 23b]** </span> - Chao Wang, **Yue Zhang**, and Zhiqiang Lin. Uncovering and Exploiting Hidden APIs in Mobile Super Apps. In Proceedings of the 30th ACM Conference on Computer and Communications Security. November 2023. **[Tier 1] [BIG4] [CCF-A]**  
 3.  <span style="color: blue;">**[CCS 23a]**</span> - **Yue Zhang**, Yuqing Yang, and Zhiqiang Lin. Don’t Leak Your Keys: Understanding, Measuring, and Exploiting the AppSecret Leaks in Mini-Programs. In Proceedings of the 30th ACM Conference on Computer and Communications Security. November 2023. **[Tier 1] [BIG4] [CCF-A]**  
 4.  **[ICSE 23]** - Chao Wang, Ronny Ko, **Yue Zhang**, Yuqing Yang, Zhiqiang Lin. TAINTMINI: Detecting Flow of Sensitive Data in Mini-Programs with Static Taint Analysis. To appear in The International Conference on Software Engineering (ICSE), 2023. **[Tier 1] [CCF-A]**  
 5. <span style="color: blue;"> **[NDSS 23c]**</span> - Chongqing Lei, Zhen Ling, **Yue Zhang**, Kai Dong, Kaizheng Liu, Junzhou Luo, Xinwen Fu, 'Do Not Give a Dog Bread Every Time He Wags His Tail: Stealing Passwords through Content Queries (CONQUER) Attacks'. In Proceedings of the 30th Network and Distributed System Security, San Diego, CA, April 2023. **[Tier 1] [BIG4] [CCF-A]**  
