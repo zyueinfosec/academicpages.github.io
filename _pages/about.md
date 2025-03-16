@@ -8,7 +8,7 @@ redirect_from:
 
 
 <span style="color: blue;">
-I am currently recruiting Master and PhD students for cutting-edge research in the following areas: LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis. Join us to explore innovative solutions and advance the field of cybersecurity! Please feel free to reach out through email [zyueinfosec@gmail.com](zyueinfosec@gmail.com). </span>
+I am currently recruiting Master and PhD students for cutting-edge research in the following areas: LLM for Security, LLM Security, Mobile Security, IoT Security, and Program Analysis. Join us to explore innovative solutions and advance the field of cybersecurity! Please feel free to reach out via email at [zyueinfosec@gmail.com](zyueinfosec@gmail.com). </span>
 
  
 Bio:
