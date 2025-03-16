@@ -1,3 +1,13 @@
+---
+layout: archive
+title: "中文主页"
+permalink: /cn/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+
 <span style="color: blue;">
 每年有少量硕士、博士生名额。硕士/博士将从事以下领域研究：大语言模型在安全上的应用、大语言模型安全、移动和手机安全、物联网安全和程序分析。让我们共同探索创新解决方案，推动网络安全领域的发展！欢迎通过电子邮件 [zyueinfosec@gmail.com](zyueinfosec@gmail.com) 与我联系. </span>
 
