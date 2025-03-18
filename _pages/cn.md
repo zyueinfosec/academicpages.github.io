@@ -9,12 +9,12 @@ redirect_from:
 
 
 <span style="color: blue;">
-每年有少量硕士、博士生名额。硕士/博士将从事以下领域研究：大语言模型在安全上的应用、大语言模型安全、移动和手机安全、物联网安全和程序分析。让我们共同探索创新解决方案，推动网络安全领域的发展！欢迎通过电子邮件 [zyueinfosec@gmail.com](zyueinfosec@gmail.com) 与我联系. </span>
+每年有少量硕士、博士生名额。硕士/博士/博士后将从事以下领域研究：大语言模型在安全上的应用、大语言模型安全、移动和手机安全、物联网安全和程序分析。让我们共同探索创新解决方案，推动网络安全领域的发展！欢迎通过电子邮件 [zyueinfosec@gmail.com](zyueinfosec@gmail.com) 与我联系. </span>
 
  
 个人简历:
 ------
-张悦，博士，山东大学教授，博士/硕士生导师。曾在IEEE S&P，USENIX Security，ACM CCS，NDSS等安全领域顶级会议发表学术论文40余篇（其中安全四大顶会19篇，CCF-A类论文29篇），谷歌引用3000余次；获批美国专利5项、国家专利授权13项，实现成果转化一项。曾获ACM CCS最佳论文提名，NDSS杰出审稿人，ICII最佳论文，广东省自然科学奖一等奖、广东省CCF最佳论文一等奖等诸多奖项；担任EAI ICECI大会主席，IEEE MASS，IEEE MSN等会议分论坛主席，担任可信数字经济中心陕西省高校工程研究中心副主任；担任NDSS，ACM CCS，USENIX Security, RAID，ACSAC等著名安全会议程序委员会委员；担任T-IFS、HCC、PeerJ CS等期刊副主编或编委。曾多次发现 Bluetooth SIG，谷歌、Apple、德州仪器、MQTT、腾讯等组织、知名公司的高危严重漏洞，获得Apple，德州仪器，谷歌等公司公开致谢和漏洞赏金。成果被中央电视台、新浪等媒体报道。
+张悦，博士，山东大学教授，博士/硕士生导师。曾在IEEE S&P，USENIX Security，ACM CCS，NDSS等安全领域顶级会议发表学术论文40余篇（其中安全四大顶会19篇，CCF-A类论文29篇），谷歌引用3000余次；获批美国专利5项、国家专利授权13项，实现成果转化一项。曾获ACM CCS最佳论文提名，NDSS杰出审稿人，ICII最佳论文，广东省自然科学奖一等奖、广东省CCF最佳论文一等奖等诸多[奖项](\awards)；[学术服务](\service)方面，担任EAI ICECI大会主席，IEEE MASS，IEEE MSN等会议分论坛主席，担任可信数字经济中心陕西省高校工程研究中心副主任；担任NDSS，ACM CCS，USENIX Security, RAID，ACSAC等著名安全会议程序委员会委员；担任T-IFS、HCC、PeerJ CS等期刊副主编或编委。曾多次发现 Bluetooth SIG，谷歌、Apple、德州仪器、MQTT、腾讯等组织、知名公司的高危严重[漏洞](\awards)，获得Apple，德州仪器，谷歌等公司公开致谢和漏洞赏金。成果被中央电视台、新浪等媒体报道。
 
 背景经历:
 ------
@@ -92,11 +92,3 @@ redirect_from:
 23.  **[RAID 19]**-Wenrui Diao, **Yue Zhang**, Li Zhang, Zhou Li, Fenghao Xu, Xiaorui Pan, Xiangyu Liu, Jian Weng, Kehuan Zhang, XiaoFeng Wang. Kindness is a Risky Business: On the Usage of the Accessibility APIs in Android. In Proceedings of the 22nd International Symposium on Research in Attacks, Intrusions and Defenses, Beijing, China, September, 2019. **[CCF-B][AR 22%]**  
 24.  **[TPDS 18]** - Li, Ming, Jian Weng, Anjia Yang, Wei Lu, **Yue Zhang**, Lin Hou, Jia-Nan Liu, Yang Xiang, and Robert H. Deng. "CrowdBC: A blockchain-based decentralized framework for crowdsourcing." IEEE Transactions on Parallel and Distributed Systems ,30, no. 6 (2018): 1251-1266. **[CCF-A] [Highly Cited Paper]**
  
-奖励和影响力
-------
-
-在奖励方面，我曾荣获CCS 2022最佳论文提名奖，ICII最佳论文，广东省自然科学奖一等奖、广东省CCF最佳论文一等奖等诸多奖项。我的研究对苹果、谷歌、腾讯和德州仪器等主要公司产生了重要影响，促使他们发布了关键补丁并发放了漏洞赏金。此外，我在云存储安全方面的研究成果被中国中央电视台 (CCTV)广泛报道。更多详情请参见[奖项](\awards)页面。 
-
-学术服务:
-------
-我曾获NDSS杰出审稿人，担任EAI ICECI大会主席，IEEE MASS，IEEE MSN等会议分论坛主席，担任可信数字经济中心陕西省高校工程研究中心副主任；担任NDSS，ACM CCS，USENIX Security, RAID，ACSAC等著名安全会议程序委员会委员；担任T-IFS、HCC、PeerJ CS等期刊副主编或编委。更多详情请参见[学术服务](\service)页面。 
