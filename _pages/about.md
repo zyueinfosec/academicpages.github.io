@@ -19,8 +19,9 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
+**✯** [2025/04] - I will serve as a TPC Member for ACSAC 2025 and NDSS 2026 - **𝕟𝕖𝕨 !** 
 **✯** [2025/03] - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
-**✯** [2025/03] - I joined Shandong University as a Full Professor. **- 𝕟𝕖𝕨 !**  
+**✯** [2025/03] - I joined Shandong University as a Full Professor **- 𝕟𝕖𝕨 !**  
 **✯** [2025/02] - I’m excited to share that I was recognized as an **NDSS Distinguished Reviewer 2025**  **- 𝕟𝕖𝕨 !**  
 **✯** [2025/01] - Two papers accepted by **USENIX Security 2025  - 𝕟𝕖𝕨 !**  
 **✯** [2024/12] - One paper accepted by **USENIX Security 2025**  
