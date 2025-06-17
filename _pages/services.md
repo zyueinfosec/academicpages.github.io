@@ -10,6 +10,7 @@ redirect_from:
 
 **Conference Organization:**
 
+- Publicity Chair for The IEEE Workshop on Data Security and LLM Safety in Smart Systems (DLS) 2025 (co-located with IEEE MASS 2025)!
 - TPC Chair for The IEEE MetaCom Workshop on Secure and Trustworthy Infrastructures for Metaverse (STIM 2024)  
 - Session Chair for  The Network and Distributed System Security Symposium  2024 (NDSS 2024)  
 - General Chair for EAI ICECI 2024 - International Conference on Edge Computing and IoT: Systems, Management and Security  
@@ -20,6 +21,7 @@ redirect_from:
 
 **TPC Member:**
 
+- TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2025  
 - TPC Member for USENIX Security Symposium 2026 (<span style="color: blue;">USENIX Security 2026</span>) 
 - TPC Member for The Network and Distributed System Security Symposium 2026  (<span style="color: blue;">NDSS 2026</span>) 
 - TPC Member for the Annual Computer Security Applications Conference 2025 (ACSAC 2025)  
