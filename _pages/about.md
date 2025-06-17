@@ -19,7 +19,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
-
+**✯** [2025/06] - I serve as a TPC member for SatS 2026 and as the Publicity Chair for the IEEE MASS DLS Workshop. - **𝕟𝕖𝕨 !**   
 **✯** [2025/05] - Two papers accepted by ACL 2025 and one paper accepted by TOPS - **𝕟𝕖𝕨 !**   
 **✯** [2025/05] - I will serve as a TPC Member for USENIX Security 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/04] - I will serve as a TPC Member for ACSAC 2025 and NDSS 2026 - **𝕟𝕖𝕨 !**   
