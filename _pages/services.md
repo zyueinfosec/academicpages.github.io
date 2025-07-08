@@ -21,6 +21,7 @@ redirect_from:
 
 **TPC Member:**
 
+- TPC Member for Workshop on Smart Living with IoT, Cloud and Edge Computing (SLICE) 2025
 - TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2025  
 - TPC Member for USENIX Security Symposium 2026 (<span style="color: blue;">USENIX Security 2026</span>) 
 - TPC Member for The Network and Distributed System Security Symposium 2026  (<span style="color: blue;">NDSS 2026</span>) 
