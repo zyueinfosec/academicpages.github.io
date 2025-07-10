@@ -54,7 +54,8 @@ redirect_from:
 **Editor:**
 
 - Associate Editor,  **IEEE Transactions on Information Forensics and Security (TIFS) (ISSN 1556-6021)**, 2024 - 
-- Associate Editor, High-Confidence Computing (ISSN 2667-2952), 2024 - 
+- Associate Editor, High-Confidence Computing (ISSN 2667-2952), 2024 -
+- Guest Editor, Special Issue “[Special Issue on Securing the Internet of Things: Challenges, Innovations, and Practical Solutions](https://www.computer.org/digital-library/magazines/ic/cfp-iot-challenges-innovations-solutions)”,  Internet Computing (ISSN 1089-7801), JCR-Q3, IF 4.4, 2025 - 
 - Guest Editor, Special Issue "[Utilizing and Securing Large Language Models for Cybersecurity and Beyond](https://www.techscience.com/cmc/special_detail/large_language_models_security)", Materials & Continua (ISSN 1546-2218), JCR-Q3, IF 3.1,  2025
 - Guest Editor, Special Issue “[Information Security: Threats and Attacks](https://www.mdpi.com/journal/applsci/special_issues/4G881D3A12)”, Applied Sciences-Basel (ISSN 2076-3417), JCR-Q4, IF 1.77, 2024 - 
 - Guest Editor, Special Issue “[Secure Data Privacy and Encryption in Digital Networks](https://www.mdpi.com/journal/electronics/special_issues/8K87O1YV29)”, MDPI Electronics (ISSN 2079-9292), JCR-Q2, IF 2.6, 2024 - 
