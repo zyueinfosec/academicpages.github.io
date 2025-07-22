@@ -20,6 +20,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
 News:
 ------
 
+**✯** [2025/07] - I will serve as a TPC Member for ACM Inscrypt 2025 and IEEE MASS SLICE 2025!  - **𝕟𝕖𝕨 !**   
 **✯** [2025/07] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2026** and GE for IC Securing the Internet of Things!  - **𝕟𝕖𝕨 !**   
 **✯** [2025/06] - I serve as a TPC member for SatS 2025 and as the Publicity Chair for the IEEE MASS DLS Workshop 2025. - **𝕟𝕖𝕨 !**   
 **✯** [2025/05] - Two papers accepted by ACL 2025 and one paper accepted by TOPS - **𝕟𝕖𝕨 !**   
