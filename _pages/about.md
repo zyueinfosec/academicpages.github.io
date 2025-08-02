@@ -20,6 +20,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
 News:
 ------
 
+**✯** [2025/08] - One paper accepted by **NDSS 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2025/07] - I will serve as a TPC Member for ACM Inscrypt 2025 and IEEE MASS SLICE 2025!  - **𝕟𝕖𝕨 !**   
 **✯** [2025/07] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2026** and GE for IC Securing the Internet of Things!  - **𝕟𝕖𝕨 !**   
 **✯** [2025/06] - I serve as a TPC member for SatS 2025 and as the Publicity Chair for the IEEE MASS DLS Workshop 2025. - **𝕟𝕖𝕨 !**   
@@ -38,7 +39,7 @@ News:
 
 Recent Research Interests:
 ------
-**LLM for Security**: [IEEE S&P 25],[EAAI 2024],[EMNLP 2024]  
+**LLM for Security**: [IEEE S&P 25],[EAAI 24],[EMNLP 24], [NDSS 26]  
 **LLM Security**: [USENIX Security 25c],[IoT-J25],[CCS 23a]  
 **Mobile Security**: [USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[USENIX Security 23],[ICSE 23],[CCS 22b]  
 **IoT Security**: [USENIX Security 25a],[NDSS 25a],[CCS 24a],[CCS 24c],[NDSS 23b],[CCS 24b], [USENIX Security 24],[NDSS 23a],[CCS 22a]  
@@ -50,10 +51,13 @@ Selected Publications ([Complete List](\publications\)):
 
 <span style="color: blue;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
 
-<span style="color: blue;">Top-tier security venues (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25x3), CCS ('24x3, '23x2, '22x2),  NDSS ('23x3, '25x2)  </span>
+<span style="color: blue;">Top-tier security venues (20 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25x3), CCS ('24x3, '23x2, '22x2),  NDSS ('23x3, '25x2, '26x1)  </span>
 
-<span style="color: blue;">**Ranking Statistics:** CCF A: 31 papers, CCF B: 7 papers, CCF C: 5 papers  </span>  
+<span style="color: blue;">**Ranking Statistics:** CCF A: 32 papers, CCF B: 7 papers, CCF C: 5 papers  </span>  
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
+
+**2026:**
+1. <span style="color: blue;">**[NDSS 26]** </span>- Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Chongqing Lei, Christopher Morales, Xinwen Fu, 'BACnet or ''BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet', accepted to appear in Proceedings of the 33rd Network and Distributed System Security (NDSS'26), San Diego, California, USA, February 23-27, 2026. **[Tier 1] [BIG4] [CCF-A]**   
 
 **2025:**
 1. **[TOPS 25]** -**Yue Zhang** and Zhiqiang Lin. "Breaking BLE MAC Address Randomization with Allowlist-based Side Channels and Its Countermeasure." ACM Transactions on Privacy and Security (**Extended Version for CCS 22**).   **[CCF-B]** 
