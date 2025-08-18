@@ -9,7 +9,10 @@ redirect_from:
 
 **Awards:**
 
-- 2025: NDSS Distinguished Reviewer (<span style="color: blue;">NDSS 2025</span>)   
+- 2025: USENIX Security'25 Distinguished Paper Honorable Mention (<span style="color: blue;">USENIX Security 2025</span>)  
+- 2025: USENIX Security Notable Reviewer (<span style="color: blue;">USENIX Security 2025</span>)  
+- 2025: NDSS Distinguished Reviewer (<span style="color: blue;">NDSS 2025</span>)
+- 2025: Ethereum Foundation Academic Award. Unraveling and Addressing Risks to Ethereum User Anonymity from Network Protocol Perspectives. Round 2025. [I am the Co-PI of this project].  
 - 2022: CCS'22 Best Paper Honorable Mention (<span style="color: blue;">ACM CCS 2022</span>)  
 - 2021: The First Prize, Outstanding Research Paper Award of Guang Dong Computer Federation ("DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-based Incentive.")  
 - 2020: Excellent Graduate Students of Guangdong Province [0.25%]  
@@ -20,7 +23,7 @@ redirect_from:
 - 2016: Outstanding Graduates   
 - 2015: National scholarship for Master Students, 20000 RMB   
 - 2015: Reaching Fund on Android Security, 4000 RMB  
-- 2014: The Third Prize, Microsoft ImagineCup for College Students in Shannxi Province,1000RMB  
+- 2014: The Third Prize, Microsoft ImagineCup for College Students in Shannxi Province, 1000RMB  
 - 2014: The First Prize,  Science and Technology Contest for College Students, Zhongxing Telecommunication Equipment Corporation  
 - 2014: The Second Prize , Software Design Competition, Programmable System Inc, Shanghai, China
 
