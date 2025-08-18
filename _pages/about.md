@@ -20,6 +20,9 @@ You can also visit my Chinese page ([中文页面](\cn)).
 News:
 ------
 
+**✯** [2025/08] - One paper accepted by **CCS 2025 - 𝕟𝕖𝕨 !**  
+**✯** [2025/08] - I I’m excited to share that I was recognized as an **USENIX Security Notable Reviewer 2025** and one paper awarded as **USENIX Security 2025 Distinguished Paper Honorable Mention** **- 𝕟𝕖𝕨 !**  
+**✯** [2025/08] - I will serve as a guest editor for Security, Privacy, Safety, and Regulation of AIGC  - **𝕟𝕖𝕨 !**   
 **✯** [2025/08] - One paper accepted by **NDSS 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2025/07] - I will serve as a TPC Member for ACM Inscrypt 2025 and IEEE MASS SLICE 2025!  - **𝕟𝕖𝕨 !**   
 **✯** [2025/07] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2026** and GE for IC Securing the Internet of Things!  - **𝕟𝕖𝕨 !**   
@@ -32,9 +35,6 @@ News:
 **✯** [2025/02] - I’m excited to share that I was recognized as an **NDSS Distinguished Reviewer 2025**  **- 𝕟𝕖𝕨 !**  
 **✯** [2025/01] - Two papers accepted by **USENIX Security 2025**  
 **✯** [2024/12] - One paper accepted by **USENIX Security 2025**  
-**✯** [2025/11] -  One paper accepted by  The Network and Distributed System Security (**NDSS**) Symposium 2025   
-**✯** [2024/10] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2025**    
-**✯** [2024/10] - I will serve as a TPC Member for WWW 2025 (Security and Privacy Track)    
 
 
 Recent Research Interests:
