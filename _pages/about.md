@@ -49,7 +49,7 @@ Recent Research Interests:
 Selected Publications ([Complete List](\publications\)):  
 ------
 
-<span style="color: blue;">I have published more than 40 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
+<span style="color: blue;">I have published more than 60 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
 
 <span style="color: blue;">**Top-tier security venues (21 papers):** IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25x3), CCS ('25, '24x3, '23x2, '22x2),  NDSS ('23x3, '25x2, '26x1)  </span>
 
