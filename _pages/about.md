@@ -20,6 +20,8 @@ You can also visit my Chinese page ([中文页面](\cn)).
 News:
 ------
 
+**✯** [2025/09] - One paper accepted by **IEEE S&P 2026 - 𝕟𝕖𝕨 !** 
+**✯** [2025/09] - I will serve as a guest editor for IET Communications  - **𝕟𝕖𝕨 !**   
 **✯** [2025/08] - One paper accepted by **CCS 2025 - 𝕟𝕖𝕨 !**  
 **✯** [2025/08] - I I’m excited to share that I was recognized as an **USENIX Security Notable Reviewer 2025** and one paper awarded as **USENIX Security 2025 Distinguished Paper Honorable Mention** **- 𝕟𝕖𝕨 !**  
 **✯** [2025/08] - I will serve as a guest editor for Security, Privacy, Safety, and Regulation of AIGC  - **𝕟𝕖𝕨 !**   
@@ -31,18 +33,18 @@ News:
 **✯** [2025/05] - I will serve as a TPC Member for USENIX Security 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/04] - I will serve as a TPC Member for ACSAC 2025 and NDSS 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/03] - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
-**✯** [2025/03] - I joined Shandong University as a Full Professor **- 𝕟𝕖𝕨 !**  
-**✯** [2025/02] - I’m excited to share that I was recognized as an **NDSS Distinguished Reviewer 2025**  **- 𝕟𝕖𝕨 !**  
+**✯** [2025/03] - I joined Shandong University as a Full Professor   
+**✯** [2025/02] - I’m excited to share that I was recognized as an **NDSS Distinguished Reviewer 2025**     
 **✯** [2025/01] - Two papers accepted by **USENIX Security 2025**  
 **✯** [2024/12] - One paper accepted by **USENIX Security 2025**  
 
 
 Recent Research Interests:
 ------
-**LLM for Security**: [IEEE S&P 25],[EAAI 24],[EMNLP 24], [NDSS 26], [NAIC 2025],  [DLS 2025b], [DLS 2025c], [DLS 2025d]   
+**LLM for Security**: [IEEE S&P 25],[EAAI 24],[EMNLP 24], [NDSS 26],    
 **LLM Security and Applications**: [USENIX Security 25c],[IoT-J25],[CCS 23a],[ACL 25a], [ACL 25b], [DLS 2025a]   
 **Mobile Security**: [USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[USENIX Security 23],[ICSE 23],[CCS 22b]    
-**IoT Security**: [USENIX Security 25a],[NDSS 25a],[CCS 24a],[CCS 24c],[NDSS 23b],[CCS 24b], [USENIX Security 24],[NDSS 23a],[CCS 22a],[NDSS 2026]   
+**IoT Security**: [USENIX Security 25a],[NDSS 25a],[CCS 24a],[CCS 24c],[NDSS 23b],[CCS 24b], [USENIX Security 24],[NDSS 23a],[CCS 22a],[NDSS 2026],[IEEE S&P 26]   
 **Program Analysis**: [CCS 24b],[USENIX Security 23],[ICSE 23],[NDSS 23a],[USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[CCS 22b]    
 
 
@@ -51,7 +53,7 @@ Selected Publications ([Complete List](\publications\)):
 
 <span style="color: blue;">I have published more than 60 papers. My publications appeared in top-tier conferences (e.g., IEEE S&P, USENIX Security,  ACM CCS, NDSS), and top-tier journals (e.g., TDSC).  </span>  
 
-<span style="color: blue;">**Top-tier security venues (21 papers):** IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25x3), CCS ('25, '24x3, '23x2, '22x2),  NDSS ('23x3, '25x2, '26x1)  </span>
+<span style="color: blue;">**Top-tier security venues (22 papers):** IEEE S&P ('25, '26), USENIX-Security ('24,  '23, '20, '25x3), CCS ('25, '24x3, '23x2, '22x2),  NDSS ('23x3, '25x2, '26x1)  </span>
 
 <span style="color: blue;">**Ranking Statistics:** CCF A: 33 papers, CCF B: 7 papers, CCF C: 5 papers  </span>  
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
