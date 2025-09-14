@@ -59,7 +59,8 @@ Selected Publications ([Complete List](\publications\)):
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
 
 **2026:**
-1. <span style="color: blue;">**[NDSS 26]** </span>- Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Chongqing Lei, Christopher Morales, Xinwen Fu, "'BACnet or ''BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet", accepted to appear in Proceedings of the 33rd Network and Distributed System Security (NDSS'26), San Diego, California, USA, February 23-27, 2026. **[Tier 1] [BIG4] [CCF-A]**   
+1. <span style="color: blue;">**[IEEE S&P 25]**</span>  - Chunmian Wang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Shan Wang, Ming Yang, Guangchi Liu, Xinwen Fu, “Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood” [C], in Proceedings of the 47th IEEE Symposium on Security and Privacy (S&P’26), San Francisco, California, USA, May 18-20, 2026. **[Tier 1] [BIG4] [CCF-A]**   
+2. <span style="color: blue;">**[NDSS 26]** </span>- Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Chongqing Lei, Christopher Morales, Xinwen Fu, "'BACnet or ''BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet", accepted to appear in Proceedings of the 33rd Network and Distributed System Security (NDSS'26), San Diego, California, USA, February 23-27, 2026. **[Tier 1] [BIG4] [CCF-A]**   
 
 **2025:**
 1. <span style="color: blue;">**[CCS 25]** </span> - Shan Wang, Ming Yang, Yu Liu, **Yue Zhang**, Shuaiqing Zhang, Zhen Ling, Jiannong Cao and Xinwen Fu ."Time Tells All: Deanonymization of Blockchain RPC Users with Zero Transaction Fee." In Proceedings of the 32th ACM Conference on Computer and Communications Security. Oct 2025. **[Tier 1] [BIG4] [CCF-A]** 
