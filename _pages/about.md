@@ -19,7 +19,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
-
+**✯** [2025/09] - One paper accepted by **ASE 2025 - 𝕟𝕖𝕨 !**   
 **✯** [2025/09] - One paper accepted by **IEEE S&P 2026 - 𝕟𝕖𝕨 !**   
 **✯** [2025/09] - I will serve as a guest editor for IET Communications  - **𝕟𝕖𝕨 !**   
 **✯** [2025/08] - One paper accepted by **CCS 2025 - 𝕟𝕖𝕨 !**  
@@ -41,8 +41,8 @@ News:
 
 Recent Research Interests:
 ------
-**LLM for Security**: [IEEE S&P 25],[EAAI 24],[EMNLP 24], [NDSS 26],    
-**LLM Security and Applications**: [USENIX Security 25c],[IoT-J25],[CCS 23a],[ACL 25a], [ACL 25b], [DLS 2025a]   
+**LLM for Security**: [IEEE S&P 25],[EAAI 24],[EMNLP 24], [NDSS 26], [ASE 25]
+**LLM Security and Applications**: [USENIX Security 25c],[IoT-J25],[CCS 23a],[ACL 25a], [ACL 25b] 
 **Mobile Security**: [USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[USENIX Security 23],[ICSE 23],[CCS 22b]    
 **IoT Security**: [USENIX Security 25a],[NDSS 25a],[CCS 24a],[CCS 24c],[NDSS 23b],[CCS 24b], [USENIX Security 24],[NDSS 23a],[CCS 22a],[NDSS 2026],[IEEE S&P 26]   
 **Program Analysis**: [CCS 24b],[USENIX Security 23],[ICSE 23],[NDSS 23a],[USENIX Security 25b],[NDSS 25b],[CCS 23a],[CCS 23b],[NDSS 23c],[CCS 22b]    
