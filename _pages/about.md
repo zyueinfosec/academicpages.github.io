@@ -55,7 +55,7 @@ Selected Publications ([Complete List](\publications\)):
 
 <span style="color: blue;">**Top-tier security venues (22 papers):** IEEE S&P ('25, '26), USENIX-Security ('24,  '23, '20, '25x3), CCS ('25, '24x3, '23x2, '22x2),  NDSS ('23x3, '25x2, '26x1)  </span>
 
-<span style="color: blue;">**Ranking Statistics:** CCF A: 33 papers, CCF B: 7 papers, CCF C: 5 papers  </span>  
+<span style="color: blue;">**Ranking Statistics:** CCF A: 34 papers, CCF B: 7 papers, CCF C: 5 papers  </span>  
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
 
 **2026:**
