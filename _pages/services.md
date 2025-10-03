@@ -21,6 +21,9 @@ redirect_from:
 
 **TPC Member:**
 
+- TPC Member for The 6th International Conference on Emerging Information Security and Applications (EISA) 2026   
+- TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P  2026)  
+- TPC Member for WWWW 2026 (Security and Privacy Track)  
 - TPC Member for ACM CCS 2025, Network Security Track (<span style="color: blue;">ACM CCS 2026</span>) 
 - TPC Member for Workshop on Smart Living with IoT, Cloud and Edge Computing (SLICE) 2025
 - TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2025  
