@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 **Awards:**
-
+- 2025: ACM QingDao China Rising Star Award, 2025  
+- 2025: NDSS Distinguished Reviewer 
 - 2025: USENIX Security'25 Distinguished Paper Honorable Mention (<span style="color: blue;">USENIX Security 2025</span>)  
 - 2025: USENIX Security Notable Reviewer (<span style="color: blue;">USENIX Security 2025</span>)  
 - 2025: NDSS Distinguished Reviewer (<span style="color: blue;">NDSS 2025</span>)
