@@ -21,6 +21,7 @@ redirect_from:
 
 **TPC Member:**
 
+- TPC Member for SciSec 2026  
 - TPC Member for The 6th International Conference on Emerging Information Security and Applications (EISA) 2026   
 - TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P  2026)  
 - TPC Member for WWWW 2026 (Security and Privacy Track)  
