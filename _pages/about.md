@@ -19,7 +19,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
-**✯** [2025/12] - I will serve as a TPC Member for SciSec 2026 - **𝕟𝕖𝕨 !** 
+**✯** [2025/12] - I will serve as a TPC Member for SciSec 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/10] - I will serve as a TPC Member for WWW 2026 and Euro S&P 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/09] - One paper accepted by **ASE 2025 - 𝕟𝕖𝕨 !**   
 **✯** [2025/09] - One paper accepted by **IEEE S&P 2026 - 𝕟𝕖𝕨 !**   
