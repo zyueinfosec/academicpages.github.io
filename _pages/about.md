@@ -64,7 +64,7 @@ Selected Publications ([Complete List](\publications\)):
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
 
 **2026:**
-1. **[Blackhat Aisa 2026]** - Yumingzhi Pan, Zhen Ling, **Yue Zhang**, Hongze Wang, Guangchi Liu, Junzhou Luo, Xinwen Fu. " Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the TOR Network." To appear in Proceedings of Blackhat Aisa 2026.    
+1. **[Blackhat Asia 2026]** - Yumingzhi Pan, Zhen Ling, **Yue Zhang**, Hongze Wang, Guangchi Liu, Junzhou Luo, Xinwen Fu. " Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the TOR Network." To appear in Proceedings of Blackhat Asia 2026.    
 2. <span style="color: blue;">**[IEEE S&P 26]**</span>  - Chunmian Wang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Shan Wang, Ming Yang, Guangchi Liu, Xinwen Fu, “Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood” [C], in Proceedings of the 47th IEEE Symposium on Security and Privacy (S&P’26), San Francisco, California, USA, May 18-20, 2026. **[Tier 1] [BIG4] [CCF-A]**   
 3. <span style="color: blue;">**[NDSS 26]** </span>- Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Chongqing Lei, Christopher Morales, Xinwen Fu, "'BACnet or ''BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet", accepted to appear in Proceedings of the 33rd Network and Distributed System Security (NDSS'26), San Diego, California, USA, February 23-27, 2026. **[Tier 1] [BIG4] [CCF-A]**   
 
