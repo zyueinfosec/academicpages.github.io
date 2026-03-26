@@ -19,25 +19,21 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
-**✯** [2026/03] - I will serve as a TPC Member for ACSAC 2026 - **𝕟𝕖𝕨 !**   
+**✯** [2026/03] - I will serve as a TPC Member for ACSAC 2026 and RAID 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2026/02] - I will serve as a TPC Member for ICCCN (Security Track) 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2026/01] - One paper accepted by **Blackhat Asia 2026 - 𝕟𝕖𝕨 !**   
 **✯** [2025/12] - I will serve as a TPC Member for SciSec 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/10] - I will serve as a TPC Member for WWW 2026 and Euro S&P 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2025/09] - One paper accepted by **ASE 2025 - 𝕟𝕖𝕨 !**   
 **✯** [2025/09] - One paper accepted by **IEEE S&P 2026 - 𝕟𝕖𝕨 !**   
-**✯** [2025/09] - I will serve as a guest editor for IET Communications  - **𝕟𝕖𝕨 !**   
-**✯** [2025/08] - One paper accepted by **CCS 2025 - 𝕟𝕖𝕨 !**  
-**✯** [2025/08] - I I’m excited to share that I was recognized as an **USENIX Security Notable Reviewer 2025** and one paper awarded as **USENIX Security 2025 Distinguished Paper Honorable Mention** **- 𝕟𝕖𝕨 !**  
-**✯** [2025/08] - I will serve as a guest editor for Security, Privacy, Safety, and Regulation of AIGC  - **𝕟𝕖𝕨 !**   
-**✯** [2025/08] - One paper accepted by **NDSS 2026 - 𝕟𝕖𝕨 !**  
-**✯** [2025/07] - I will serve as a TPC Member for ACM Inscrypt 2025 and IEEE MASS SLICE 2025!  - **𝕟𝕖𝕨 !**   
-**✯** [2025/07] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2026** and GE for IC Securing the Internet of Things!  - **𝕟𝕖𝕨 !**   
-**✯** [2025/06] - I serve as a TPC member for SatS 2025 and as the Publicity Chair for the IEEE MASS DLS Workshop 2025. - **𝕟𝕖𝕨 !**   
-**✯** [2025/05] - Two papers accepted by ACL 2025 and one paper accepted by TOPS - **𝕟𝕖𝕨 !**   
-**✯** [2025/05] - I will serve as a TPC Member for USENIX Security 2026 - **𝕟𝕖𝕨 !**   
-**✯** [2025/04] - I will serve as a TPC Member for ACSAC 2025 and NDSS 2026 - **𝕟𝕖𝕨 !**   
-**✯** [2025/03] - One paper accepted by **IEEE S&P 2025 - 𝕟𝕖𝕨 !**  
+**✯** [2025/09] - I will serve as a guest editor for IET Communications   
+**✯** [2025/08] - One paper accepted by **CCS 2025**  
+**✯** [2025/08] - I I’m excited to share that I was recognized as an **USENIX Security Notable Reviewer 2025** and one paper awarded as **USENIX Security 2025 Distinguished Paper Honorable Mention**    
+**✯** [2025/08] - I will serve as a guest editor for Security, Privacy, Safety, and Regulation of AIGC    
+**✯** [2025/08] - One paper accepted by **NDSS 2026**  
+**✯** [2025/07] - I will serve as a TPC Member for ACM Inscrypt 2025 and IEEE MASS SLICE 2025!      
+**✯** [2025/07] - I will serve as a TPC Member (Network Security Track) for ACM **CCS 2026** and GE for IC Securing the Internet of Things!  
+**✯** [2025/03] - One paper accepted by **IEEE S&P 2025**  
 **✯** [2025/03] - I joined Shandong University as a Full Professor   
 **✯** [2025/02] - I was recognized as an **NDSS Distinguished Reviewer 2025**     
 **✯** [2025/01] - Two papers accepted by **USENIX Security 2025**  
