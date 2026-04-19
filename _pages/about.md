@@ -135,8 +135,9 @@ I am actively engaged in organizing and contributing to major security conferenc
 Students:
 ------
 
-**I am fortunate to collaborate with following exceptional students:**
+<span style="color: blue;">**I am fortunate to collaborate with many exceptional students. Thanks all!** </span> 
 
+**Students mentored during my time at Shandong University:**
 - Biwei Yan, Postdoc (2025-Present)
 - Yuhang Huang, Ph.D Student (2025-Present)  
 - Junchao Li, Ph.D Student (2025-Present)  
