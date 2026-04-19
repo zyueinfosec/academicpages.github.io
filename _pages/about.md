@@ -19,7 +19,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
-**✯** [2026/04] - One paper accepted by **ISSTA 2026 - 𝕟𝕖𝕨 !**
+**✯** [2026/04] - One paper accepted by **ISSTA 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2026/04] - I will serve as a TPC Member for NDSS 2027 - **𝕟𝕖𝕨 !**   
 **✯** [2026/03] - I will serve as a TPC Member for ACSAC 2026 and RAID 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2026/02] - I will serve as a TPC Member for ICCCN (Security Track) 2026 - **𝕟𝕖𝕨 !**   
