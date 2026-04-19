@@ -19,6 +19,8 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
+**✯** [2026/04] - One paper accepted by **ISSTA 2026 - 𝕟𝕖𝕨 !**
+**✯** [2026/04] - I will serve as a TPC Member for NDSS 2027 - **𝕟𝕖𝕨 !**   
 **✯** [2026/03] - I will serve as a TPC Member for ACSAC 2026 and RAID 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2026/02] - I will serve as a TPC Member for ICCCN (Security Track) 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2026/01] - One paper accepted by **Blackhat Asia 2026 - 𝕟𝕖𝕨 !**   
@@ -129,6 +131,33 @@ Services:
 ------
 
 I am actively engaged in organizing and contributing to major security conferences, serving as TPC Chair (STIM 2024), General Chair (EAI ICECI 2024), Session Chair (NDSS 2024, ACM SaTS 2023), Track Chair (MASS 2024, MSN 2023), and Publicity Chair (ACM SaTS 2023). I have also served as a TPC Member for top-tier conferences, including **ACM CCS, USENIX Security, and NDSS** from 2023 to 2025. I hold key editorial roles, including **Associate Editor for IEEE TIFS** and High-Confidence Computing, along with Guest Editor for special issues on cybersecurity, IoT security, and AI security in various journals. Please see more details in the [services](\service) page. 
+
+Students:
+------
+
+**I am fortunate to collaborate with following exceptional students:**
+
+- Biwei Yan, Postdoc (2025-Present)
+- Yuhang Huang, Ph.D Student (2025-Present)  
+- Junchao Li, Ph.D Student (2025-Present)  
+- Yanzhang Xie, Ph.D Student (2026-Present)  
+- QianLi Wang, Ph.D Student (2026-Present)  
+- Zhihao Li, Master Student (2025-Present)
+- Wanying Yu, Master Student (2025-Present)
+- Jianyu Ma, Master Student (2025-Present)
+- Zhihao Tie, Master Student (2025-Present)
+- Jingwei Ou, Master Student (2025-Present)
+- Xuelei Wang, Master Student (2025-Present)
+
+**Students mentored during my time at Drexel University:**  
+
+- Baojuan Wang, Ph.D Student, Co-Advised w Eric Sun (2023-Present)
+- [Bhawna Talwar](https://www.linkedin.com/in/bhawna-talwar-b0b8901b0/), Master Student,  Co-Advised w Eric Sun (2024-2025) 
+- [Shawn McCollum](https://www.linkedin.com/in/shawn-mccollum/), Co-Advised w Eric Sun (2024-2025)
+- Jeffrey Ukachukwu, Undergraduate Student,  Co-Advised w Eric Sun (2024-2025)
+- [Yifan Yao](https://www.linkedin.com/in/yaoyifan/), Internship Student, (2023-2025) Co-Advised w Eric Sun (2024-2025)   
+- [Jaspreet Singh](https://www.linkedin.com/in/jaspreetsinghdrexel/), Master Student,  Co-Advised w Eric Sun (2024-2025)
+- Xinmeng Wang, Master Student,  Co-Advised w Eric Sun (2024-2025)
 
  
   
