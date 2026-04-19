@@ -135,7 +135,7 @@ I am actively engaged in organizing and contributing to major security conferenc
 Students:
 ------
 
-<span style="color: blue;">**I am fortunate to collaborate with many exceptional students. Thanks all!** </span> 
+<span style="color: blue;">**I am fortunate to collaborate with many exceptional students. Thank you all!** </span> 
 
 **Students mentored during my time at Shandong University:**
 - Biwei Yan, Postdoc (2025-Present)
