@@ -19,7 +19,8 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
-**✯** [2026/04] - One paper accepted by **ISSTA 2026 - 𝕟𝕖𝕨 !**  
+**✯** [2026/05] - One paper accepted by **ICML 2026 - 𝕟𝕖𝕨 !**  
+**✯** [2026/04] - One paper accepted by **ISSTA 2026/ICDCS 2026/IWQoS 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2026/04] - I will serve as a TPC Member for NDSS 2027 - **𝕟𝕖𝕨 !**   
 **✯** [2026/03] - I will serve as a TPC Member for ACSAC 2026 and RAID 2026 - **𝕟𝕖𝕨 !**   
 **✯** [2026/02] - I will serve as a TPC Member for ICCCN (Security Track) 2026 - **𝕟𝕖𝕨 !**   
@@ -62,9 +63,12 @@ Selected Publications ([Complete List](\publications\)):
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
 
 **2026:**
-1. **[Blackhat Asia 2026]** - Yumingzhi Pan, Zhen Ling, **Yue Zhang**, Hongze Wang, Guangchi Liu, Junzhou Luo, Xinwen Fu. " Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the TOR Network." To appear in Proceedings of Blackhat Asia 2026.    
-2. <span style="color: blue;">**[IEEE S&P 26]**</span>  - Chunmian Wang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Shan Wang, Ming Yang, Guangchi Liu, Xinwen Fu, “Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood” [C], in Proceedings of the 47th IEEE Symposium on Security and Privacy (S&P’26), San Francisco, California, USA, May 18-20, 2026. **[Tier 1] [BIG4] [CCF-A]**   
-3. <span style="color: blue;">**[NDSS 26]** </span>- Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Chongqing Lei, Christopher Morales, Xinwen Fu, "'BACnet or ''BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet", accepted to appear in Proceedings of the 33rd Network and Distributed System Security (NDSS'26), San Diego, California, USA, February 23-27, 2026. **[Tier 1] [BIG4] [CCF-A]**   
+1. **[IWQoS 2026]** - Yifan Yao, Baojuan Wang, Jinhao Duan, Kaidi Xu, ChuanKai Guo, Zhibo Eric Sun, and **Yue Zhang**. "The Imitation Game: Using Large Language Models as Chatbots to Combat Chat-Based Cybercrimes."  IEEE/ACM International Symposium on Quality of Service (IWQoS) 2026. **[CCF-B]**
+2. **[ICDCS 2026]** - Minghui Xu, Xiaoyu Liu, Yihao Guo, Chunchi Liu, **Yue Zhang**, and Xiuzhen Cheng. "AgentDID: Trustless Identity Authentication for AI Agents."  46th IEEE International Conference on Distributed Computing Systems (ICDCS 2026). June 22 – 25, 2026, Seoul, South Korea. **[CCF-B]**
+3.  **[ISSTA 2026]** - Zhengyang Shan, Xu Qian, Jiayun Xin, Minghui Xu, **Yue Zhang**, Zhen Yang, Hao Wu, and Xiuzhen Cheng. "SAGE: Signal-Amplified Guided Embeddings for LLM-based Vulnerability Detection."  the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026).  **[Tier 1] [CCF-A]**
+4.  **[Blackhat Asia 2026]** - Yumingzhi Pan, Zhen Ling, **Yue Zhang**, Hongze Wang, Guangchi Liu, Junzhou Luo, Xinwen Fu. " Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the TOR Network." To appear in Proceedings of Blackhat Asia 2026.    
+5. <span style="color: blue;">**[IEEE S&P 26]**</span>  - Chunmian Wang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Shan Wang, Ming Yang, Guangchi Liu, Xinwen Fu, “Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood” [C], in Proceedings of the 47th IEEE Symposium on Security and Privacy (S&P’26), San Francisco, California, USA, May 18-20, 2026. **[Tier 1] [BIG4] [CCF-A]**   
+6. <span style="color: blue;">**[NDSS 26]** </span>- Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**, Chongqing Lei, Christopher Morales, Xinwen Fu, "'BACnet or ''BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet", accepted to appear in Proceedings of the 33rd Network and Distributed System Security (NDSS'26), San Diego, California, USA, February 23-27, 2026. **[Tier 1] [BIG4] [CCF-A]**   
 
 **2025:**
 1. **[ASE 25]**    Rui Jiao, **Yue Zhang**, Jinku Li, and Jianfeng Ma. Hit The Bullseye On The First Shot: Improving LLMs Using Multi-Sample Self-Reward Feedback for Vulnerability Repair. To appear in Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025), Seoul, South Korea, Nov. 2025. **[Tier 1] [CCF-A]**   
