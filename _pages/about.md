@@ -19,6 +19,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
 ------
+**✯** [2026/05] - One paper accepted by **USENIX Security 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2026/05] - One paper accepted by **ICML 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2026/04] - One paper accepted by **ISSTA 2026/ICDCS 2026/IWQoS 2026 - 𝕟𝕖𝕨 !**  
 **✯** [2026/04] - I will serve as a TPC Member for NDSS 2027 - **𝕟𝕖𝕨 !**   
