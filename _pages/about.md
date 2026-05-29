@@ -63,8 +63,8 @@ Selected Publications ([Complete List](\publications\)):
 <span style="color: blue;">**Ranking Statistics:** CCF A: 34 papers, CCF B: 7 papers, CCF C: 5 papers  </span>  
 <span style="color: blue;">Authors with "_" are the students under my supervision.  </span>
 
-**2026:**
-1.**[ICML 2026]** - Zhiyuan Wang, Tianlong Chen, **Yue Zhang**, Heng Tao Shen, Xiaoshuang Shi, and Kaidi Xu. "LEC: Linear Expectation Constraints for False-Discovery Control in Selective Prediction and Routing Systems." The International Conference on Machine Learning (ICML) 2026. **[Tier 1] [CCF-A]**.
+**2026:**  
+1.**[ICML 2026]** - Zhiyuan Wang, Tianlong Chen, **Yue Zhang**, Heng Tao Shen, Xiaoshuang Shi, and Kaidi Xu. "LEC: Linear Expectation Constraints for False-Discovery Control in Selective Prediction and Routing Systems." The International Conference on Machine Learning (ICML) 2026. **[Tier 1] [CCF-A]**.  
 2. **[IWQoS 2026]** - Yifan Yao, Baojuan Wang, Jinhao Duan, Kaidi Xu, ChuanKai Guo, Zhibo Eric Sun, and **Yue Zhang**. "The Imitation Game: Using Large Language Models as Chatbots to Combat Chat-Based Cybercrimes."  IEEE/ACM International Symposium on Quality of Service (IWQoS) 2026. **[CCF-B]**
 3. **[ICDCS 2026]** - Minghui Xu, Xiaoyu Liu, Yihao Guo, Chunchi Liu, **Yue Zhang**, and Xiuzhen Cheng. "AgentDID: Trustless Identity Authentication for AI Agents."  46th IEEE International Conference on Distributed Computing Systems (ICDCS 2026). June 22 – 25, 2026, Seoul, South Korea. **[CCF-B]**
 4.  **[ISSTA 2026]** - Zhengyang Shan, Xu Qian, Jiayun Xin, Minghui Xu, **Yue Zhang**, Zhen Yang, Hao Wu, and Xiuzhen Cheng. "SAGE: Signal-Amplified Guided Embeddings for LLM-based Vulnerability Detection."  the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026).  **[Tier 1] [CCF-A]**
