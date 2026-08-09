@@ -7,9 +7,6 @@ permalink: /labhome
 ---
 
 ### About the Lab
----
-layout: null
-permalink: /
----
+ 
 
 About this lab.
