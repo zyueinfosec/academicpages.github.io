@@ -7,8 +7,533 @@ permalink: /labhome
 ---
 
 ### About the Lab
+---
+layout: null
+permalink: /
+---
 
-Mauris vitae ultricies leo integer malesuada. Vulputate ut pharetra sit amet aliquam id diam maecenas. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Et tortor at risus viverra adipiscing at in. Urna nunc id cursus metus aliquam eleifend. Massa tincidunt dui ut ornare lectus. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Enim diam vulputate ut pharetra sit. Facilisi cras fermentum odio eu feugiat pretium. Commodo elit at imperdiet dui accumsan sit amet nulla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Vivamus at augue eget arcu dictum varius duis. Faucibus pulvinar elementum integer enim neque volutpat. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
+<!DOCTYPE html>
+<html lang="en">
 
-Cras adipiscing enim eu turpis. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Sed lectus vestibulum mattis ullamcorper velit. Ut faucibus pulvinar elementum integer. Mattis nunc sed blandit libero volutpat sed cras ornare. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Risus nullam eget felis eget nunc lobortis mattis. In tellus integer feugiat scelerisque varius morbi enim. Eget nunc lobortis mattis aliquam faucibus purus in. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Augue neque gravida in fermentum et sollicitudin ac orci. Id donec ultrices tincidunt arcu non. Pharetra et ultrices neque ornare aenean euismod. Purus faucibus ornare suspendisse sed. Nibh tellus molestie nunc non blandit massa enim. Non diam phasellus vestibulum lorem sed risus. Vel eros donec ac odio tempor orci dapibus ultrices in. Libero id faucibus nisl tincidunt.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Blockchain and Distributed Security Lab</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+
+    /* =========================
+       Top Banner
+       ========================= */
+
+    .top-banner {
+      height: 115px;
+      background:
+        linear-gradient(
+          rgba(3, 45, 110, 0.35),
+          rgba(3, 45, 110, 0.35)
+        ),
+        url("/assets/images/lab/header.jpg");
+      background-size: cover;
+      background-position: center;
+
+      display: flex;
+      align-items: center;
+      padding-left: 40px;
+    }
+
+    .top-banner h1 {
+      margin: 0;
+      color: white;
+      font-size: 36px;
+      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    /* =========================
+       Navigation
+       ========================= */
+
+    .navbar {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      padding: 0 12px;
+
+      background: #f8f9fa;
+      border-bottom: 1px solid #eee;
+    }
+
+    .navbar a {
+      color: #065dcc;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .navbar a:hover {
+      color: #003b82;
+      text-decoration: underline;
+    }
+
+    /* =========================
+       Carousel
+       ========================= */
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      height: 775px;
+      overflow: hidden;
+      background: #eee;
+    }
+
+    .carousel-track {
+      display: flex;
+      width: 100%;
+      height: 100%;
+
+      transition: transform 0.65s ease-in-out;
+    }
+
+    .slide {
+      min-width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Optional text on image */
+
+    .slide-caption {
+      position: absolute;
+      left: 55px;
+      bottom: 55px;
+
+      padding: 15px 24px;
+
+      color: white;
+      background: rgba(0, 0, 0, 0.38);
+
+      font-size: 22px;
+      border-radius: 5px;
+    }
+
+    /* Left / Right Buttons */
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      width: 52px;
+      height: 52px;
+
+      border: none;
+      border-radius: 50%;
+
+      font-size: 32px;
+      line-height: 52px;
+
+      color: white;
+      background: rgba(0, 0, 0, 0.32);
+
+      cursor: pointer;
+      z-index: 10;
+
+      transition: background 0.2s;
+    }
+
+    .carousel-btn:hover {
+      background: rgba(0, 0, 0, 0.58);
+    }
+
+    .prev {
+      left: 55px;
+    }
+
+    .next {
+      right: 55px;
+    }
+
+    /* Dots */
+
+    .carousel-dots {
+      position: absolute;
+      bottom: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      display: flex;
+      gap: 10px;
+
+      z-index: 10;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+
+      border-radius: 50%;
+
+      background: rgba(255, 255, 255, 0.55);
+
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: white;
+      transform: scale(1.25);
+    }
+
+    /* =========================
+       Main Content
+       ========================= */
+
+    .content {
+      width: 100%;
+      padding: 45px 28px 80px;
+
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .content a {
+      color: #0661d8;
+      text-decoration: none;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+
+    .content ul {
+      padding-left: 32px;
+    }
+
+    .content li {
+      margin: 3px 0;
+    }
+
+    /* =========================
+       Responsive
+       ========================= */
+
+    @media (max-width: 900px) {
+
+      .top-banner {
+        height: 100px;
+        padding-left: 20px;
+      }
+
+      .top-banner h1 {
+        font-size: 28px;
+      }
+
+      .navbar {
+        gap: 15px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .navbar a {
+        font-size: 16px;
+      }
+
+      .carousel {
+        height: 450px;
+      }
+
+      .prev {
+        left: 15px;
+      }
+
+      .next {
+        right: 15px;
+      }
+
+      .carousel-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 25px;
+      }
+    }
+
+    @media (max-width: 600px) {
+
+      .top-banner h1 {
+        font-size: 22px;
+      }
+
+      .carousel {
+        height: 300px;
+      }
+
+      .content {
+        padding: 25px 18px;
+        font-size: 16px;
+      }
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- =========================
+       Top Banner
+       ========================= -->
+
+  <header class="top-banner">
+    <h1>Blockchain and Distributed Security Lab</h1>
+  </header>
+
+
+  <!-- =========================
+       Navigation
+       ========================= -->
+
+  <nav class="navbar">
+
+    <a href="/">Home</a>
+    <a href="/news/">News</a>
+    <a href="/team/">Team</a>
+    <a href="/areas/">Areas</a>
+    <a href="/publications/">Publications</a>
+    <a href="/projects/">Projects</a>
+    <a href="/software/">Software</a>
+    <a href="/teaching/">Teaching</a>
+    <a href="/contact/">Contact</a>
+
+  </nav>
+
+
+  <!-- =========================
+       Image Carousel
+       ========================= -->
+
+  <section class="carousel">
+
+    <div class="carousel-track">
+
+      <!-- Image 1 -->
+      <div class="slide">
+        <img
+          src="/assets/images/lab/banner1.jpg"
+          alt="Shandong University Campus">
+      </div>
+
+
+      <!-- Image 2 -->
+      <div class="slide">
+        <img
+          src="/assets/images/lab/banner2.jpg"
+          alt="Lab Group">
+      </div>
+
+
+      <!-- Image 3 -->
+      <div class="slide">
+        <img
+          src="/assets/images/lab/banner3.jpg"
+          alt="Research">
+      </div>
+
+    </div>
+
+
+    <!-- Previous -->
+    <button class="carousel-btn prev" onclick="previousSlide()">
+      &#10094;
+    </button>
+
+
+    <!-- Next -->
+    <button class="carousel-btn next" onclick="nextSlide()">
+      &#10095;
+    </button>
+
+
+    <!-- Dots -->
+
+    <div class="carousel-dots">
+
+      <span
+        class="dot active"
+        onclick="goToSlide(0)">
+      </span>
+
+      <span
+        class="dot"
+        onclick="goToSlide(1)">
+      </span>
+
+      <span
+        class="dot"
+        onclick="goToSlide(2)">
+      </span>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       Main Content
+       ========================= -->
+
+  <main class="content">
+
+    <p>
+      Our group is affiliated with the
+      <a href="https://www.cs.sdu.edu.cn/">
+        School of Computer Science and Technology @ Shandong University
+      </a>.
+      We currently work in four areas:
+    </p>
+
+
+    <ul>
+
+      <li>
+        <strong>Blockchain:</strong>
+        Cross-Chain Interoperability,
+        Decentralized Storage Network,
+        Byzantine Fault-Tolerant Consensus.
+      </li>
+
+      <li>
+        <strong>Applied Cryptography:</strong>
+        Multi-Party Computation,
+        Zero-Knowledge Proof,
+        Private Information Retrieval.
+      </li>
+
+      <li>
+        <strong>AI Security & Privacy:</strong>
+        LLM Security,
+        Data Privacy,
+        Private Inference.
+      </li>
+
+      <li>
+        <strong>System Security:</strong>
+        IoT Security,
+        Software Security,
+        Embodied AI Security.
+      </li>
+
+    </ul>
+
+  </main>
+
+
+  <!-- =========================
+       Carousel JavaScript
+       ========================= -->
+
+  <script>
+
+    let currentSlide = 0;
+
+    const track = document.querySelector(".carousel-track");
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+
+    const totalSlides = slides.length;
+
+
+    function updateCarousel() {
+
+      track.style.transform =
+        `translateX(-${currentSlide * 100}%)`;
+
+      dots.forEach((dot, index) => {
+
+        dot.classList.toggle(
+          "active",
+          index === currentSlide
+        );
+
+      });
+
+    }
+
+
+    function nextSlide() {
+
+      currentSlide =
+        (currentSlide + 1) % totalSlides;
+
+      updateCarousel();
+
+      resetTimer();
+
+    }
+
+
+    function previousSlide() {
+
+      currentSlide =
+        (currentSlide - 1 + totalSlides)
+        % totalSlides;
+
+      updateCarousel();
+
+      resetTimer();
+
+    }
+
+
+    function goToSlide(index) {
+
+      currentSlide = index;
+
+      updateCarousel();
+
+      resetTimer();
+
+    }
+
+
+    /* Auto play every 5 seconds */
+
+    let timer =
+      setInterval(nextSlide, 5000);
+
+
+    function resetTimer() {
+
+      clearInterval(timer);
+
+      timer =
+        setInterval(nextSlide, 5000);
+
+    }
+
+  </script>
+
+
+</body>
+
+</html>
