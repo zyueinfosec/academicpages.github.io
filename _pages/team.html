@@ -1,0 +1,1007 @@
+---
+layout: null
+permalink: /team/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Team | AIMS Lab</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      background: #fff;
+    }
+
+
+    /* =====================================================
+       Header
+       ===================================================== */
+
+    .top-banner {
+      height: 115px;
+
+      background:
+        linear-gradient(
+          rgba(3, 35, 90, 0.30),
+          rgba(3, 35, 90, 0.30)
+        ),
+        url("{{ '/assets/images/lab/header.jpg' | relative_url }}");
+
+      background-size: cover;
+      background-position: center;
+
+      display: flex;
+      align-items: center;
+
+      padding-left: 40px;
+    }
+
+    .top-banner h1 {
+      margin: 0;
+
+      color: white;
+
+      font-size: 36px;
+      font-weight: 700;
+
+      text-shadow:
+        0 2px 5px rgba(0,0,0,0.3);
+    }
+
+
+    /* =====================================================
+       Navigation
+       ===================================================== */
+
+    .navbar {
+      min-height: 60px;
+
+      display: flex;
+      align-items: center;
+
+      gap: 24px;
+
+      padding: 0 12px;
+
+      background: #f8f9fa;
+
+      border-bottom:
+        1px solid #eeeeee;
+    }
+
+    .navbar a {
+      color: #065dcc;
+
+      text-decoration: none;
+
+      font-size: 18px;
+    }
+
+    .navbar a:hover {
+      color: #003b82;
+      text-decoration: underline;
+    }
+
+
+    /* =====================================================
+       Team Container
+       ===================================================== */
+
+    .team-container {
+
+      max-width: 1450px;
+
+      margin: 0 auto;
+
+      padding:
+        35px 55px
+        80px 55px;
+    }
+
+
+    /* =====================================================
+       Section Title
+       ===================================================== */
+
+    .team-section {
+      margin-bottom: 55px;
+    }
+
+    .team-title {
+
+      margin:
+        0 0 20px 0;
+
+      font-size: 32px;
+      font-weight: 500;
+
+      color: #111;
+    }
+
+
+    /* =====================================================
+       People Grid
+       ===================================================== */
+
+    .people-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(6, 1fr);
+
+      column-gap: 45px;
+
+      row-gap: 38px;
+    }
+
+
+    /* =====================================================
+       Person
+       ===================================================== */
+
+    .person {
+
+      text-align: center;
+
+      min-width: 0;
+    }
+
+
+    /* Portrait */
+
+    .person-photo {
+
+      width: 150px;
+      height: 200px;
+
+      object-fit: cover;
+
+      display: block;
+
+      margin:
+        0 auto 8px auto;
+
+      background: #eee;
+    }
+
+
+    /* Chinese Name */
+
+    .person-name-cn {
+
+      margin-top: 4px;
+
+      font-size: 16px;
+
+      line-height: 1.35;
+    }
+
+    .person-name-cn a {
+
+      color: #0064d8;
+
+      text-decoration: none;
+    }
+
+
+    /* English Name */
+
+    .person-name-en {
+
+      font-size: 16px;
+
+      line-height: 1.35;
+    }
+
+    .person-name-en a {
+
+      color: #0064d8;
+
+      text-decoration: none;
+    }
+
+
+    .person-name-cn a:hover,
+    .person-name-en a:hover {
+
+      text-decoration: underline;
+    }
+
+
+    /* Position */
+
+    .person-role {
+
+      margin-top: 3px;
+
+      font-size: 15px;
+
+      line-height: 1.35;
+
+      color: #111;
+    }
+
+
+    /* Research Area */
+
+    .person-area {
+
+      margin-top: 2px;
+
+      font-size: 14px;
+
+      line-height: 1.35;
+
+      color: #444;
+    }
+
+
+    /* =====================================================
+       Responsive
+       ===================================================== */
+
+    @media (max-width: 1200px) {
+
+      .people-grid {
+        grid-template-columns:
+          repeat(4, 1fr);
+      }
+
+    }
+
+
+    @media (max-width: 850px) {
+
+      .team-container {
+
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .people-grid {
+
+        grid-template-columns:
+          repeat(3, 1fr);
+
+        column-gap: 25px;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .top-banner {
+        padding-left: 20px;
+      }
+
+      .top-banner h1 {
+        font-size: 24px;
+      }
+
+      .navbar {
+
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        gap: 16px;
+      }
+
+      .team-container {
+
+        padding:
+          25px 15px
+          60px 15px;
+      }
+
+      .team-title {
+        font-size: 28px;
+      }
+
+      .people-grid {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+        column-gap: 15px;
+      }
+
+      .person-photo {
+
+        width: 135px;
+        height: 180px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     Top Header
+     ===================================================== -->
+
+<header class="top-banner">
+
+  <h1>
+    AI for Mission-critical Security (AIMS) Lab
+  </h1>
+
+</header>
+
+
+<!-- =====================================================
+     Navigation
+     ===================================================== -->
+
+<nav class="navbar">
+
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  <a href="{{ '/news/' | relative_url }}">News</a>
+
+  <a href="{{ '/team/' | relative_url }}">Team</a>
+
+  <a href="{{ '/areas/' | relative_url }}">Areas</a>
+
+  <a href="{{ '/publications/' | relative_url }}">
+    Publications
+  </a>
+
+  <a href="{{ '/projects/' | relative_url }}">
+    Projects
+  </a>
+
+  <a href="{{ '/software/' | relative_url }}">
+    Software
+  </a>
+
+  <a href="{{ '/teaching/' | relative_url }}">
+    Teaching
+  </a>
+
+  <a href="{{ '/contact/' | relative_url }}">
+    Contact
+  </a>
+
+</nav>
+
+
+
+<!-- =====================================================
+     Team
+     ===================================================== -->
+
+<main class="team-container">
+
+
+  <!-- ===================================================
+       Faculty
+       =================================================== -->
+
+  <section class="team-section">
+
+    <h2 class="team-title">
+      Faculty
+    </h2>
+
+
+    <div class="people-grid">
+
+
+      <!-- Xiuzhen Cheng -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/xiuzhen-cheng.jpg' | relative_url }}"
+          alt="Xiuzhen Cheng">
+
+        <div class="person-name-cn">
+          <a href="#">
+            成秀珍
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Xiuzhen Cheng
+          </a>
+        </div>
+
+        <div class="person-role">
+          Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Minghui Xu -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/minghui-xu.jpg' | relative_url }}"
+          alt="Minghui Xu">
+
+        <div class="person-name-cn">
+          <a href="#">
+            徐明辉
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Minghui Xu
+          </a>
+        </div>
+
+        <div class="person-role">
+          Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Yue Zhang -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/yue-zhang.jpg' | relative_url }}"
+          alt="Yue Zhang">
+
+        <div class="person-name-cn">
+          <a href="#">
+            张悦
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Yue Zhang
+          </a>
+        </div>
+
+        <div class="person-role">
+          Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Qin Hu -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/qin-hu.jpg' | relative_url }}"
+          alt="Qin Hu">
+
+        <div class="person-name-cn">
+          <a href="#">
+            胡琴
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Qin Hu
+          </a>
+        </div>
+
+        <div class="person-role">
+          Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Qiao Zhang -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/qiao-zhang.jpg' | relative_url }}"
+          alt="Qiao Zhang">
+
+        <div class="person-name-cn">
+          <a href="#">
+            张巧
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Qiao Zhang
+          </a>
+        </div>
+
+        <div class="person-role">
+          Associate Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Shan Wang -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/shan-wang.jpg' | relative_url }}"
+          alt="Shan Wang">
+
+        <div class="person-name-cn">
+          <a href="#">
+            王珊
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Shan Wang
+          </a>
+        </div>
+
+        <div class="person-role">
+          Associate Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Kun Li -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/kun-li.jpg' | relative_url }}"
+          alt="Kun Li">
+
+        <div class="person-name-cn">
+          <a href="#">
+            李琨
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Kun Li
+          </a>
+        </div>
+
+        <div class="person-role">
+          Assistant Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Boyang Ma -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/boyang-ma.jpg' | relative_url }}"
+          alt="Boyang Ma">
+
+        <div class="person-name-cn">
+          <a href="#">
+            马博洋
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Boyang Ma
+          </a>
+        </div>
+
+        <div class="person-role">
+          Assistant Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Yingzi Gao -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/yingzi-gao.jpg' | relative_url }}"
+          alt="Yingzi Gao">
+
+        <div class="person-name-cn">
+          <a href="#">
+            高英梓
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Yingzi Gao
+          </a>
+        </div>
+
+        <div class="person-role">
+          Assistant Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Shengyu Fan -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/shengyu-fan.jpg' | relative_url }}"
+          alt="Shengyu Fan">
+
+        <div class="person-name-cn">
+          <a href="#">
+            范胜玉
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Shengyu Fan
+          </a>
+        </div>
+
+        <div class="person-role">
+          Assistant Professor
+        </div>
+
+      </div>
+
+
+
+      <!-- Biwei Yan -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/biwei-yan.jpg' | relative_url }}"
+          alt="Biwei Yan">
+
+        <div class="person-name-cn">
+          <a href="#">
+            闫碧薇
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Biwei Yan
+          </a>
+        </div>
+
+        <div class="person-role">
+          Research Engineer
+        </div>
+
+      </div>
+
+
+
+      <!-- Hechuan Guo -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/hechuan-guo.jpg' | relative_url }}"
+          alt="Hechuan Guo">
+
+        <div class="person-name-cn">
+          <a href="#">
+            郭河川
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Hechuan Guo
+          </a>
+        </div>
+
+        <div class="person-role">
+          Postdoc
+        </div>
+
+      </div>
+
+
+
+      <!-- Yihao Guo -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/yihao-guo.jpg' | relative_url }}"
+          alt="Yihao Guo">
+
+        <div class="person-name-cn">
+          <a href="#">
+            国益豪
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Yihao Guo
+          </a>
+        </div>
+
+        <div class="person-role">
+          Postdoc@PolyU
+        </div>
+
+      </div>
+
+
+
+      <!-- Zhijun Li -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/zhijun-li.jpg' | relative_url }}"
+          alt="Zhijun Li">
+
+        <div class="person-name-cn">
+          <a href="#">
+            李致君
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Zhijun Li
+          </a>
+        </div>
+
+        <div class="person-role">
+          Postdoc
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ===================================================
+       Students
+       =================================================== -->
+
+  <section class="team-section">
+
+    <h2 class="team-title">
+      Students
+    </h2>
+
+
+    <div class="people-grid">
+
+
+      <!-- Tongwei Chen -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/tongwei-chen.jpg' | relative_url }}"
+          alt="Tongwei Chen">
+
+        <div class="person-name-cn">
+          <a href="#">
+            陈同伟
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Tongwei Chen
+          </a>
+        </div>
+
+        <div class="person-area">
+          Blockchain System
+        </div>
+
+      </div>
+
+
+
+      <!-- Lianzheng Diao -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/lianzheng-diao.jpg' | relative_url }}"
+          alt="Lianzheng Diao">
+
+        <div class="person-name-cn">
+          <a href="#">
+            刁廉正
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Lianzheng Diao
+          </a>
+        </div>
+
+      </div>
+
+
+
+      <!-- Yueyan Dong -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/yueyan-dong.jpg' | relative_url }}"
+          alt="Yueyan Dong">
+
+        <div class="person-name-cn">
+          <a href="#">
+            董岳岩
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Yueyan Dong
+          </a>
+        </div>
+
+        <div class="person-area">
+          LLM Security
+        </div>
+
+      </div>
+
+
+
+      <!-- Yongle Hao -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/yongle-hao.jpg' | relative_url }}"
+          alt="Yongle Hao">
+
+        <div class="person-name-cn">
+          <a href="#">
+            郝咏乐
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Yongle Hao
+          </a>
+        </div>
+
+      </div>
+
+
+
+      <!-- Huilin Li -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/huilin-li.jpg' | relative_url }}"
+          alt="Huilin Li">
+
+        <div class="person-name-cn">
+          <a href="#">
+            李慧琳
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Huilin Li
+          </a>
+        </div>
+
+      </div>
+
+
+
+      <!-- Chenyao Liang -->
+
+      <div class="person">
+
+        <img
+          class="person-photo"
+          src="{{ '/assets/images/team/chenyao-liang.jpg' | relative_url }}"
+          alt="Chenyao Liang">
+
+        <div class="person-name-cn">
+          <a href="#">
+            梁晨瑶
+          </a>
+        </div>
+
+        <div class="person-name-en">
+          <a href="#">
+            Chenyao Liang
+          </a>
+        </div>
+
+        <div class="person-area">
+          LLM Security
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+</main>
+
+</body>
+
+</html>
