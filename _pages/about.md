@@ -68,7 +68,7 @@ Selected Publications ([Complete List](\publications\)):
 **2026:**  
 
 1. **[ASE 25]** Rui Jiao, **Yue Zhang**, Zhexuan Feng, and Jinku Li. LaMAR: Latent Multi-Agent Collaboration via KV-Cache Communication for Automated Program Repair. To appear in Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026), Munich, Germany, Oct. 2026.
-2.  **[T-IFS 2026b]** Yue Li, Xiao Li, Hao Wu, Yue Zhang, Xiuzhen Cheng, Yating Liu, Fengyuan Xu, Sheng Zhong. Attention Is All You Need for LLM-based Code Vulnerability Localization.
+2.  **[T-IFS 2026b]** Yue Li, Xiao Li, Hao Wu, **Yue Zhang**, Xiuzhen Cheng, Yating Liu, Fengyuan Xu, Sheng Zhong. Attention Is All You Need for LLM-based Code Vulnerability Localization.
 3.  <span style="color: blue;">**[CCS 26]** </span> - <u> Baojuan Wang</u>, Yifan Yao, **Yue Zhang**, Zhibo Sun."Learning Less While Asking More: How LLM-Based Assistance Shapes Vulnerability Learning." In Proceedings of the 32th ACM Conference on Computer and Communications Security. **[Tier 1] [BIG4] [CCF-A]** 
 4. **[T-IFS 2026a]** <u> Ye Cheng</u>, Minghui Xu, **Yue Zhang**, Kun Li, Hao Wu, Yechao Zhang, Shaoyong Guo, Wangjie Qiu, Dongxiao Yu, and Xiuzhen Cheng. "“Say What You Mean”: Natural Language Access Control with Large Language Models for Internet of Things." IEEE Transactions on Information Forensics and Security (2026).
 5. <span style="color: blue;">**[USENIX Security 26]** </span> - Qiguang Zhang, Junzhou Luo, Zhen Ling, **Yue Zhang**,  Kaizheng Liu, Chongqing Lei, Matthew Harper, Xinwen Fu, " A Cuckoo in the Nest: Multi‑Stage, Multi‑Identifier Hijacking in BACnet/SC", accepted to appear in Proceedings of the 35th USENIX Security Symposium. **[Tier 1] [BIG4] [CCF-A]**  
