@@ -119,31 +119,35 @@ permalink: /areas/
 
 
     /* =====================================================
-       Main
+       Main Container
        ===================================================== */
 
     .areas-container {
 
-      max-width: 1450px;
+      width: 100%;
 
-      margin: 0 auto;
+      margin: 0;
 
       padding:
         35px 55px
         80px 55px;
+
+      text-align: left;
     }
 
 
     .areas-title {
 
       margin:
-        0 0 30px 0;
+        0 0 32px 0;
 
       font-size: 42px;
 
       font-weight: 500;
 
       color: #111;
+
+      text-align: left;
     }
 
 
@@ -154,20 +158,24 @@ permalink: /areas/
 
     .research-area {
 
-      margin-bottom: 34px;
+      margin-bottom: 38px;
+
+      text-align: left;
     }
 
 
     .area-title {
 
       margin:
-        0 0 8px 0;
+        0 0 9px 0;
 
       font-size: 21px;
 
       font-weight: 700;
 
       color: #111;
+
+      text-align: left;
     }
 
 
@@ -182,15 +190,17 @@ permalink: /areas/
     .area-description {
 
       margin:
-        0 0 7px 28px;
+        0 0 8px 28px;
 
-      max-width: 1250px;
+      max-width: 1450px;
 
       font-size: 17px;
 
-      line-height: 1.55;
+      line-height: 1.6;
 
       color: #333;
+
+      text-align: left;
     }
 
 
@@ -198,9 +208,13 @@ permalink: /areas/
 
       margin-left: 28px;
 
+      max-width: 1450px;
+
       font-size: 17px;
 
-      line-height: 1.65;
+      line-height: 1.7;
+
+      text-align: left;
     }
 
 
@@ -210,7 +224,7 @@ permalink: /areas/
 
       text-decoration: none;
 
-      margin-right: 5px;
+      margin-right: 6px;
     }
 
 
@@ -283,9 +297,9 @@ permalink: /areas/
       .area-description,
       .area-papers {
 
-        font-size: 16px;
-
         margin-left: 20px;
+
+        font-size: 16px;
       }
 
     }
@@ -361,7 +375,7 @@ permalink: /areas/
 
 
 <!-- =====================================================
-     Research Areas
+     Recent Research Interests
      ===================================================== -->
 
 <main class="areas-container">
@@ -384,9 +398,15 @@ permalink: /areas/
     </h2>
 
     <p class="area-description">
-      Leveraging large language models to assist security analysis,
-      vulnerability discovery, program understanding, and automated
-      security reasoning.
+      We explore how large language models can enhance security analysis
+      and automate traditionally labor-intensive security tasks.
+      Our research investigates the use of LLMs for vulnerability discovery,
+      program understanding, security reasoning, threat analysis, and
+      automated security testing.
+      We are particularly interested in combining the semantic reasoning
+      capabilities of LLMs with program analysis and domain-specific
+      security knowledge to build more accurate, scalable, and practical
+      security systems.
     </p>
 
     <div class="area-papers">
@@ -418,18 +438,24 @@ permalink: /areas/
 
 
   <!-- ===================================================
-       LLM Security and Applications
+       LLM Security
        =================================================== -->
 
   <section class="research-area">
 
     <h2 class="area-title">
-      LLM Security and Applications
+      LLM Security
     </h2>
 
     <p class="area-description">
-      Studying security, privacy, robustness, and trustworthy deployment
-      of large language models and LLM-powered applications.
+      We study the security, privacy, and trustworthiness of large language
+      models and LLM-powered applications.
+      Our research examines emerging threats such as jailbreak attacks,
+      prompt injection, adversarial manipulation, data leakage, model misuse,
+      and security risks introduced by LLM agents and tool-augmented systems.
+      We also develop systematic evaluation methodologies and practical
+      defenses to improve the robustness, reliability, and security of LLMs
+      in real-world applications.
     </p>
 
     <div class="area-papers">
@@ -471,9 +497,15 @@ permalink: /areas/
     </h2>
 
     <p class="area-description">
-      Understanding and detecting security and privacy risks in mobile
-      applications, mobile ecosystems, and their interactions with
-      emerging intelligent and connected devices.
+      We investigate security and privacy issues across mobile applications,
+      operating systems, software ecosystems, and their interactions with
+      cloud and intelligent services.
+      Our research focuses on discovering vulnerabilities and privacy risks
+      through large-scale program analysis, security measurement, and
+      automated testing of real-world mobile applications.
+      We are also interested in emerging mobile security problems introduced
+      by AI-enabled applications, cross-device interactions, and increasingly
+      complex mobile ecosystems.
     </p>
 
     <div class="area-papers">
@@ -517,19 +549,26 @@ permalink: /areas/
 
 
   <!-- ===================================================
-       IoT Security
+       IoT & Embodied AI Security
        =================================================== -->
 
   <section class="research-area">
 
     <h2 class="area-title">
-      IoT Security
+      IoT &amp; Embodied AI Security
     </h2>
 
     <p class="area-description">
-      Investigating vulnerabilities, attack surfaces, and defenses
-      across IoT devices, protocols, applications, and embodied
-      intelligent systems.
+      We investigate security and privacy risks across IoT devices,
+      communication protocols, cyber-physical systems, and emerging
+      embodied AI platforms.
+      Our research studies vulnerabilities and attack surfaces throughout
+      the interaction chain from sensing and communication to reasoning,
+      decision-making, and physical actions.
+      In particular, we are interested in the security of robots and embodied
+      agents, including vulnerabilities in AI-driven control pipelines,
+      unsafe physical behaviors, cross-layer attacks, and systematic
+      techniques for discovering and mitigating these risks.
     </p>
 
     <div class="area-papers">
@@ -595,9 +634,15 @@ permalink: /areas/
     </h2>
 
     <p class="area-description">
-      Developing static, dynamic, and hybrid program-analysis techniques
+      We develop static, dynamic, and hybrid program-analysis techniques
       for vulnerability discovery, behavioral understanding, and
       large-scale security measurement.
+      Our research analyzes applications, binaries, firmware, and complex
+      software ecosystems to uncover security-critical behaviors that are
+      difficult to identify through conventional testing.
+      We are particularly interested in combining program analysis with
+      machine learning and large language models to improve the scalability,
+      automation, and semantic understanding of security analysis.
     </p>
 
     <div class="area-papers">
@@ -640,6 +685,45 @@ permalink: /areas/
 
       <a href="#">
         [CCS 22b]
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ===================================================
+       Human-Centered Security
+       =================================================== -->
+
+  <section class="research-area">
+
+    <h2 class="area-title">
+      Human-Centered Security
+    </h2>
+
+    <p class="area-description">
+      We study security and privacy problems from a human-centered
+      perspective, focusing on how users perceive, interact with, and
+      respond to security mechanisms in real-world systems.
+      Our research investigates usable security, privacy decision-making,
+      user behavior, security perceptions, and the gap between technical
+      protection mechanisms and actual user practices.
+      We are also interested in understanding human interactions with
+      emerging AI systems and designing security mechanisms that are not
+      only technically effective but also understandable, usable, and
+      aligned with users' needs.
+    </p>
+
+    <div class="area-papers">
+
+      <a href="#">
+        [Paper 1]
+      </a>
+
+      <a href="#">
+        [Paper 2]
       </a>
 
     </div>
