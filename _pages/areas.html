@@ -254,6 +254,54 @@ permalink: /areas/
 
     }
 
+
+
+    .project-item {
+  margin-bottom: 55px;
+}
+
+.project-title {
+  margin: 0 0 18px 0;
+
+  font-size: 25px;
+  font-weight: 700;
+
+  color: #111;
+}
+
+.project-content {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 35px;
+}
+
+.project-figure {
+  flex: 0 0 45%;
+}
+
+.project-figure img {
+  width: 100%;
+
+  max-width: 620px;
+
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+.project-description {
+  flex: 1;
+
+  font-size: 17px;
+
+  line-height: 1.65;
+
+  color: #333;
+}
   </style>
 
 </head>
@@ -649,6 +697,29 @@ permalink: /areas/
 
   </section>
 
+  <section class="project-item">
+
+  <h2 class="project-title">
+    Project Title
+  </h2>
+
+  <div class="project-content">
+
+    <div class="project-figure">
+      <img
+        src="{{ '/assets/projects/project1.png' | relative_url }}"
+        alt="Project Title">
+    </div>
+
+    <div class="project-description">
+      This project investigates ...
+      The key idea is ...
+      Our system ...
+    </div>
+
+  </div>
+
+</section>
 
 </main>
 
