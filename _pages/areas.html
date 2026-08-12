@@ -1180,15 +1180,307 @@ permalink: /areas/
     </section>
 
 
-    <!--
-      ======================================================
-      Featured Projects for LLM for Security
+<!-- ===================================================
+     Featured Project under LLM for Security
+=================================================== -->
 
-      如果以后这里需要项目，把下面 Mobile Security
-      的 <section class="area-projects">...</section>
-      整体复制到这里即可。
-      ======================================================
-    -->
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- Project Poster -->
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/sage.png' | relative_url }}"
+          alt="SAGE: Signal-Amplified Guided Embeddings for Vulnerability Detection"
+        >
+
+        <div class="project-visual-label">
+          🧠 LLM for Security × Vulnerability Detection
+        </div>
+
+      </div>
+
+
+      <!-- Project Content -->
+      <div class="project-info">
+
+        <div class="project-category">
+          LLM for Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          SAGE:
+
+          <span class="highlight">
+            Recovering the Vulnerability Signals Hidden Inside LLMs
+          </span>
+
+        </h3>
+
+
+        <!-- English -->
+
+        <p class="project-description">
+
+          What if an LLM actually
+
+          <strong>
+            “sees” the vulnerability,
+          </strong>
+
+          but the signal is simply too faint to affect its final decision?
+
+          We identify a fundamental bottleneck in LLM-based vulnerability
+          detection called
+
+          <strong>Signal Submersion</strong>:
+
+          vulnerability-related features are activated inside the model,
+          yet become numerically overwhelmed by dominant functional
+          semantics as information flows through deeper layers.
+
+          To recover these hidden signals, we develop
+
+          <strong>SAGE</strong>,
+
+          which probes intermediate representations and uses
+          task-conditional Sparse Autoencoders to isolate and amplify
+          vulnerability-relevant features while keeping the LLM backbone frozen.
+
+          The result: up to
+
+          <strong>12.7× higher internal signal-to-noise ratio</strong>,
+
+          <strong>318% MCC gains</strong>
+
+          on unseen distributions, and a
+
+          <strong>7B model outperforming 34B baselines</strong>.
+
+          Sometimes, better vulnerability detection does not require a
+          bigger model—it requires helping the model
+
+          <strong>hear the signal it already has.</strong>
+
+        </p>
+
+
+        <!-- Numbers -->
+
+        <div class="project-stats">
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              12.7×
+            </span>
+
+            <span class="project-stat-label">
+              Higher Internal SNR
+            </span>
+
+          </div>
+
+
+          <div class="project-stat emphasis">
+
+            <span class="project-stat-number">
+              +318%
+            </span>
+
+            <span class="project-stat-label">
+              MCC Gain on Unseen Distributions
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              7B &gt; 34B
+            </span>
+
+            <span class="project-stat-label">
+              Smaller Model Beats Larger Baselines
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- Chinese -->
+
+        <div class="project-highlight-box">
+
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              SAGE
+            </span>
+
+            漏洞：“我明明在这儿！” 模型：“啊？没听见。”
+
+          </div>
+
+
+          <p>
+
+            一段几百行的代码里，
+            可能只有那么一两处细微差别真正决定了
+            <strong>“安全”还是“有漏洞”</strong>。
+
+            问题是，正常代码实在太多了——
+            函数功能、变量关系、控制逻辑全在疯狂刷存在感，
+            真正关键的漏洞信号反而像在人群里小声喊了一句：
+
+            <span class="project-highlight-accent">
+              “这里有 Bug！”
+            </span>
+
+            然后……被淹没了。🙂
+
+            <br><br>
+
+            我们发现，这并不一定意味着 LLM
+            <strong>“完全没学会漏洞”</strong>。
+
+            很多时候，漏洞相关特征其实已经在模型内部出现，
+            只是到了深层之后，
+            被大量正常功能语义压得越来越弱——
+            我们把这个现象叫做
+
+            <strong>Signal Submersion</strong>。
+
+            <br><br>
+
+            所以 SAGE 干的事情不是继续无脑
+            <strong>“把模型做大”</strong>，
+            而是深入模型内部，
+            把这些快要沉底的漏洞信号
+
+            <strong>
+              捞出来、分离出来，再放大。
+            </strong>
+
+            最终内部信噪比最高提升
+            <strong>12.7×</strong>，
+            unseen distribution 上 MCC 最高提升
+            <strong>318%</strong>，
+            一个 <strong>7B</strong> 模型甚至可以超过
+            <strong>34B</strong> baseline，
+            并在 <strong>13 种编程语言</strong>上展现跨语言能力。
+
+          </p>
+
+
+          <div class="project-takeaway">
+
+            🔍 一句话总结：
+
+            <span class="accent">
+              The vulnerability signal was not missing—it was submerged.
+            </span>
+
+            <br>
+
+            与其一味让模型
+            <strong>“长更大的脑子”</strong>，
+            不如先帮它把真正重要的那句话
+            <strong>听清楚。</strong>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- Tags -->
+
+        <div class="project-tags">
+
+          <span class="project-tag">
+            LLM for Security
+          </span>
+
+          <span class="project-tag">
+            Vulnerability Detection
+          </span>
+
+          <span class="project-tag">
+            Sparse Autoencoder
+          </span>
+
+          <span class="project-tag">
+            Mechanistic Interpretability
+          </span>
+
+          <span class="project-tag">
+            Software Security
+          </span>
+
+        </div>
+
+
+        <!-- Links -->
+
+        <div class="project-links">
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💻 Code
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
 
 
     <div class="research-divider"></div>
