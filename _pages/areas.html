@@ -1,0 +1,655 @@
+---
+layout: null
+permalink: /areas/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>Research Areas | AIMS Lab</title>
+
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+      color: #111;
+
+      background: #fff;
+    }
+
+
+    /* =====================================================
+       Header
+       ===================================================== */
+
+    .top-banner {
+
+      height: 115px;
+
+      background:
+        linear-gradient(
+          rgba(3, 35, 90, 0.30),
+          rgba(3, 35, 90, 0.30)
+        ),
+        url("{{ '/images/header.png' | relative_url }}");
+
+      background-size: cover;
+      background-position: center;
+
+      display: flex;
+      align-items: center;
+
+      padding-left: 40px;
+    }
+
+
+    .top-banner h1 {
+
+      margin: 0;
+
+      color: white;
+
+      font-size: 36px;
+      font-weight: 700;
+
+      text-shadow:
+        0 2px 5px rgba(0,0,0,0.3);
+    }
+
+
+
+    /* =====================================================
+       Navigation
+       ===================================================== */
+
+    .navbar {
+
+      min-height: 60px;
+
+      display: flex;
+      align-items: center;
+
+      gap: 24px;
+
+      padding: 0 12px;
+
+      background: #f8f9fa;
+
+      border-bottom:
+        1px solid #eeeeee;
+    }
+
+
+    .navbar a {
+
+      color: #065dcc;
+
+      text-decoration: none;
+
+      font-size: 18px;
+    }
+
+
+    .navbar a:hover {
+
+      color: #003b82;
+
+      text-decoration: underline;
+    }
+
+
+
+    /* =====================================================
+       Main
+       ===================================================== */
+
+    .areas-container {
+
+      max-width: 1450px;
+
+      margin: 0 auto;
+
+      padding:
+        35px 55px
+        80px 55px;
+    }
+
+
+    .areas-title {
+
+      margin:
+        0 0 30px 0;
+
+      font-size: 42px;
+
+      font-weight: 500;
+
+      color: #111;
+    }
+
+
+
+    /* =====================================================
+       Research Area
+       ===================================================== */
+
+    .research-area {
+
+      margin-bottom: 34px;
+    }
+
+
+    .area-title {
+
+      margin:
+        0 0 8px 0;
+
+      font-size: 21px;
+
+      font-weight: 700;
+
+      color: #111;
+    }
+
+
+    .area-title::before {
+
+      content: "•";
+
+      margin-right: 10px;
+    }
+
+
+    .area-description {
+
+      margin:
+        0 0 7px 28px;
+
+      max-width: 1250px;
+
+      font-size: 17px;
+
+      line-height: 1.55;
+
+      color: #333;
+    }
+
+
+    .area-papers {
+
+      margin-left: 28px;
+
+      font-size: 17px;
+
+      line-height: 1.65;
+    }
+
+
+    .area-papers a {
+
+      color: #065dcc;
+
+      text-decoration: none;
+
+      margin-right: 5px;
+    }
+
+
+    .area-papers a:hover {
+
+      text-decoration: underline;
+    }
+
+
+
+    /* =====================================================
+       Responsive
+       ===================================================== */
+
+    @media (max-width: 850px) {
+
+      .areas-container {
+
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .top-banner {
+
+        padding-left: 20px;
+      }
+
+
+      .top-banner h1 {
+
+        font-size: 24px;
+      }
+
+
+      .navbar {
+
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        gap: 16px;
+      }
+
+
+      .areas-container {
+
+        padding:
+          25px 15px
+          60px 15px;
+      }
+
+
+      .areas-title {
+
+        font-size: 32px;
+      }
+
+
+      .area-title {
+
+        font-size: 19px;
+      }
+
+
+      .area-description,
+      .area-papers {
+
+        font-size: 16px;
+
+        margin-left: 20px;
+      }
+
+    }
+
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<!-- =====================================================
+     Top Header
+     ===================================================== -->
+
+<header class="top-banner">
+
+  <h1>
+    AI for Mission-critical Security (AIMS) Lab
+  </h1>
+
+</header>
+
+
+
+<!-- =====================================================
+     Navigation
+     ===================================================== -->
+
+<nav class="navbar">
+
+  <a href="{{ '/' | relative_url }}">
+    Home
+  </a>
+
+  <a href="{{ '/news/' | relative_url }}">
+    News
+  </a>
+
+  <a href="{{ '/team/' | relative_url }}">
+    Team
+  </a>
+
+  <a href="{{ '/areas/' | relative_url }}">
+    Areas
+  </a>
+
+  <a href="{{ '/publications/' | relative_url }}">
+    Publications
+  </a>
+
+  <a href="{{ '/projects/' | relative_url }}">
+    Projects
+  </a>
+
+  <a href="{{ '/software/' | relative_url }}">
+    Software
+  </a>
+
+  <a href="{{ '/teaching/' | relative_url }}">
+    Teaching
+  </a>
+
+  <a href="{{ '/contact/' | relative_url }}">
+    Contact
+  </a>
+
+</nav>
+
+
+
+<!-- =====================================================
+     Research Areas
+     ===================================================== -->
+
+<main class="areas-container">
+
+
+  <h1 class="areas-title">
+    Recent Research Interests
+  </h1>
+
+
+
+  <!-- ===================================================
+       LLM for Security
+       =================================================== -->
+
+  <section class="research-area">
+
+    <h2 class="area-title">
+      LLM for Security
+    </h2>
+
+    <p class="area-description">
+      Leveraging large language models to assist security analysis,
+      vulnerability discovery, program understanding, and automated
+      security reasoning.
+    </p>
+
+    <div class="area-papers">
+
+      <a href="#">
+        [IEEE S&amp;P 25]
+      </a>
+
+      <a href="#">
+        [EAAI 24]
+      </a>
+
+      <a href="#">
+        [EMNLP 24]
+      </a>
+
+      <a href="#">
+        [NDSS 26]
+      </a>
+
+      <a href="#">
+        [ASE 25]
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ===================================================
+       LLM Security and Applications
+       =================================================== -->
+
+  <section class="research-area">
+
+    <h2 class="area-title">
+      LLM Security and Applications
+    </h2>
+
+    <p class="area-description">
+      Studying security, privacy, robustness, and trustworthy deployment
+      of large language models and LLM-powered applications.
+    </p>
+
+    <div class="area-papers">
+
+      <a href="#">
+        [USENIX Security 25c]
+      </a>
+
+      <a href="#">
+        [IoT-J 25]
+      </a>
+
+      <a href="#">
+        [CCS 23a]
+      </a>
+
+      <a href="#">
+        [ACL 25a]
+      </a>
+
+      <a href="#">
+        [ACL 25b]
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ===================================================
+       Mobile Security
+       =================================================== -->
+
+  <section class="research-area">
+
+    <h2 class="area-title">
+      Mobile Security
+    </h2>
+
+    <p class="area-description">
+      Understanding and detecting security and privacy risks in mobile
+      applications, mobile ecosystems, and their interactions with
+      emerging intelligent and connected devices.
+    </p>
+
+    <div class="area-papers">
+
+      <a href="#">
+        [USENIX Security 25b]
+      </a>
+
+      <a href="#">
+        [NDSS 25b]
+      </a>
+
+      <a href="#">
+        [CCS 23a]
+      </a>
+
+      <a href="#">
+        [CCS 23b]
+      </a>
+
+      <a href="#">
+        [NDSS 23c]
+      </a>
+
+      <a href="#">
+        [USENIX Security 23]
+      </a>
+
+      <a href="#">
+        [ICSE 23]
+      </a>
+
+      <a href="#">
+        [CCS 22b]
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ===================================================
+       IoT Security
+       =================================================== -->
+
+  <section class="research-area">
+
+    <h2 class="area-title">
+      IoT Security
+    </h2>
+
+    <p class="area-description">
+      Investigating vulnerabilities, attack surfaces, and defenses
+      across IoT devices, protocols, applications, and embodied
+      intelligent systems.
+    </p>
+
+    <div class="area-papers">
+
+      <a href="#">
+        [USENIX Security 25a]
+      </a>
+
+      <a href="#">
+        [NDSS 25a]
+      </a>
+
+      <a href="#">
+        [CCS 24a]
+      </a>
+
+      <a href="#">
+        [CCS 24c]
+      </a>
+
+      <a href="#">
+        [NDSS 23b]
+      </a>
+
+      <a href="#">
+        [CCS 24b]
+      </a>
+
+      <a href="#">
+        [USENIX Security 24]
+      </a>
+
+      <a href="#">
+        [NDSS 23a]
+      </a>
+
+      <a href="#">
+        [CCS 22a]
+      </a>
+
+      <a href="#">
+        [NDSS 26]
+      </a>
+
+      <a href="#">
+        [IEEE S&amp;P 26]
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ===================================================
+       Program Analysis
+       =================================================== -->
+
+  <section class="research-area">
+
+    <h2 class="area-title">
+      Program Analysis
+    </h2>
+
+    <p class="area-description">
+      Developing static, dynamic, and hybrid program-analysis techniques
+      for vulnerability discovery, behavioral understanding, and
+      large-scale security measurement.
+    </p>
+
+    <div class="area-papers">
+
+      <a href="#">
+        [CCS 24b]
+      </a>
+
+      <a href="#">
+        [USENIX Security 23]
+      </a>
+
+      <a href="#">
+        [ICSE 23]
+      </a>
+
+      <a href="#">
+        [NDSS 23a]
+      </a>
+
+      <a href="#">
+        [USENIX Security 25b]
+      </a>
+
+      <a href="#">
+        [NDSS 25b]
+      </a>
+
+      <a href="#">
+        [CCS 23a]
+      </a>
+
+      <a href="#">
+        [CCS 23b]
+      </a>
+
+      <a href="#">
+        [NDSS 23c]
+      </a>
+
+      <a href="#">
+        [CCS 22b]
+      </a>
+
+    </div>
+
+  </section>
+
+
+</main>
+
+
+</body>
+
+</html>
