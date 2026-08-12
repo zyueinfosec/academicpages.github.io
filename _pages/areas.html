@@ -12,23 +12,39 @@ permalink: /areas/
 
   <meta
     name="viewport"
-    content="width=device-width, initial-scale=1.0">
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Research Areas | AIMS Lab</title>
 
 
   <style>
 
+    /* =====================================================
+       Global
+       ===================================================== */
+
     * {
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
       color: #111;
+
       background: #fff;
     }
+
 
 
     /* =====================================================
@@ -36,6 +52,7 @@ permalink: /areas/
        ===================================================== */
 
     .top-banner {
+
       height: 115px;
 
       background:
@@ -54,7 +71,9 @@ permalink: /areas/
       padding-left: 40px;
     }
 
+
     .top-banner h1 {
+
       margin: 0;
 
       color: white;
@@ -63,8 +82,9 @@ permalink: /areas/
       font-weight: 700;
 
       text-shadow:
-        0 2px 5px rgba(0,0,0,0.3);
+        0 2px 5px rgba(0, 0, 0, 0.30);
     }
+
 
 
     /* =====================================================
@@ -72,6 +92,7 @@ permalink: /areas/
        ===================================================== */
 
     .navbar {
+
       min-height: 60px;
 
       display: flex;
@@ -87,7 +108,9 @@ permalink: /areas/
         1px solid #eeeeee;
     }
 
+
     .navbar a {
+
       color: #065dcc;
 
       text-decoration: none;
@@ -95,11 +118,14 @@ permalink: /areas/
       font-size: 18px;
     }
 
+
     .navbar a:hover {
+
       color: #003b82;
 
       text-decoration: underline;
     }
+
 
 
     /* =====================================================
@@ -107,6 +133,7 @@ permalink: /areas/
        ===================================================== */
 
     .areas-container {
+
       width: 100%;
 
       margin: 0;
@@ -118,17 +145,23 @@ permalink: /areas/
       text-align: left;
     }
 
+
     .areas-title {
+
       margin:
-        0 0 32px 0;
+        0 0
+        32px 0;
+
+      color: #111;
 
       font-size: 42px;
       font-weight: 500;
 
-      color: #111;
+      line-height: 1.2;
 
       text-align: left;
     }
+
 
 
     /* =====================================================
@@ -136,67 +169,730 @@ permalink: /areas/
        ===================================================== */
 
     .research-area {
-      margin-bottom: 34px;
+
+      max-width: 1450px;
+
+      margin:
+        0 0
+        30px 0;
 
       text-align: left;
     }
 
+
     .area-title {
+
       margin:
-        0 0 8px 0;
+        0 0
+        8px 0;
+
+      color: #111;
 
       font-size: 21px;
       font-weight: 700;
 
-      color: #111;
+      line-height: 1.4;
 
       text-align: left;
     }
 
+
     .area-title::before {
+
       content: "•";
 
       margin-right: 10px;
+
+      color: #111;
     }
 
+
     .area-description {
-      margin:
-        0 0 8px 28px;
 
       max-width: 1450px;
 
-      font-size: 17px;
-
-      line-height: 1.6;
+      margin:
+        0 0
+        8px 28px;
 
       color: #333;
+
+      font-size: 17px;
+
+      line-height: 1.65;
 
       text-align: left;
     }
 
+
     .area-papers {
-      margin-left: 28px;
 
       max-width: 1450px;
 
+      margin-left: 28px;
+
       font-size: 17px;
+
+      line-height: 1.75;
+
+      text-align: left;
+    }
+
+
+    .area-papers a {
+
+      display: inline-block;
+
+      margin-right: 6px;
+
+      color: #065dcc;
+
+      text-decoration: none;
+    }
+
+
+    .area-papers a:hover {
+
+      color: #003b82;
+
+      text-decoration: underline;
+    }
+
+
+
+    /* =====================================================
+       Featured Projects under a Research Area
+       ===================================================== */
+
+    .area-projects {
+
+      width: 100%;
+      max-width: 880px;
+
+      /*
+        Align project with research-area description,
+        rather than with the bullet itself.
+      */
+      margin:
+        -5px 0
+        52px 28px;
+
+      padding: 0;
+
+      text-align: left;
+    }
+
+
+    /* Small section label */
+
+    .area-projects-heading {
+
+      display: flex;
+      align-items: center;
+
+      gap: 9px;
+
+      margin:
+        0 0
+        13px 0;
+
+      color: #637083;
+
+      font-size: 12px;
+      font-weight: 700;
+
+      letter-spacing: 1.35px;
+
+      text-transform: uppercase;
+    }
+
+
+    .area-projects-heading::before {
+
+      content: "";
+
+      width: 24px;
+      height: 2px;
+
+      background: #2c67aa;
+
+      border-radius: 2px;
+    }
+
+
+
+    /* =====================================================
+       Project Card
+       ===================================================== */
+
+    .project-card {
+
+      width: 100%;
+
+      margin:
+        0 0
+        34px 0;
+
+      overflow: hidden;
+
+      background: #fff;
+
+      border:
+        1px solid #e4e9ef;
+
+      border-radius: 12px;
+
+      box-shadow:
+        0 4px 18px
+        rgba(24, 45, 75, 0.055);
+
+      text-align: left;
+    }
+
+
+    .project-card-content {
+
+      display: flex;
+
+      flex-direction: column;
+    }
+
+
+
+    /* =====================================================
+       Project Visual
+       ===================================================== */
+
+    .project-visual {
+
+      position: relative;
+
+      width: 100%;
+
+      padding: 18px;
+
+      overflow: hidden;
+
+      background:
+        linear-gradient(
+          180deg,
+          #f8fafc 0%,
+          #f5f8fb 100%
+        );
+
+      text-align: left;
+    }
+
+
+    .project-visual img {
+
+      display: block;
+
+      /*
+        Key setting:
+        image will never exceed 680px.
+      */
+      width: 100%;
+      max-width: 680px;
+
+      height: auto;
+
+      /*
+        Left aligned.
+      */
+      margin:
+        0 auto
+        0 0;
+
+      object-fit: contain;
+
+      border:
+        1px solid #e0e6ed;
+
+      border-radius: 8px;
+
+      background: #fff;
+    }
+
+
+    .project-visual-label {
+
+      position: absolute;
+
+      top: 30px;
+      left: 30px;
+
+      padding:
+        5px 11px;
+
+      color: #fff;
+
+      background:
+        rgba(13, 43, 86, 0.92);
+
+      border-radius: 999px;
+
+      font-size: 11px;
+      font-weight: 600;
+
+      letter-spacing: 0.15px;
+
+      backdrop-filter:
+        blur(5px);
+    }
+
+
+
+    /* =====================================================
+       Project Information
+       ===================================================== */
+
+    .project-info {
+
+      width: 100%;
+
+      padding:
+        23px 27px
+        28px 27px;
+
+      text-align: left;
+    }
+
+
+    .project-category {
+
+      margin-bottom: 6px;
+
+      color: #1765b2;
+
+      font-size: 11px;
+      font-weight: 700;
+
+      letter-spacing: 1.15px;
+
+      text-transform: uppercase;
+    }
+
+
+    .project-title {
+
+      max-width: 800px;
+
+      margin:
+        0 0
+        13px 0;
+
+      color: #102a56;
+
+      font-size: 22px;
+      font-weight: 700;
+
+      line-height: 1.42;
+    }
+
+
+    .project-title .highlight {
+
+      color: #df543e;
+    }
+
+
+
+    /* =====================================================
+       English Project Description
+       ===================================================== */
+
+    .project-description {
+
+      max-width: 790px;
+
+      margin:
+        0 0
+        18px 0;
+
+      color: #3e4754;
+
+      font-size: 15px;
+
+      line-height: 1.78;
+
+      text-align: left;
+    }
+
+
+    .project-description strong {
+
+      color: #173e76;
+
+      font-weight: 700;
+    }
+
+
+
+    /* =====================================================
+       Project Statistics
+       ===================================================== */
+
+    .project-stats {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 9px;
+
+      max-width: 700px;
+
+      margin:
+        3px 0
+        20px 0;
+    }
+
+
+    .project-stat {
+
+      min-width: 150px;
+
+      padding:
+        10px 14px;
+
+      background: #f7f9fc;
+
+      border:
+        1px solid #e5eaf1;
+
+      border-radius: 8px;
+
+      text-align: left;
+    }
+
+
+    .project-stat-number {
+
+      display: block;
+
+      margin-bottom: 2px;
+
+      color: #1756a0;
+
+      font-size: 20px;
+      font-weight: 750;
+
+      line-height: 1.25;
+    }
+
+
+    .project-stat-label {
+
+      display: block;
+
+      color: #707887;
+
+      font-size: 11px;
+
+      line-height: 1.4;
+    }
+
+
+    .project-stat.emphasis {
+
+      background: #fff7f4;
+
+      border-color: #efd8d1;
+    }
+
+
+    .project-stat.emphasis
+    .project-stat-number {
+
+      color: #df513c;
+    }
+
+
+
+    /* =====================================================
+       Chinese Highlight Box
+       ===================================================== */
+
+    .project-highlight-box {
+
+      max-width: 790px;
+
+      margin-top: 3px;
+
+      padding:
+        17px 20px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #fff8f5 0%,
+          #ffffff 67%,
+          #f8fbff 100%
+        );
+
+      border:
+        1px solid #efe1dc;
+
+      border-left:
+        4px solid #e65a43;
+
+      border-radius: 9px;
+
+      text-align: left;
+    }
+
+
+    .project-highlight-title {
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content:
+        flex-start;
+
+      gap: 8px;
+
+      margin-bottom: 9px;
+
+      color: #cc4532;
+
+      font-size: 16px;
+      font-weight: 700;
+
+      line-height: 1.45;
+    }
+
+
+    .project-highlight-icon {
+
+      display: inline-flex;
+
+      align-items: center;
+      justify-content: center;
+
+      min-width: 32px;
+      height: 25px;
+
+      padding:
+        0 8px;
+
+      flex-shrink: 0;
+
+      color: #fff;
+
+      background: #e6533d;
+
+      border-radius: 15px;
+
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+
+    .project-highlight-box p {
+
+      margin: 0;
+
+      color: #444c59;
+
+      font-size: 14px;
+
+      line-height: 1.85;
+
+      text-align: left;
+    }
+
+
+    .project-highlight-box strong {
+
+      color: #263a59;
+
+      font-weight: 700;
+    }
+
+
+    .project-highlight-accent {
+
+      color: #d94a36;
+
+      font-weight: 650;
+    }
+
+
+
+    /* =====================================================
+       Takeaway
+       ===================================================== */
+
+    .project-takeaway {
+
+      margin-top: 12px;
+
+      padding-top: 11px;
+
+      border-top:
+        1px dashed #ded3cf;
+
+      color: #193761;
+
+      font-size: 14px;
+      font-weight: 600;
 
       line-height: 1.7;
 
       text-align: left;
     }
 
-    .area-papers a {
-      color: #065dcc;
+
+    .project-takeaway .accent {
+
+      color: #df503c;
+    }
+
+
+
+    /* =====================================================
+       Tags
+       ===================================================== */
+
+    .project-tags {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content:
+        flex-start;
+
+      gap: 6px;
+
+      margin-top: 17px;
+    }
+
+
+    .project-tag {
+
+      display: inline-block;
+
+      padding:
+        5px 9px;
+
+      color: #2861a5;
+
+      background: #edf4fc;
+
+      border-radius: 13px;
+
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+
+
+    /* =====================================================
+       Links
+       ===================================================== */
+
+    .project-links {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content:
+        flex-start;
+
+      gap: 8px;
+
+      margin-top: 15px;
+    }
+
+
+    .project-link {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 4px;
+
+      padding:
+        6px 12px;
+
+      color: #2360a4;
+
+      background: #fff;
+
+      border:
+        1px solid #2360a4;
+
+      border-radius: 6px;
 
       text-decoration: none;
 
-      margin-right: 6px;
+      font-size: 12px;
+      font-weight: 600;
+
+      transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
     }
 
-    .area-papers a:hover {
-      text-decoration: underline;
+
+    .project-link:hover {
+
+      color: #fff;
+
+      background: #2360a4;
+
+      transform:
+        translateY(-1px);
+
+      text-decoration: none;
     }
+
+
+    .project-link.primary {
+
+      color: #fff;
+
+      background: #2360a4;
+    }
+
+
+    .project-link.primary:hover {
+
+      background: #184f8c;
+    }
+
+
+
+    /* =====================================================
+       Separation before next Research Interest
+       ===================================================== */
+
+    .research-divider {
+
+      width: 100%;
+      max-width: 900px;
+
+      height: 1px;
+
+      margin:
+        4px 0
+        34px 0;
+
+      background:
+        linear-gradient(
+          90deg,
+          #e6e9ee 0%,
+          rgba(230, 233, 238, 0) 100%
+        );
+    }
+
 
 
     /* =====================================================
@@ -206,8 +902,77 @@ permalink: /areas/
     @media (max-width: 850px) {
 
       .areas-container {
+
         padding-left: 30px;
+
         padding-right: 30px;
+      }
+
+    }
+
+
+    @media (max-width: 760px) {
+
+      .area-projects {
+
+        max-width: calc(100% - 20px);
+
+        margin:
+          -2px 0
+          42px 20px;
+      }
+
+
+      .project-visual {
+
+        padding: 12px;
+      }
+
+
+      .project-visual img {
+
+        max-width: 100%;
+      }
+
+
+      .project-visual-label {
+
+        top: 23px;
+
+        left: 23px;
+
+        font-size: 10px;
+      }
+
+
+      .project-info {
+
+        padding:
+          20px 17px
+          23px 17px;
+      }
+
+
+      .project-title {
+
+        font-size: 19px;
+      }
+
+
+      .project-description {
+
+        font-size: 14.5px;
+      }
+
+
+      .project-stats {
+
+        display: grid;
+
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+
+        width: 100%;
       }
 
     }
@@ -216,14 +981,19 @@ permalink: /areas/
     @media (max-width: 600px) {
 
       .top-banner {
+
         padding-left: 20px;
       }
 
+
       .top-banner h1 {
+
         font-size: 24px;
       }
 
+
       .navbar {
+
         overflow-x: auto;
 
         white-space: nowrap;
@@ -231,1038 +1001,892 @@ permalink: /areas/
         gap: 16px;
       }
 
+
       .areas-container {
+
         padding:
           25px 15px
           60px 15px;
       }
 
+
       .areas-title {
+
         font-size: 32px;
       }
 
+
       .area-title {
+
         font-size: 19px;
       }
 
+
       .area-description,
       .area-papers {
+
         margin-left: 20px;
 
         font-size: 16px;
       }
 
+
+      .area-projects {
+
+        max-width: calc(100% - 20px);
+
+        margin-left: 20px;
+      }
+
+
+      .project-stats {
+
+        grid-template-columns: 1fr;
+      }
+
+
+      .project-highlight-box {
+
+        padding:
+          15px 16px;
+      }
+
+
+      .project-highlight-title {
+
+        align-items:
+          flex-start;
+      }
+
     }
 
-  /* ================================
-     Projects Section
-  ================================= */
 
-  .project-section {
-    max-width: 800px;
-    margin: 70px 0;
-    padding: 0 24px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                 "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
-    color: #172033;
-    text-align: left;
-  }
-
-  .project-section-header {
-    margin-bottom: 32px;
-    text-align: left;
-  }
-
-  .project-section-kicker {
-    display: inline-block;
-    margin-bottom: 8px;
-    color: #2459a9;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-  }
-
-  .project-section-title {
-    margin: 0;
-    color: #102a56;
-    font-size: 34px;
-    line-height: 1.25;
-    font-weight: 750;
-  }
-
-  .project-section-desc {
-    margin: 10px 0 0;
-    max-width: 850px;
-    color: #667085;
-    font-size: 16px;
-    line-height: 1.7;
-  }
-
-
-  /* ================================
-     Project Card
-  ================================= */
-
-  .project-card {
-    overflow: hidden;
-    margin-bottom: 52px;
-    background: #ffffff;
-    border: 1px solid #e3e8f0;
-    border-radius: 18px;
-    box-shadow: 0 12px 35px rgba(30, 55, 90, 0.08);
-    text-align: left;
-  }
-
-  /*
-    Important:
-    Image first, text second.
-  */
-  .project-card-content {
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  /* ================================
-     Project Visual
-  ================================= */
-
-  .project-visual {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: #eef4fb;
-  }
-
-  .project-visual img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    transition: transform 0.35s ease;
-  }
-
-  .project-card:hover .project-visual img {
-    transform: scale(1.008);
-  }
-
-  .project-visual-label {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 7px 13px;
-    border-radius: 999px;
-    background: rgba(15, 42, 86, 0.92);
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: 650;
-    backdrop-filter: blur(6px);
-  }
-
-
-  /* ================================
-     Project Information
-  ================================= */
-
-  .project-info {
-    padding: 32px 38px 38px;
-    text-align: left;
-  }
-
-  .project-category {
-    margin-bottom: 8px;
-    color: #2459a9;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-
-  .project-title {
-    margin: 0 0 18px;
-    color: #102a56;
-    font-size: 25px;
-    line-height: 1.4;
-    font-weight: 750;
-  }
-
-  .project-title .highlight {
-    color: #e8523b;
-  }
-
-
-  /* ================================
-     English Description
-  ================================= */
-
-  .project-description {
-    margin: 0 0 24px;
-    max-width: 1000px;
-    color: #3f4a5a;
-    font-size: 16px;
-    line-height: 1.85;
-    text-align: left;
-  }
-
-  .project-description strong {
-    color: #153c76;
-    font-weight: 700;
-  }
-
-
-  /* ================================
-     Key Statistics
-  ================================= */
-
-  .project-stats {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-    margin: 4px 0 26px;
-    max-width: 760px;
-  }
-
-  .project-stat {
-    padding: 15px 14px;
-    text-align: left;
-    background: #f7f9fc;
-    border: 1px solid #e6ebf2;
-    border-radius: 12px;
-  }
-
-  .project-stat-number {
-    display: block;
-    margin-bottom: 4px;
-    color: #174f9c;
-    font-size: 23px;
-    line-height: 1.2;
-    font-weight: 800;
-  }
-
-  .project-stat-label {
-    display: block;
-    color: #70798a;
-    font-size: 12px;
-    line-height: 1.45;
-  }
-
-  .project-stat.emphasis .project-stat-number {
-    color: #e8523b;
-  }
-
-
-  /* ================================
-     Chinese Highlight Box
-  ================================= */
-
-  .project-highlight-box {
-    max-width: 1000px;
-    padding: 22px 24px;
-    background:
-      linear-gradient(
-        135deg,
-        #fff7f3 0%,
-        #fffafa 58%,
-        #f8fbff 100%
-      );
-    border: 1px solid #f1ded7;
-    border-radius: 14px;
-    text-align: left;
-  }
-
-  .project-highlight-title {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 9px;
-    margin-bottom: 12px;
-    color: #d94732;
-    font-size: 18px;
-    line-height: 1.4;
-    font-weight: 750;
-  }
-
-  .project-highlight-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 34px;
-    height: 34px;
-    padding: 0 8px;
-    border-radius: 999px;
-    background: #e94d38;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 800;
-  }
-
-  .project-highlight-box p {
-    margin: 0;
-    color: #424b5a;
-    font-size: 15px;
-    line-height: 1.9;
-    text-align: left;
-  }
-
-  .project-highlight-box strong {
-    color: #263a59;
-  }
-
-  .project-highlight-accent {
-    color: #e04c37;
-    font-weight: 700;
-  }
-
-
-  /* ================================
-     Takeaway
-  ================================= */
-
-  .project-takeaway {
-    margin-top: 17px;
-    padding-top: 15px;
-    border-top: 1px dashed #e1cbc4;
-    color: #122f5d;
-    font-size: 16px;
-    line-height: 1.65;
-    font-weight: 700;
-    text-align: left;
-  }
-
-  .project-takeaway .accent {
-    color: #e34c38;
-  }
-
-
-  /* ================================
-     Tags
-  ================================= */
-
-  .project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 8px;
-    margin-top: 22px;
-  }
-
-  .project-tag {
-    display: inline-block;
-    padding: 6px 11px;
-    border-radius: 999px;
-    background: #edf4ff;
-    color: #2459a9;
-    font-size: 12px;
-    font-weight: 600;
-  }
-
-
-  /* ================================
-     Project Links
-  ================================= */
-
-  .project-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 10px;
-    margin-top: 22px;
-  }
-
-  .project-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 9px 16px;
-    border: 1px solid #194e96;
-    border-radius: 8px;
-    color: #194e96;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 650;
-    transition: all 0.2s ease;
-  }
-
-  .project-link:hover {
-    background: #194e96;
-    color: #ffffff;
-    transform: translateY(-1px);
-  }
-
-  .project-link.primary {
-    background: #194e96;
-    color: #ffffff;
-  }
-
-  .project-link.primary:hover {
-    background: #123d79;
-  }
-
-
-  /* ================================
-     Responsive
-  ================================= */
-
-  @media (max-width: 760px) {
-    .project-section {
-      margin: 45px auto;
-      padding: 0 16px;
-    }
-
-    .project-section-title {
-      font-size: 28px;
-    }
-
-    .project-info {
-      padding: 25px 21px 28px;
-    }
-
-    .project-title {
-      font-size: 21px;
-    }
-
-    .project-stats {
-      grid-template-columns: 1fr;
-      max-width: none;
-    }
-
-    .project-highlight-box {
-      padding: 18px;
-    }
-
-    .project-visual-label {
-      top: 12px;
-      left: 12px;
-      font-size: 12px;
-    }
-  }
   </style>
 
 </head>
 
 
+
 <body>
 
 
-<!-- =====================================================
-     Top Header
-     ===================================================== -->
+  <!-- =====================================================
+       Top Header
+       ===================================================== -->
 
-<header class="top-banner">
+  <header class="top-banner">
 
-  <h1>
-    AI for Mission-critical Security (AIMS) Lab
-  </h1>
+    <h1>
+      AI for Mission-critical Security (AIMS) Lab
+    </h1>
 
-</header>
+  </header>
 
-
-<!-- =====================================================
-     Navigation
-     ===================================================== -->
-
-<nav class="navbar">
-
-  <a href="{{ '/' | relative_url }}">
-    Home
-  </a>
-
-  <a href="{{ '/news/' | relative_url }}">
-    News
-  </a>
-
-  <a href="{{ '/team/' | relative_url }}">
-    Team
-  </a>
-
-  <a href="{{ '/areas/' | relative_url }}">
-    Areas
-  </a>
-
-  <a href="{{ '/publications/' | relative_url }}">
-    Publications
-  </a>
-
-  <a href="{{ '/projects/' | relative_url }}">
-    Projects
-  </a>
-
-  <a href="{{ '/software/' | relative_url }}">
-    Software
-  </a>
-
-  <a href="{{ '/teaching/' | relative_url }}">
-    Teaching
-  </a>
-
-  <a href="{{ '/contact/' | relative_url }}">
-    Contact
-  </a>
-
-</nav>
-
-
-<!-- =====================================================
-     Recent Research Interests
-     ===================================================== -->
-
-<main class="areas-container">
-
-
-  <h1 class="areas-title">
-    Recent Research Interests
-  </h1>
-
-
-  <!-- ===================================================
-       LLM for Security
-       =================================================== -->
-
-  <section class="research-area">
-
-    <h2 class="area-title">
-      LLM for Security
-    </h2>
-
-    <p class="area-description">
-      We explore how large language models can enhance security analysis
-      and automate traditionally labor-intensive security tasks.
-      Our research focuses on vulnerability discovery, program understanding,
-      security reasoning, and automated security testing by combining LLMs
-      with program analysis and domain-specific security knowledge.
-    </p>
-
-    <div class="area-papers">
-
-      <a href="#">
-        [IEEE S&amp;P 25]
-      </a>
-
-      <a href="#">
-        [EAAI 24]
-      </a>
-
-      <a href="#">
-        [EMNLP 24]
-      </a>
-
-      <a href="#">
-        [NDSS 26]
-      </a>
-
-      <a href="#">
-        [ASE 25]
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <!-- ===================================================
-       LLM Security
-       =================================================== -->
-
-  <section class="research-area">
-
-    <h2 class="area-title">
-      LLM Security
-    </h2>
-
-    <p class="area-description">
-      We study the security, privacy, and trustworthiness of large language
-      models and LLM-powered applications.
-      Our research investigates jailbreak attacks, prompt injection,
-      adversarial manipulation, data leakage, agent security, and practical
-      defenses for real-world LLM systems.
-    </p>
-
-    <div class="area-papers">
-
-      <a href="#">
-        [USENIX Security 25c]
-      </a>
-
-      <a href="#">
-        [IoT-J 25]
-      </a>
-
-      <a href="#">
-        [CCS 23a]
-      </a>
-
-      <a href="#">
-        [ACL 25a]
-      </a>
-
-      <a href="#">
-        [ACL 25b]
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <!-- ===================================================
-       Mobile Security
-       =================================================== -->
-
-  <section class="research-area">
-
-    <h2 class="area-title">
-      Mobile Security
-    </h2>
-
-    <p class="area-description">
-      We investigate security and privacy issues in mobile applications
-      and ecosystems through large-scale program analysis, security
-      measurement, and automated testing.
-      Our research focuses on vulnerability discovery, privacy risks,
-      and emerging threats introduced by AI-enabled and cross-device
-      mobile applications.
-    </p>
-
-    <div class="area-papers">
-
-      <a href="#">
-        [USENIX Security 25b]
-      </a>
-
-      <a href="#">
-        [NDSS 25b]
-      </a>
-
-      <a href="#">
-        [CCS 23a]
-      </a>
-
-      <a href="#">
-        [CCS 23b]
-      </a>
-
-      <a href="#">
-        [NDSS 23c]
-      </a>
-
-      <a href="#">
-        [USENIX Security 23]
-      </a>
-
-      <a href="#">
-        [ICSE 23]
-      </a>
-
-      <a href="#">
-        [CCS 22b]
-      </a>
-
-    </div>
 
 
   <!-- =====================================================
-       Project 1
-  ====================================================== -->
+       Navigation
+       ===================================================== -->
 
-  <article class="project-card">
+  <nav class="navbar">
 
-    <div class="project-card-content">
+    <a href="{{ '/' | relative_url }}">
+      Home
+    </a>
 
-      <!-- ================================================
-           Top: Project Image / Poster
-      ================================================= -->
-      <div class="project-visual">
+    <a href="{{ '/news/' | relative_url }}">
+      News
+    </a>
 
-        <img
-          src="/images/child-scope.png"
-          alt="Easy As Child's Play"
-        >
+    <a href="{{ '/team/' | relative_url }}">
+      Team
+    </a>
 
-        <div class="project-visual-label">
-          🔞 Mobile Security × Child Safety
-        </div>
+    <a href="{{ '/areas/' | relative_url }}">
+      Areas
+    </a>
 
-      </div>
+    <a href="{{ '/publications/' | relative_url }}">
+      Publications
+    </a>
 
+    <a href="{{ '/projects/' | relative_url }}">
+      Projects
+    </a>
 
-      <!-- ================================================
-           Bottom: Project Content
-      ================================================= -->
-      <div class="project-info">
+    <a href="{{ '/software/' | relative_url }}">
+      Software
+    </a>
 
-        <div class="project-category">
-          Mobile Security
-        </div>
+    <a href="{{ '/teaching/' | relative_url }}">
+      Teaching
+    </a>
 
-        <h3 class="project-title">
-          Easy As Child’s Play:
-          <span class="highlight">
-            Are “18+” Apps Really 18+?
-          </span>
-        </h3>
+    <a href="{{ '/contact/' | relative_url }}">
+      Contact
+    </a>
 
-
-        <!-- English Description -->
-        <p class="project-description">
-          An <strong>“18+”</strong> label looks like a locked
-          door—but how hard is it really for a child to get through?
-          We studied <strong>693K+ Android apps</strong>,
-          identified <strong>31,750 adult-oriented apps</strong>,
-          and built <strong>GUARD</strong>, a static–dynamic
-          analysis framework that uncovers how age-verification
-          mechanisms actually work.
-
-          Surprisingly, only <strong>3.67%</strong> implement age
-          verification, and many rely on little more than an
-          <strong>“Are you over 18?”</strong> button.
-
-          Even stronger-looking mechanisms can often be sidestepped
-          through fake identities, OAuth trust-chain abuse,
-          regional downgrades, and other low-effort tricks.
-          In short,
-          <strong>
-            age-restricted does not necessarily mean age-protected.
-          </strong>
-        </p>
+  </nav>
 
 
-        <!-- Key Statistics -->
-        <div class="project-stats">
 
-          <div class="project-stat">
-            <span class="project-stat-number">
-              693K+
-            </span>
-            <span class="project-stat-label">
-              Android Apps Analyzed
-            </span>
-          </div>
+  <!-- =====================================================
+       Main Content
+       ===================================================== -->
 
-          <div class="project-stat">
-            <span class="project-stat-number">
-              31,750
-            </span>
-            <span class="project-stat-label">
-              Adult-Oriented Apps
-            </span>
-          </div>
-
-          <div class="project-stat emphasis">
-            <span class="project-stat-number">
-              3.67%
-            </span>
-            <span class="project-stat-label">
-              Implement Age Verification
-            </span>
-          </div>
-
-        </div>
+  <main class="areas-container">
 
 
-        <!-- Chinese Highlight -->
-        <div class="project-highlight-box">
-
-          <div class="project-highlight-title">
-
-            <span class="project-highlight-icon">
-              18+
-            </span>
-
-            “刚满18岁”？点一下就算。
-
-          </div>
-
-          <p>
-            App 上赫然写着 <strong>“18+”</strong>，
-            门口又是锁、又是盾牌，
-            看起来多少有点“未成年人止步”的意思。
-
-            但现实可能是——
-
-            <span class="project-highlight-accent">
-              不管你到底几岁，先点一句
-              “我已满18岁”再说。
-            </span>
-
-            某种意义上，互联网上每天都有无数用户
-            <strong>“刚满18岁”</strong>。🙂
-
-            <br><br>
-
-            我们一口气分析了
-            <strong>69 万+ Android App</strong>，
-            从中找出
-            <strong>31,750 个成人向 App</strong>，
-            结果发现真正部署年龄验证的只有
-            <strong>3.67%</strong>。
-
-            更有意思的是，
-            <strong>“有验证”也不代表“拦得住”</strong>：
-            改个生日、借张成人身份证、从 OAuth 绕一下、
-            换个地区/VPN，甚至动一动验证数据，
-            都可能让这道看似严肃的
-            <strong>“18+ 大门”秒变儿童栅栏。</strong>
-          </p>
+    <h1 class="areas-title">
+      Recent Research Interests
+    </h1>
 
 
-          <div class="project-takeaway">
 
-            🔐 一句话总结：
+    <!-- ===================================================
+         1. LLM for Security
+         =================================================== -->
 
-            <span class="accent">
-              “Age-Restricted” ≠ “Age-Protected”.
-            </span>
+    <section class="research-area">
 
-            <br>
+      <h2 class="area-title">
+        LLM for Security
+      </h2>
 
-            真正的问题不是 App 有没有问你
-            “满 18 岁了吗”，而是——
-            <strong>
-              它到底认不认真听你的答案。
-            </strong>
+      <p class="area-description">
 
-          </div>
+        We explore how large language models can enhance security analysis
+        and automate traditionally labor-intensive security tasks.
+        Our research focuses on vulnerability discovery, program understanding,
+        security reasoning, and automated security testing by combining LLMs
+        with program analysis and domain-specific security knowledge.
 
-        </div>
-
-
-        <!-- Tags -->
-        <div class="project-tags">
-          <span class="project-tag">Mobile Security</span>
-          <span class="project-tag">Android</span>
-          <span class="project-tag">Age Verification</span>
-          <span class="project-tag">Program Analysis</span>
-          <span class="project-tag">Child Safety</span>
-        </div>
+      </p>
 
 
-        <!-- Links -->
-        <div class="project-links">
+      <div class="area-papers">
 
-          <a
-            href="#"
-            class="project-link primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            📄 Paper
-          </a>
+        <a href="#">
+          [IEEE S&amp;P 25]
+        </a>
 
-          <a
-            href="#"
-            class="project-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            🔗 Project
-          </a>
+        <a href="#">
+          [EAAI 24]
+        </a>
 
-          <a
-            href="#"
-            class="project-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            💻 Code
-          </a>
+        <a href="#">
+          [EMNLP 24]
+        </a>
 
-        </div>
+        <a href="#">
+          [NDSS 26]
+        </a>
+
+        <a href="#">
+          [ASE 25]
+        </a>
 
       </div>
 
-    </div>
-
-  </article>
-    
-  </section>
+    </section>
 
 
-  <!-- ===================================================
-       IoT & Embodied AI Security
-       =================================================== -->
+    <!--
+      ======================================================
+      Featured Projects for LLM for Security
 
-  <section class="research-area">
-
-    <h2 class="area-title">
-      IoT &amp; Embodied AI Security
-    </h2>
-
-    <p class="area-description">
-      We investigate security and privacy risks across IoT devices,
-      communication protocols, cyber-physical systems, and emerging
-      embodied AI platforms.
-      Our research focuses on vulnerability discovery, cross-layer attacks,
-      AI-driven control pipelines, and unsafe physical behaviors in robots
-      and embodied agents.
-    </p>
-
-    <div class="area-papers">
-
-      <a href="#">
-        [USENIX Security 25a]
-      </a>
-
-      <a href="#">
-        [NDSS 25a]
-      </a>
-
-      <a href="#">
-        [CCS 24a]
-      </a>
-
-      <a href="#">
-        [CCS 24c]
-      </a>
-
-      <a href="#">
-        [NDSS 23b]
-      </a>
-
-      <a href="#">
-        [CCS 24b]
-      </a>
-
-      <a href="#">
-        [USENIX Security 24]
-      </a>
-
-      <a href="#">
-        [NDSS 23a]
-      </a>
-
-      <a href="#">
-        [CCS 22a]
-      </a>
-
-      <a href="#">
-        [NDSS 26]
-      </a>
-
-      <a href="#">
-        [IEEE S&amp;P 26]
-      </a>
-
-    </div>
-
-  </section>
+      如果以后这里需要项目，把下面 Mobile Security
+      的 <section class="area-projects">...</section>
+      整体复制到这里即可。
+      ======================================================
+    -->
 
 
-  <!-- ===================================================
-       Program Analysis
-       =================================================== -->
-
-  <section class="research-area">
-
-    <h2 class="area-title">
-      Program Analysis
-    </h2>
-
-    <p class="area-description">
-      We develop static, dynamic, and hybrid program-analysis techniques
-      for vulnerability discovery, behavioral understanding, and
-      large-scale security measurement.
-      We also explore combining program analysis with machine learning
-      and LLMs to improve the automation, scalability, and semantic
-      understanding of security analysis.
-    </p>
-
-    <div class="area-papers">
-
-      <a href="#">
-        [CCS 24b]
-      </a>
-
-      <a href="#">
-        [USENIX Security 23]
-      </a>
-
-      <a href="#">
-        [ICSE 23]
-      </a>
-
-      <a href="#">
-        [NDSS 23a]
-      </a>
-
-      <a href="#">
-        [USENIX Security 25b]
-      </a>
-
-      <a href="#">
-        [NDSS 25b]
-      </a>
-
-      <a href="#">
-        [CCS 23a]
-      </a>
-
-      <a href="#">
-        [CCS 23b]
-      </a>
-
-      <a href="#">
-        [NDSS 23c]
-      </a>
-
-      <a href="#">
-        [CCS 22b]
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <!-- ===================================================
-       Human-Centered Security
-       =================================================== -->
-
-  <section class="research-area">
-
-    <h2 class="area-title">
-      Human-Centered Security
-    </h2>
-
-    <p class="area-description">
-      We study security and privacy from a human-centered perspective,
-      focusing on user behavior, security perceptions, privacy
-      decision-making, and usable security.
-      We also investigate human interactions with emerging AI systems
-      and design security mechanisms that are effective, understandable,
-      and usable.
-    </p>
-
-    <div class="area-papers">
-
-      <a href="#">
-        [Paper 1]
-      </a>
-
-      <a href="#">
-        [Paper 2]
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <h1 class="areas-title">
-    Featured Projects: 
-  </h1>
-  
- <!-- =========================================================
-     Projects
-========================================================= -->
-
-<section class="project-section">
- 
+    <div class="research-divider"></div>
 
 
 
+    <!-- ===================================================
+         2. LLM Security
+         =================================================== -->
 
-</main>
+    <section class="research-area">
+
+      <h2 class="area-title">
+        LLM Security
+      </h2>
+
+
+      <p class="area-description">
+
+        We study the security, privacy, and trustworthiness of large language
+        models and LLM-powered applications.
+        Our research investigates jailbreak attacks, prompt injection,
+        adversarial manipulation, data leakage, agent security, and practical
+        defenses for real-world LLM systems.
+
+      </p>
+
+
+      <div class="area-papers">
+
+        <a href="#">
+          [USENIX Security 25c]
+        </a>
+
+        <a href="#">
+          [IoT-J 25]
+        </a>
+
+        <a href="#">
+          [CCS 23a]
+        </a>
+
+        <a href="#">
+          [ACL 25a]
+        </a>
+
+        <a href="#">
+          [ACL 25b]
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!--
+      Featured Projects for LLM Security
+      Future projects can be inserted here.
+    -->
+
+
+    <div class="research-divider"></div>
+
+
+
+    <!-- ===================================================
+         3. Mobile Security
+         =================================================== -->
+
+    <section class="research-area">
+
+      <h2 class="area-title">
+        Mobile Security
+      </h2>
+
+
+      <p class="area-description">
+
+        We investigate security and privacy issues in mobile applications
+        and ecosystems through large-scale program analysis, security
+        measurement, and automated testing.
+        Our research focuses on vulnerability discovery, privacy risks,
+        and emerging threats introduced by AI-enabled and cross-device
+        mobile applications.
+
+      </p>
+
+
+      <div class="area-papers">
+
+        <a href="#">
+          [USENIX Security 25b]
+        </a>
+
+        <a href="#">
+          [NDSS 25b]
+        </a>
+
+        <a href="#">
+          [CCS 23a]
+        </a>
+
+        <a href="#">
+          [CCS 23b]
+        </a>
+
+        <a href="#">
+          [NDSS 23c]
+        </a>
+
+        <a href="#">
+          [USENIX Security 23]
+        </a>
+
+        <a href="#">
+          [ICSE 23]
+        </a>
+
+        <a href="#">
+          [CCS 22b]
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         Featured Project:
+         Easy As Child's Play
+         =================================================== -->
+
+    <section class="area-projects">
+
+
+      <div class="area-projects-heading">
+        Featured Project
+      </div>
+
+
+
+      <article class="project-card">
+
+
+        <div class="project-card-content">
+
+
+
+          <!-- =============================================
+               Project Poster
+               ============================================= -->
+
+          <div class="project-visual">
+
+            <img
+              src="{{ '/images/child-scope.png' | relative_url }}"
+              alt="Easy As Child's Play"
+            >
+
+            <div class="project-visual-label">
+              🔞 Mobile Security × Child Safety
+            </div>
+
+          </div>
+
+
+
+          <!-- =============================================
+               Project Information
+               ============================================= -->
+
+          <div class="project-info">
+
+
+            <div class="project-category">
+              Mobile Security
+            </div>
+
+
+
+            <h3 class="project-title">
+
+              Easy As Child’s Play:
+
+              <span class="highlight">
+                Are “18+” Apps Really 18+?
+              </span>
+
+            </h3>
+
+
+
+            <!-- English Introduction -->
+
+            <p class="project-description">
+
+              An <strong>“18+”</strong> label looks like a locked
+              door—but how hard is it really for a child to get through?
+
+              We studied
+              <strong>693K+ Android apps</strong>,
+              identified
+              <strong>31,750 adult-oriented apps</strong>,
+              and built
+              <strong>GUARD</strong>,
+              a static–dynamic analysis framework that uncovers how
+              age-verification mechanisms actually work.
+
+              Surprisingly, only
+              <strong>3.67%</strong>
+              implement age verification, and many rely on little more
+              than an
+              <strong>“Are you over 18?”</strong>
+              button.
+
+              Even stronger-looking mechanisms can often be sidestepped
+              through fake identities,
+              OAuth trust-chain abuse,
+              regional downgrades,
+              and other low-effort tricks.
+
+              In short,
+
+              <strong>
+                age-restricted does not necessarily mean age-protected.
+              </strong>
+
+            </p>
+
+
+
+            <!-- ===========================================
+                 Key Numbers
+                 =========================================== -->
+
+            <div class="project-stats">
+
+
+              <div class="project-stat">
+
+                <span class="project-stat-number">
+                  693K+
+                </span>
+
+                <span class="project-stat-label">
+                  Android Apps Analyzed
+                </span>
+
+              </div>
+
+
+
+              <div class="project-stat">
+
+                <span class="project-stat-number">
+                  31,750
+                </span>
+
+                <span class="project-stat-label">
+                  Adult-Oriented Apps
+                </span>
+
+              </div>
+
+
+
+              <div class="project-stat emphasis">
+
+                <span class="project-stat-number">
+                  3.67%
+                </span>
+
+                <span class="project-stat-label">
+                  Implement Age Verification
+                </span>
+
+              </div>
+
+
+            </div>
+
+
+
+            <!-- ===========================================
+                 Chinese Introduction
+                 =========================================== -->
+
+            <div class="project-highlight-box">
+
+
+              <div class="project-highlight-title">
+
+                <span class="project-highlight-icon">
+                  18+
+                </span>
+
+                “刚满18岁”？点一下就算。
+
+              </div>
+
+
+
+              <p>
+
+                App 上赫然写着
+                <strong>“18+”</strong>，
+                门口又是锁、又是盾牌，
+                看起来多少有点“未成年人止步”的意思。
+
+                但现实可能是——
+
+                <span class="project-highlight-accent">
+
+                  不管你到底几岁，
+                  先点一句“我已满18岁”再说。
+
+                </span>
+
+                某种意义上，
+                互联网上每天都有无数用户
+                <strong>“刚满18岁”</strong>。🙂
+
+                <br><br>
+
+                我们一口气分析了
+                <strong>69 万+ Android App</strong>，
+                从中找出
+                <strong>31,750 个成人向 App</strong>，
+
+                结果发现真正部署年龄验证的只有
+                <strong>3.67%</strong>。
+
+                更有意思的是，
+
+                <strong>
+                  “有验证”也不代表“拦得住”
+                </strong>：
+
+                改个生日、
+                借张成人身份证、
+                从 OAuth 绕一下、
+                换个地区/VPN，
+
+                甚至动一动验证数据，
+
+                都可能让这道看似严肃的
+
+                <strong>
+                  “18+ 大门”秒变儿童栅栏。
+                </strong>
+
+              </p>
+
+
+
+              <div class="project-takeaway">
+
+                🔐 一句话总结：
+
+                <span class="accent">
+                  “Age-Restricted” ≠ “Age-Protected”.
+                </span>
+
+                <br>
+
+                真正的问题不是 App 有没有问你
+                “满 18 岁了吗”，而是——
+
+                <strong>
+                  它到底认不认真听你的答案。
+                </strong>
+
+              </div>
+
+
+            </div>
+
+
+
+            <!-- ===========================================
+                 Tags
+                 =========================================== -->
+
+            <div class="project-tags">
+
+              <span class="project-tag">
+                Mobile Security
+              </span>
+
+              <span class="project-tag">
+                Android
+              </span>
+
+              <span class="project-tag">
+                Age Verification
+              </span>
+
+              <span class="project-tag">
+                Program Analysis
+              </span>
+
+              <span class="project-tag">
+                Child Safety
+              </span>
+
+            </div>
+
+
+
+            <!-- ===========================================
+                 Links
+                 =========================================== -->
+
+            <div class="project-links">
+
+
+              <a
+                href="#"
+                class="project-link primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📄 Paper
+              </a>
+
+
+              <a
+                href="#"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🔗 Project
+              </a>
+
+
+              <a
+                href="#"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                💻 Code
+              </a>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </article>
+
+
+    </section>
+
+
+
+    <div class="research-divider"></div>
+
+
+
+    <!-- ===================================================
+         4. IoT & Embodied AI Security
+         =================================================== -->
+
+    <section class="research-area">
+
+      <h2 class="area-title">
+        IoT &amp; Embodied AI Security
+      </h2>
+
+
+      <p class="area-description">
+
+        We investigate security and privacy risks across IoT devices,
+        communication protocols, cyber-physical systems, and emerging
+        embodied AI platforms.
+
+        Our research focuses on vulnerability discovery, cross-layer attacks,
+        AI-driven control pipelines, and unsafe physical behaviors in robots
+        and embodied agents.
+
+      </p>
+
+
+      <div class="area-papers">
+
+        <a href="#">
+          [USENIX Security 25a]
+        </a>
+
+        <a href="#">
+          [NDSS 25a]
+        </a>
+
+        <a href="#">
+          [CCS 24a]
+        </a>
+
+        <a href="#">
+          [CCS 24c]
+        </a>
+
+        <a href="#">
+          [NDSS 23b]
+        </a>
+
+        <a href="#">
+          [CCS 24b]
+        </a>
+
+        <a href="#">
+          [USENIX Security 24]
+        </a>
+
+        <a href="#">
+          [NDSS 23a]
+        </a>
+
+        <a href="#">
+          [CCS 22a]
+        </a>
+
+        <a href="#">
+          [NDSS 26]
+        </a>
+
+        <a href="#">
+          [IEEE S&amp;P 26]
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!--
+      ======================================================
+      Featured Projects for IoT & Embodied AI Security
+
+      例如后面可以放：
+      - Robot / Embodied AI attack project
+      - BLE project
+      - IoT vulnerability project
+
+      直接复制 area-projects 即可。
+      ======================================================
+    -->
+
+
+    <div class="research-divider"></div>
+
+
+
+    <!-- ===================================================
+         5. Program Analysis
+         =================================================== -->
+
+    <section class="research-area">
+
+      <h2 class="area-title">
+        Program Analysis
+      </h2>
+
+
+      <p class="area-description">
+
+        We develop static, dynamic, and hybrid program-analysis techniques
+        for vulnerability discovery, behavioral understanding, and
+        large-scale security measurement.
+
+        We also explore combining program analysis with machine learning
+        and LLMs to improve the automation, scalability, and semantic
+        understanding of security analysis.
+
+      </p>
+
+
+      <div class="area-papers">
+
+        <a href="#">
+          [CCS 24b]
+        </a>
+
+        <a href="#">
+          [USENIX Security 23]
+        </a>
+
+        <a href="#">
+          [ICSE 23]
+        </a>
+
+        <a href="#">
+          [NDSS 23a]
+        </a>
+
+        <a href="#">
+          [USENIX Security 25b]
+        </a>
+
+        <a href="#">
+          [NDSS 25b]
+        </a>
+
+        <a href="#">
+          [CCS 23a]
+        </a>
+
+        <a href="#">
+          [CCS 23b]
+        </a>
+
+        <a href="#">
+          [NDSS 23c]
+        </a>
+
+        <a href="#">
+          [CCS 22b]
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!--
+      Featured Projects for Program Analysis
+      Future projects can be inserted here.
+    -->
+
+
+    <div class="research-divider"></div>
+
+
+
+    <!-- ===================================================
+         6. Human-Centered Security
+         =================================================== -->
+
+    <section class="research-area">
+
+      <h2 class="area-title">
+        Human-Centered Security
+      </h2>
+
+
+      <p class="area-description">
+
+        We study security and privacy from a human-centered perspective,
+        focusing on user behavior, security perceptions, privacy
+        decision-making, and usable security.
+
+        We also investigate human interactions with emerging AI systems
+        and design security mechanisms that are effective,
+        understandable, and usable.
+
+      </p>
+
+
+      <div class="area-papers">
+
+        <a href="#">
+          [Paper 1]
+        </a>
+
+        <a href="#">
+          [Paper 2]
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!--
+      Featured Projects for Human-Centered Security
+      Future projects can be inserted here.
+    -->
+
+
+  </main>
 
 
 </body>
