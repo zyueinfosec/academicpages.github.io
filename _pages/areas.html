@@ -4239,7 +4239,434 @@ permalink: /areas/
 
     </section>
 
+<!-- ===================================================
+     Featured Project under Human-Centered Security
+=================================================== -->
 
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- =================================================
+           Project Poster
+      ================================================== -->
+
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/learning.png' | relative_url }}"
+          alt="Learning Less While Asking More"
+        >
+
+        <div class="project-visual-label">
+          🧠 Human-Centered Security × LLM Learning
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           Project Content
+      ================================================== -->
+
+      <div class="project-info">
+
+
+        <div class="project-category">
+          Human-Centered Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          Learning Less While Asking More:
+
+          <span class="highlight">
+            When Faster Answers Lead to Shallower Understanding
+          </span>
+
+        </h3>
+
+
+        <!-- =================================================
+             English
+        ================================================== -->
+
+        <p class="project-description">
+
+          LLM assistants make learning feel remarkably easy:
+          ask a question, get a clear answer, ask another one,
+          and quickly arrive at a fix.
+
+          But does a smoother learning experience actually mean
+          <strong>deeper understanding?</strong>
+
+          We conducted a controlled within-subject study with
+          <strong>70 programmers</strong>,
+          comparing LLM-assisted vulnerability learning with
+          traditional web search across five dimensions:
+          <strong>Recognition, Cause, Behavior, Danger, and Fix</strong>.
+
+          We uncover a striking gap between
+          <strong>perceived support and actual learning</strong>.
+
+          Participants consistently rated the LLM as
+          more helpful, clearer, and more responsive,
+          yet achieved significantly weaker learning gains in the
+          reasoning-intensive dimensions of
+          <strong>Cause, Behavior, and Danger</strong>.
+
+          Behavioral analysis helps explain why:
+          LLM users shifted topics more frequently,
+          moved toward fixes earlier,
+          and spent less time engaging with explanatory content.
+
+          Motivated by these findings, we design
+          <strong>VulnScaffold</strong>,
+          a scaffolded LLM learning interface that guides
+          better questions, structures explanations around
+          <strong>why → how → risk → fix</strong>,
+          and encourages learners to test and reflect on
+          their own understanding.
+
+          <strong>
+            The lesson is simple:
+            better learning tools should optimize for deeper thinking,
+            not merely faster answers.
+          </strong>
+
+        </p>
+
+
+        <!-- =================================================
+             Numbers
+        ================================================== -->
+
+        <div class="project-stats">
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              70
+            </span>
+
+            <span class="project-stat-label">
+              Programmers in Controlled Study
+            </span>
+
+          </div>
+
+
+          <div class="project-stat emphasis">
+
+            <span class="project-stat-number">
+              3 / 5
+            </span>
+
+            <span class="project-stat-label">
+              Reasoning Dimensions with Lower LLM Gains
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              97s
+            </span>
+
+            <span class="project-stat-label">
+              LLM Reading Time per Query
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              9 / 14
+            </span>
+
+            <span class="project-stat-label">
+              Preferred VulnScaffold for Learning Support
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- =================================================
+             Chinese
+        ================================================== -->
+
+        <div class="project-highlight-box">
+
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              🧠
+            </span>
+
+            问得更多，为什么反而学得更少？
+
+          </div>
+
+
+          <p>
+
+            现在学一个漏洞有多方便？
+
+            代码一贴，问一句：
+
+            <strong>“这个漏洞怎么修？”</strong>
+
+            LLM 马上给你答案。
+
+            再问一句，
+            再来一个答案。
+
+            整个过程丝滑得像开了倍速。🙂
+
+            <br><br>
+
+            但我们想问一个有点扎心的问题：
+
+            <span class="project-highlight-accent">
+              你是真的学会了，
+              还是只是更快拿到了答案？
+            </span>
+
+            <br><br>
+
+            我们找了
+            <strong>70 名有编程经验、但没有正式软件安全训练的参与者</strong>，
+            让同一个人分别用
+            <strong>LLM</strong>
+            和
+            <strong>Web Search</strong>
+            学习软件漏洞。
+
+            不只看最后
+            <strong>“会不会修”</strong>，
+            而是把理解拆成五层：
+
+            <strong>
+              Where、Why、How、Risk、Fix。
+            </strong>
+
+            <br><br>
+
+            结果很有意思。
+
+            LLM 在
+            <strong>“找到漏洞”</strong>
+            和
+            <strong>“告诉你怎么修”</strong>
+            这类任务上并没有明显落后。
+
+            但一旦问到真正需要推理的：
+
+            <strong>
+              为什么会产生？<br>
+              运行时到底发生了什么？<br>
+              最后为什么危险？
+            </strong>
+
+            学习效果反而更弱。
+
+            <br><br>
+
+            更有反差的是——
+
+            用户自己完全不觉得体验差。
+
+            相反，他们觉得 LLM：
+
+            <strong>
+              更 helpful、更加 clear、也更加 responsive。
+            </strong>
+
+            也就是说：
+
+            <span class="project-highlight-accent">
+              “感觉学得很好”
+              和
+              “真的学得很好”
+              可能是两回事。
+            </span>
+
+            <br><br>
+
+            我们进一步看了大家到底是怎么学的，
+            发现 LLM 特别容易把人带进一种节奏：
+
+            <strong>
+              问得快 → 跳得快 → 很快开始找 Fix →
+              拿到答案 → 收工。
+            </strong>
+
+            而真正有效的学习，
+            往往需要在
+            <strong>Cause、Behavior、Danger</strong>
+            上多停一会儿，
+            把这些东西真正串起来。
+
+            <br><br>
+
+            所以我们又设计了
+            <strong>VulnScaffold</strong>：
+
+            不让 LLM 只是一个
+            <strong>“答案打印机”</strong>，
+
+            而是通过
+
+            <strong>
+              Guide Better Questions →
+              Structure the Reasoning →
+              Test &amp; Reflect
+            </strong>
+
+            把学习过程重新组织起来。
+
+            在初步实验中，
+            VulnScaffold 相比普通 LLM
+            在 <strong>Cause</strong> 和
+            <strong>Behavior</strong>
+            上都表现出了更好的学习增益。
+
+          </p>
+
+
+          <!-- =================================================
+               Takeaway
+          ================================================== -->
+
+          <div class="project-takeaway">
+
+            🎓 一句话总结：
+
+            <span class="accent">
+              Feels easier ≠ Learns deeper.
+            </span>
+
+            <br>
+
+            LLM 最大的风险可能不是
+            <strong>“不给你答案”</strong>，
+
+            而是——
+
+            <strong>
+              太快给你答案，
+              让你误以为自己已经懂了。
+            </strong>
+
+            <br>
+
+            所以真正好的 AI 学习工具，
+            不应该只让答案来得更快，
+
+            而应该让人
+            <strong>想得更深。</strong>
+
+          </div>
+
+        </div>
+
+
+        <!-- =================================================
+             Tags
+        ================================================== -->
+
+        <div class="project-tags">
+
+          <span class="project-tag">
+            Human-Centered Security
+          </span>
+
+          <span class="project-tag">
+            LLM
+          </span>
+
+          <span class="project-tag">
+            Security Education
+          </span>
+
+          <span class="project-tag">
+            Vulnerability Learning
+          </span>
+
+          <span class="project-tag">
+            HCI
+          </span>
+
+          <span class="project-tag">
+            Usable Security
+          </span>
+
+        </div>
+
+
+        <!-- =================================================
+             Links
+        ================================================== -->
+
+        <div class="project-links">
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🧪 Study Materials
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
     <!--
       Featured Projects for Human-Centered Security
       Future projects can be inserted here.
