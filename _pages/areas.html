@@ -3009,7 +3009,705 @@ permalink: /areas/
 
     </section>
 
+<!-- ===================================================
+     Featured Project under IoT & Embodied AI Security
+=================================================== -->
 
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- Project Poster -->
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/torchlight.png' | relative_url }}"
+          alt="TORCHLIGHT"
+        >
+
+        <div class="project-visual-label">
+          🔦 IoT Security × Tor Traffic Analysis
+        </div>
+
+      </div>
+
+
+      <!-- Project Content -->
+      <div class="project-info">
+
+        <div class="project-category">
+          IoT &amp; Embodied AI Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          TORCHLIGHT:
+
+          <span class="highlight">
+            Following the Footprints Leaving the Tor Tunnel
+          </span>
+
+        </h3>
+
+
+        <!-- English -->
+        <p class="project-description">
+
+          Cloudless IoT devices are directly exposed to the Internet,
+          making them attractive targets for real-world attacks.
+          But attackers do not always attack in the open—
+          many prefer to hide behind <strong>Tor</strong>.
+
+          This raises a powerful idea:
+          even if Tor protects the attacker’s identity,
+          the malicious traffic must still emerge from a
+          <strong>Tor exit node</strong> before reaching a real IoT device.
+
+          We build <strong>TORCHLIGHT</strong>,
+          a system that detects both known and unknown threats
+          against cloudless IoT devices by analyzing Tor exit traffic.
+          It combines (1) Tor-exit traffic collection,
+          (2) strategic VPS deployment for cost-effective observation,
+          and (3) an LLM-based IoT traffic analyzer for attack identification.
+
+          Over <strong>12 months</strong>,
+          TORCHLIGHT analyzed <strong>26 TB</strong> of traffic,
+          uncovered <strong>45 vulnerabilities</strong>,
+          including <strong>29 zero-day exploits</strong>
+          with <strong>25 assigned CVE-IDs</strong>,
+          and recorded <strong>90,047 attack attempts</strong>.
+          These vulnerabilities affect approximately
+          <strong>12.71 million devices</strong>
+          across <strong>148 countries</strong>,
+          exposing them to serious risks such as
+          information disclosure, authentication bypass,
+          and arbitrary command execution.
+
+          In short,
+          <strong>
+            Tor may hide who the attacker is,
+            but the exit traffic can still reveal what the attacker is doing.
+          </strong>
+
+        </p>
+
+
+        <!-- Numbers -->
+        <div class="project-stats">
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              26 TB
+            </span>
+            <span class="project-stat-label">
+              Tor Exit Traffic Analyzed
+            </span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              45
+            </span>
+            <span class="project-stat-label">
+              Vulnerabilities Revealed
+            </span>
+          </div>
+
+          <div class="project-stat emphasis">
+            <span class="project-stat-number">
+              29
+            </span>
+            <span class="project-stat-label">
+              Zero-Day Exploits
+            </span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              12.71M
+            </span>
+            <span class="project-stat-label">
+              Vulnerable Devices Affected
+            </span>
+          </div>
+
+        </div>
+
+
+        <!-- Chinese -->
+        <div class="project-highlight-box">
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              TOR
+            </span>
+
+            人藏在 Tor 里，但脚印还是会从 tunnel 里走出来。
+
+          </div>
+
+
+          <p>
+
+            Tor 最厉害的地方，就是
+            <strong>“帮攻击者把人藏起来”</strong>。
+
+            但问题是，
+            不管攻击者藏得多好，
+            真正要去打一个现实世界里的 IoT 设备，
+            流量最终还是得从
+            <strong>Tor exit node</strong>
+            出来，落到目标设备上。
+
+            <br><br>
+
+            所以这个工作的核心 insight 其实很直观：
+
+            <span class="project-highlight-accent">
+              既然很难知道 tunnel 里是谁，
+              那就盯住“从 tunnel 里出来了什么”。
+            </span>
+
+            <br><br>
+
+            我们设计了 <strong>TORCHLIGHT</strong>，
+            从 Tor exit traffic 里去发现
+            正在被真实攻击的 cloudless IoT devices。
+            整个系统一边在 VPS 上低成本收集外部流量，
+            一边根据 Tor 的选路机制优化部署，
+            再结合基于 LLM 的流量分析，
+            自动识别哪些请求是真的 IoT 流量、
+            哪些是正在进行中的攻击。
+
+            <br><br>
+
+            最后我们连续监测了
+            <strong>12 个月</strong>，
+            分析了 <strong>26 TB</strong> 流量，
+            发现了 <strong>45 个漏洞</strong>，
+            其中包括 <strong>29 个 zero-day</strong>，
+            已获得 <strong>25 个 CVE</strong>。
+
+            这些问题影响大约
+            <strong>1271 万台设备</strong>，
+            分布在 <strong>148 个国家</strong>，
+            带来的风险包括
+            <strong>
+              信息泄露、认证绕过、任意命令执行
+            </strong>，
+            还记录到了
+            <strong>90,047 次</strong>
+            真实攻击尝试。
+
+            <br><br>
+
+            更重要的是，这项工作第一次清楚说明了：
+
+            <strong>
+              攻击者确实会主动利用 Tor 隐藏身份，
+              去攻击没有云端保护、直接暴露在公网中的 IoT 设备。
+            </strong>
+
+          </p>
+
+
+          <div class="project-takeaway">
+
+            🔦 一句话总结：
+
+            <span class="accent">
+              Tor hides the attacker, but the exit traffic can still expose the attack.
+            </span>
+
+            <br>
+
+            与其试图看穿 tunnel 里的匿名者，
+            不如直接盯住
+            <strong>离开 tunnel 的脚印。</strong>
+
+          </div>
+
+        </div>
+
+
+        <!-- Tags -->
+        <div class="project-tags">
+
+          <span class="project-tag">
+            IoT Security
+          </span>
+
+          <span class="project-tag">
+            Tor
+          </span>
+
+          <span class="project-tag">
+            Traffic Analysis
+          </span>
+
+          <span class="project-tag">
+            Vulnerability Discovery
+          </span>
+
+          <span class="project-tag">
+            Zero-Day
+          </span>
+
+          <span class="project-tag">
+            LLM for Security
+          </span>
+
+        </div>
+
+
+        <!-- Links -->
+        <div class="project-links">
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💻 Code
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
+
+<!-- ===================================================
+     Featured Project under IoT & Embodied AI Security
+=================================================== -->
+
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- =================================================
+           Project Poster
+      ================================================== -->
+
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/bat.png' | relative_url }}"
+          alt="When Good Becomes Evil"
+        >
+
+        <div class="project-visual-label">
+          🦇 BLE Security × Privacy
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           Project Content
+      ================================================== -->
+
+      <div class="project-info">
+
+
+        <div class="project-category">
+          IoT &amp; Wireless Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          When Good Becomes Evil:
+
+          <span class="highlight">
+            When a Security Feature Becomes a Tracking Side Channel
+          </span>
+
+        </h3>
+
+
+        <!-- =================================================
+             English
+        ================================================== -->
+
+        <p class="project-description">
+
+          Bluetooth allowlists are supposed to improve security:
+          a BLE device remembers which peers it trusts and ignores
+          everyone else.
+
+          But that seemingly helpful behavior creates an unexpected
+          privacy leak—
+
+          <strong>
+            the way a device responds can reveal who it trusts.
+          </strong>
+
+          We uncover a new allowlist-based side channel and introduce
+          <strong>BAT (Bluetooth Address Tracking)</strong>,
+          which exploits behavioral differences between allowlisted
+          and unknown devices to track BLE devices even when their
+          MAC addresses are randomized.
+
+          BAT supports both
+          <strong>passive tracking</strong>,
+          by observing BLE responses over time,
+          and <strong>active tracking</strong>,
+          by replaying previously observed randomized addresses
+          and probing whether a device recognizes them.
+
+          We validate BAT on
+          <strong>43 BLE peripherals</strong>,
+          <strong>11 centrals</strong>,
+          and <strong>4 development boards</strong>,
+          finding that none of the tested allowlist-enabled devices
+          are immune.
+
+          To close the side channel, we design
+          <strong>SABLE (Securing Address for BLE)</strong>,
+          which combines synchronized unpredictable address
+          randomization with replay-resistant address generation.
+
+          <strong>
+            A security mechanism should not only decide who gets in—
+            it should also avoid revealing who is already trusted.
+          </strong>
+
+        </p>
+
+
+        <!-- =================================================
+             Numbers
+        ================================================== -->
+
+        <div class="project-stats">
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              43
+            </span>
+
+            <span class="project-stat-label">
+              BLE Peripheral Devices Tested
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              11
+            </span>
+
+            <span class="project-stat-label">
+              BLE Centrals Tested
+            </span>
+
+          </div>
+
+
+          <div class="project-stat emphasis">
+
+            <span class="project-stat-number">
+              0
+            </span>
+
+            <span class="project-stat-label">
+              Tested Allowlist Devices Immune to BAT
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              ~1%
+            </span>
+
+            <span class="project-stat-label">
+              SABLE Central Power Overhead
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- =================================================
+             Chinese
+        ================================================== -->
+
+        <div class="project-highlight-box">
+
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              🦇 BAT
+            </span>
+
+            本来是“白名单”，怎么反而把自己人暴露了？
+
+          </div>
+
+
+          <p>
+
+            BLE 的 allowlist 本来是个挺好的安全功能：
+
+            <strong>
+              “只跟认识的人说话，陌生人一律不理。”
+            </strong>
+
+            听起来很安全，对吧？
+
+            <br><br>
+
+            但问题恰恰出在这个
+            <strong>“理不理你”</strong>上。
+
+            <br><br>
+
+            攻击者站在旁边观察：
+
+            一个熟悉的设备过来——
+            <strong>“Hi again!”</strong> ✅
+
+            一个陌生设备过来——
+            <strong>沉默。</strong> ❌
+
+            于是攻击者突然发现：
+
+            <span class="project-highlight-accent">
+              我虽然不知道你是谁，
+              但我可以从你的反应，看出你认识谁。
+            </span>
+
+            <br><br>
+
+            更麻烦的是，
+            BLE 原本还会不断随机化 MAC 地址，
+            就是为了防止别人长期追踪。
+
+            但只要设备对
+            <strong>“认识的人”和“陌生人”</strong>
+            表现得不一样，
+            攻击者就可以把不同时间出现的随机地址
+            一点一点串起来：
+
+            <strong>
+              地址一直在换，但还是同一个设备。🙂
+            </strong>
+
+            <br><br>
+
+            我们把这个攻击叫做
+
+            <strong>BAT — Bluetooth Address Tracking</strong>。
+
+            名字也故意玩了个小巧思：
+
+            <span class="project-highlight-accent">
+              🦇 BAT 就像蝙蝠一样，
+              不需要“看见”你，也能靠外界反馈找到你。
+            </span>
+
+            BAT 既可以
+            <strong>被动监听</strong>，
+            也可以主动把之前听到的地址
+            <strong>replay</strong> 回去试探设备：
+
+            “这个地址你还认识吗？”
+
+            如果设备回应了——
+
+            <strong>抓到了。</strong>
+
+            <br><br>
+
+            我们在
+            <strong>43 个 BLE peripheral devices</strong>、
+            <strong>11 个 centrals</strong>
+            和 <strong>4 块 development boards</strong>
+            上进行了验证，
+
+            结果是：
+
+            <strong>
+              没有一个测试的 allowlist-enabled 设备能够免疫 BAT。
+            </strong>
+
+          </p>
+
+
+          <!-- =================================================
+               SABLE Defense
+          ================================================== -->
+
+          <div class="project-takeaway">
+
+            🦦 防御怎么办？
+
+            我们设计了
+
+            <span class="accent">
+              SABLE — Securing Address for BLE.
+            </span>
+
+            <br><br>
+
+            如果说
+            <strong>BAT 🦇</strong>
+            是偷偷循着“信任关系”寻找猎物，
+
+            那么
+            <strong>SABLE 🦦</strong>
+            就负责把这些踪迹擦掉：
+
+            让通信双方
+            <strong>同步但不可预测地更换随机地址</strong>，
+            同时加入 freshness，
+            防止攻击者把以前看到的地址拿回来 replay。
+
+            <br><br>
+
+            一句话：
+
+            <strong>
+              安全机制不仅要挡住陌生人，
+              还不能顺手告诉陌生人——“我的朋友是谁”。
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <!-- =================================================
+             Tags
+        ================================================== -->
+
+        <div class="project-tags">
+
+          <span class="project-tag">
+            Bluetooth Security
+          </span>
+
+          <span class="project-tag">
+            BLE Privacy
+          </span>
+
+          <span class="project-tag">
+            Side Channel
+          </span>
+
+          <span class="project-tag">
+            Device Tracking
+          </span>
+
+          <span class="project-tag">
+            Replay Attack
+          </span>
+
+          <span class="project-tag">
+            IoT Security
+          </span>
+
+        </div>
+
+
+        <!-- =================================================
+             Links
+        ================================================== -->
+
+        <div class="project-links">
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💻 Code
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
+    
     <!--
       ======================================================
       Featured Projects for IoT & Embodied AI Security
