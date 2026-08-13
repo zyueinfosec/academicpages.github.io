@@ -5,25 +5,12 @@ permalink: /memories/
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <title>Research Areas | AIMS Lab</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories | AIMS Lab</title>
 
   <style>
-
-    /* =====================================================
-       Global
-       ===================================================== */
-
     * {
       box-sizing: border-box;
     }
@@ -34,138 +21,109 @@ permalink: /memories/
 
     body {
       margin: 0;
-
-      font-family:
-        Arial,
-        Helvetica,
-        sans-serif;
-
+      font-family: Arial, Helvetica, sans-serif;
       color: #111;
-
       background: #fff;
     }
 
-
-
     /* =====================================================
-       Header
+       Header — same as the other AIMS Lab pages
        ===================================================== */
-
     .top-banner {
-
       height: 115px;
-
       background:
         linear-gradient(
           rgba(3, 35, 90, 0.30),
           rgba(3, 35, 90, 0.30)
         ),
-        url("{{ '/images/header.png' | relative_url }}");
-
+        url("{{ '/assets/images/lab/header.jpg' | relative_url }}");
       background-size: cover;
       background-position: center;
-
       display: flex;
       align-items: center;
-
       padding-left: 40px;
     }
 
-
     .top-banner h1 {
-
       margin: 0;
-
       color: white;
-
       font-size: 36px;
       font-weight: 700;
-
-      text-shadow:
-        0 2px 5px rgba(0, 0, 0, 0.30);
+      text-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
-
-
 
     /* =====================================================
-       Navigation
+       Navigation — same layout; Memories is the new page tab
        ===================================================== */
-
     .navbar {
-
       min-height: 60px;
-
       display: flex;
       align-items: center;
-
       gap: 24px;
-
       padding: 0 12px;
-
       background: #f8f9fa;
-
-      border-bottom:
-        1px solid #eeeeee;
+      border-bottom: 1px solid #eeeeee;
+      overflow-x: auto;
+      white-space: nowrap;
     }
-
 
     .navbar a {
-
       color: #065dcc;
-
       text-decoration: none;
-
       font-size: 18px;
+      flex: 0 0 auto;
     }
 
-
     .navbar a:hover {
-
       color: #003b82;
-
       text-decoration: underline;
     }
 
+    @media (max-width: 600px) {
+      .top-banner {
+        height: 100px;
+        padding-left: 20px;
+      }
 
+      .top-banner h1 {
+        font-size: 24px;
+      }
 
-    /* =====================================================
-       Main Container
-       ===================================================== */
+      .navbar {
+        gap: 16px;
+      }
 
-    .areas-container {
-
-      width: 100%;
-
-      margin: 0;
-
-      padding:
-        35px 55px
-        80px 55px;
-
-      text-align: left;
+      .navbar a {
+        font-size: 16px;
+      }
     }
+  </style>
+</head>
 
+<body>
 
-    .areas-title {
+  <!-- =====================================================
+       Header
+       ===================================================== -->
+  <header class="top-banner">
+    <h1>AI for Mission-critical Security (AIMS) Lab</h1>
+  </header>
 
-      margin:
-        0 0
-        32px 0;
-
-      color: #111;
-
-      font-size: 42px;
-      font-weight: 500;
-
-      line-height: 1.2;
-
-      text-align: left;
-    }
-
-
-
- 
-
+  <!-- =====================================================
+       Navigation
+       ===================================================== -->
+  <nav class="navbar">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/news/' | relative_url }}">News</a>
+    <a href="{{ '/team/' | relative_url }}">Team</a>
+    <a href="{{ '/areas/' | relative_url }}">Areas</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a href="{{ '/software/' | relative_url }}">Software</a>
+    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    <a href="{{ '/memories/' | relative_url }}">Memories</a>
+    <a href="{{ '/contact/' | relative_url }}">Contact</a>
+  </nav>
 
 <!-- =========================================================
      AIMS Lab · Academic Activities Section
@@ -175,7 +133,7 @@ permalink: /memories/
        - China GeoJSON
 ========================================================= -->
 
-<section class="aims-activities" id="activities">
+<section class="aims-activities" id="memories">
 
   <!-- =========================
        Section Header
@@ -304,7 +262,7 @@ permalink: /memories/
         >
 
           <img
-            src="./assets/images/activities/qingdao-2025.jpg"
+            src="{{ '/assets/images/activities/qingdao-2025.jpg' | relative_url }}"
             alt="INET Talk in Qingdao"
           >
 
@@ -345,7 +303,7 @@ permalink: /memories/
         >
 
           <img
-            src="./assets/images/activities/shanghai-ccf-2025.jpg"
+            src="{{ '/assets/images/activities/shanghai-ccf-2025.jpg' | relative_url }}"
             alt="CCF Blockchain Conference in Shanghai"
           >
 
@@ -386,7 +344,7 @@ permalink: /memories/
         >
 
           <img
-            src="./assets/images/activities/beijing-2025.jpg"
+            src="{{ '/assets/images/activities/beijing-2025.jpg' | relative_url }}"
             alt="Academic activity in Beijing"
           >
 
@@ -427,7 +385,7 @@ permalink: /memories/
         >
 
           <img
-            src="./assets/images/activities/hohhot-2025.jpg"
+            src="{{ '/assets/images/activities/hohhot-2025.jpg' | relative_url }}"
             alt="Invited talk at Inner Mongolia University"
           >
 
@@ -468,7 +426,7 @@ permalink: /memories/
         >
 
           <img
-            src="./assets/images/activities/ningbo-2025.jpg"
+            src="{{ '/assets/images/activities/ningbo-2025.jpg' | relative_url }}"
             alt="Invited talk at Ningbo University"
           >
 
@@ -509,7 +467,7 @@ permalink: /memories/
         >
 
           <img
-            src="./assets/images/activities/wuhan-2025.jpg"
+            src="{{ '/assets/images/activities/wuhan-2025.jpg' | relative_url }}"
             alt="Invited talk at Wuhan University"
           >
 
@@ -602,28 +560,28 @@ permalink: /memories/
 .aims-activities {
 
   --activity-bg:
-    #07111f;
+    #ffffff;
 
   --activity-card:
-    rgba(13, 29, 50, 0.78);
+    rgba(255, 255, 255, 0.96);
 
   --activity-card-hover:
-    rgba(18, 39, 66, 0.95);
+    #ffffff;
 
   --activity-border:
-    rgba(134, 183, 255, 0.14);
+    rgba(25, 96, 190, 0.16);
 
   --activity-text:
-    #f5f8ff;
+    #152033;
 
   --activity-muted:
-    #93a5bd;
+    #6b778c;
 
   --activity-blue:
     #4e96ff;
 
   --activity-blue-light:
-    #79b5ff;
+    #2f78d6;
 
 
   position: relative;
@@ -642,25 +600,7 @@ permalink: /memories/
   color: var(--activity-text);
 
   background:
-
-    radial-gradient(
-      circle at 20% 35%,
-      rgba(37, 106, 216, 0.10),
-      transparent 32%
-    ),
-
-    radial-gradient(
-      circle at 82% 15%,
-      rgba(28, 86, 190, 0.08),
-      transparent 30%
-    ),
-
-    linear-gradient(
-      180deg,
-      #050b14 0%,
-      #07111f 50%,
-      #050a12 100%
-    );
+    #ffffff;
 
 }
 
@@ -677,12 +617,12 @@ permalink: /memories/
 
   pointer-events: none;
 
-  opacity: 0.18;
+  opacity: 0.08;
 
   background-image:
 
     radial-gradient(
-      rgba(89, 154, 255, 0.8) 1px,
+      rgba(78, 150, 255, 0.55) 1px,
       transparent 1px
     );
 
@@ -918,6 +858,9 @@ permalink: /memories/
     1px solid
     var(--activity-border);
 
+  box-shadow:
+    0 10px 34px rgba(31, 77, 128, 0.08);
+
   background:
 
     radial-gradient(
@@ -926,7 +869,7 @@ permalink: /memories/
       transparent 65%
     ),
 
-    rgba(7, 18, 33, 0.52);
+    #f7fbff;
 
 }
 
@@ -976,7 +919,10 @@ permalink: /memories/
   border-radius: 13px;
 
   background:
-    rgba(12, 28, 48, 0.48);
+    #ffffff;
+
+  box-shadow:
+    0 5px 18px rgba(31, 77, 128, 0.05);
 
   transition:
     0.25s ease;
@@ -990,7 +936,7 @@ permalink: /memories/
     rgba(86, 152, 255, 0.42);
 
   background:
-    rgba(18, 38, 65, 0.7);
+    #f4f8ff;
 
 }
 
@@ -1305,6 +1251,8 @@ permalink: /memories/
 
 .activity-card h4 {
 
+  color: #ffffff;
+
   max-width: 90%;
 
   margin:
@@ -1373,6 +1321,9 @@ permalink: /memories/
 ========================================================= */
 
 .activity-lightbox {
+
+  --activity-blue-light: #79b5ff;
+  --activity-muted: #93a5bd;
 
   position: fixed;
 
@@ -1772,13 +1723,13 @@ fetch(
       trigger: "item",
 
       backgroundColor:
-        "rgba(9,20,36,.95)",
+        "rgba(255,255,255,.98)",
 
       borderColor:
         "rgba(100,160,255,.35)",
 
       textStyle: {
-        color: "#eef5ff"
+        color: "#243247"
       },
 
       formatter: params => {
@@ -1844,10 +1795,10 @@ fetch(
       itemStyle: {
 
         areaColor:
-          "#0d223d",
+          "#eef5ff",
 
         borderColor:
-          "rgba(103,157,235,.48)",
+          "rgba(82,126,190,.48)",
 
         borderWidth:
           0.7
@@ -1932,7 +1883,7 @@ fetch(
             7,
 
           color:
-            "#dcecff",
+            "#315c8f",
 
           fontSize:
             10,
@@ -2210,7 +2161,7 @@ document.addEventListener(
    Image Fallback
 
    如果图片路径暂时不存在，
-   自动显示一个深色占位背景，
+   自动显示一个浅色占位背景，
    不会出现浏览器难看的 broken image 图标。
 ========================================================= */
 
@@ -2243,12 +2194,12 @@ document
 
               <stop
                 offset="0"
-                stop-color="#122a49"
+                stop-color="#eaf3ff"
               />
 
               <stop
                 offset="1"
-                stop-color="#07111f"
+                stop-color="#ffffff"
               />
 
             </linearGradient>
@@ -2279,7 +2230,7 @@ document
             text-anchor="middle"
             font-family="Arial"
             font-size="30"
-            fill="#91bdf8"
+            fill="#3f73b7"
           >
             Academic Moments
           </text>
@@ -2292,7 +2243,7 @@ document
             text-anchor="middle"
             font-family="Arial"
             font-size="16"
-            fill="#718aa9"
+            fill="#7a8798"
           >
             Replace with your activity photo
           </text>
@@ -2317,4 +2268,5 @@ document
 
 </script>
 
+</body>
 </html>
