@@ -3042,11 +3042,7 @@ permalink: /areas/
       [NDSS 26]
     </a>
 
-    <a href="https://doi.org/10.1109/SP63933.2026.00071"
-       target="_blank"
-       rel="noopener noreferrer">
-      [IEEE S&amp;P 26]
-    </a>
+ 
 
   </div>
 
@@ -3793,52 +3789,407 @@ permalink: /areas/
       </p>
 
 
-      <div class="area-papers">
+  <div class="area-papers">
 
-        <a href="#">
-          [CCS 24b]
-        </a>
+  <a href="https://doi.org/10.1145/3658644.3670372"
+     target="_blank"
+     rel="noopener noreferrer">
+    [CCS 24b]
+  </a>
 
-        <a href="#">
-          [USENIX Security 23]
-        </a>
+  <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-chao"
+     target="_blank"
+     rel="noopener noreferrer">
+    [USENIX Security 23]
+  </a>
 
-        <a href="#">
-          [ICSE 23]
-        </a>
+  <a href="https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/172/TAINTMINI-Detecting-Flow-of-Sensitive-Data-in-Mini-Programs-with-Static-Taint-Analys"
+     target="_blank"
+     rel="noopener noreferrer">
+    [ICSE 23]
+  </a>
 
-        <a href="#">
-          [NDSS 23a]
-        </a>
+  <a href="https://www.ndss-symposium.org/ndss-paper/extrapolating-formal-analysis-to-uncover-attacks-in-bluetooth-passkey-entry-pairing/"
+     target="_blank"
+     rel="noopener noreferrer">
+    [NDSS 23a]
+  </a>
 
-        <a href="#">
-          [USENIX Security 25b]
-        </a>
+  <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/yao-yifan"
+     target="_blank"
+     rel="noopener noreferrer">
+    [USENIX Security 25b]
+  </a>
 
-        <a href="#">
-          [NDSS 25b]
-        </a>
+  <a href="https://www.ndss-symposium.org/ndss-paper/deanonymizing-device-identities-via-side-channel-attacks-in-exclusive-use-iots-mitigation/"
+     target="_blank"
+     rel="noopener noreferrer">
+    [NDSS 25b]
+  </a>
 
-        <a href="#">
-          [CCS 23a]
-        </a>
+  <a href="https://doi.org/10.1145/3576915.3616591"
+     target="_blank"
+     rel="noopener noreferrer">
+    [CCS 23a]
+  </a>
 
-        <a href="#">
-          [CCS 23b]
-        </a>
+  <a href="https://doi.org/10.1145/3576915.3616676"
+     target="_blank"
+     rel="noopener noreferrer">
+    [CCS 23b]
+  </a>
 
-        <a href="#">
-          [NDSS 23c]
-        </a>
+  <a href="https://www.ndss-symposium.org/ndss-paper/do-not-give-a-dog-bread-every-time-he-wags-his-tail-stealing-passwords-through-content-queries-conquer-attacks/"
+     target="_blank"
+     rel="noopener noreferrer">
+    [NDSS 23c]
+  </a>
 
-        <a href="#">
-          [CCS 22b]
-        </a>
+  <a href="https://doi.org/10.1145/3548606.3560597"
+     target="_blank"
+     rel="noopener noreferrer">
+    [CCS 22b]
+  </a>
+
+</div>
+
+<!-- ===================================================
+     Featured Project under IoT & Embodied AI Security
+=================================================== -->
+
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- Project Poster -->
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/base.png' | relative_url }}"
+          alt="Collapse Like a House of Cards"
+        >
+
+        <div class="project-visual-label">
+          🏢 BAS Security × Fuzzing
+        </div>
 
       </div>
 
-    </section>
 
+      <!-- Project Content -->
+      <div class="project-info">
+
+        <div class="project-category">
+          IoT &amp; CPS Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          Collapse Like a House of Cards:
+
+          <span class="highlight">
+            One Weird Packet Can Shake the Whole Building
+          </span>
+
+        </h3>
+
+
+        <!-- English -->
+        <p class="project-description">
+
+          Building Automation Systems (BAS) quietly control critical
+          building functions such as HVAC, lighting, fire safety,
+          and access control. They are the hidden operating system
+          of modern smart buildings.
+
+          But what happens when the packets flowing through this
+          infrastructure are malformed, unexpected, or deliberately crafted?
+
+          We present <strong>BASE</strong>
+          (Building Automation System Evaluator),
+          the first fuzzing framework designed specifically for BAS networks.
+          Unlike traditional fuzzers, BASE must deal with
+          <strong>complex protocol structures and sequencing</strong>,
+          <strong>closed-source BAS clients with hard-to-measure coverage</strong>,
+          and <strong>servers whose internal state is largely unobservable</strong>.
+
+          BASE addresses these challenges by automatically learning
+          protocol structures and message dependencies,
+          dynamically instrumenting BAS clients for coverage feedback,
+          and using timestamp-aware throughput control
+          to fuzz BAS servers efficiently.
+
+          We evaluated BASE on
+          <strong>11 BAS servers</strong>
+          (4 BACnet devices and 7 KNX devices)
+          and <strong>6 BAS clients</strong>,
+          uncovering <strong>13 new vulnerabilities</strong>.
+          Over a 24-hour fuzzing campaign, BASE discovered
+          <strong>17,616 unique edges</strong>
+          at an average speed of
+          <strong>138.91 executions per second</strong>.
+          In contrast, BooFuzz sent millions of mutated messages
+          yet found <strong>no vulnerabilities</strong>.
+
+          More importantly, the discovered bugs are not merely software crashes:
+          they can translate into
+          <strong>delayed fire detection, loss of climate control,
+          and security breaches in real buildings.</strong>
+
+        </p>
+
+
+        <!-- Numbers -->
+        <div class="project-stats">
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              13
+            </span>
+            <span class="project-stat-label">
+              New BAS Vulnerabilities Found
+            </span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              11 + 6
+            </span>
+            <span class="project-stat-label">
+              BAS Servers and Clients Evaluated
+            </span>
+          </div>
+
+          <div class="project-stat emphasis">
+            <span class="project-stat-number">
+              17,616
+            </span>
+            <span class="project-stat-label">
+              Unique Edges in 24 Hours
+            </span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              138.91
+            </span>
+            <span class="project-stat-label">
+              Executions per Second
+            </span>
+          </div>
+
+        </div>
+
+
+        <!-- Chinese -->
+        <div class="project-highlight-box">
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              BASE
+            </span>
+
+            楼看着好好的，可能一条怪报文就开始“塌房”。
+
+          </div>
+
+
+          <p>
+
+            楼宇自动化系统（BAS）平时非常低调：
+            控空调、管照明、接火警、连门禁，
+            平常没人注意它，
+            但它其实就是一栋智能楼宇背后的
+            <strong>“隐形操作系统”。</strong>
+
+            <br><br>
+
+            问题在于，
+            这些系统不是只管“软件逻辑”，
+            它们还直接连着现实世界里的设备和控制链路。
+
+            所以一旦出了问题，
+            后果就不是简单的
+            <strong>“程序崩了”</strong>，
+            而可能变成：
+
+            <span class="project-highlight-accent">
+              火警延迟、温控失灵、门禁和摄像头受影响。
+            </span>
+
+            <br><br>
+
+            这个工作的核心 insight 很直观：
+
+            <strong>
+              在 BAS 这种高度互联、层层依赖的系统里，
+              一条异常报文，可能就像抽掉牌屋底下的一张牌。
+            </strong>
+
+            不是某一个点单独坏掉，
+            而是整套自动化逻辑开始连锁失稳。🙂
+
+            <br><br>
+
+            为了系统性地找出这类问题，
+            我们设计了
+            <strong>BASE</strong>，
+            一个专门面向 BAS 的 fuzzing framework。
+
+            难点并不小：
+            BAS 协议像 BACnet、KNX 报文结构复杂，
+            有字段依赖、有消息顺序；
+            客户端很多还是 closed-source，
+            coverage 很难看；
+            server 内部状态也几乎不可见，
+            吞吐还会受设备扫描周期影响。
+
+            <br><br>
+
+            BASE 的思路是把这些障碍一一拆开：
+            自动学习协议结构和顺序关系，
+            动态插桩客户端看 coverage，
+            再根据时间戳去估计设备输入扫描间隔，
+            让 fuzzing 不只是“乱发包”，
+            而是更聪明、更贴近真实通信地去打。
+
+            <br><br>
+
+            最后我们在
+            <strong>11 个 BAS servers</strong>
+            和
+            <strong>6 个 BAS clients</strong>
+            上进行了评估，
+            一共发现
+            <strong>13 个新漏洞</strong>。
+
+            在 24 小时测试中，
+            BASE 找到
+            <strong>17,616 条 unique edges</strong>，
+            平均速度达到
+            <strong>138.91 exec/s</strong>。
+
+            相比之下，
+            BooFuzz 即使发了
+            <strong>285 万+</strong>
+            条变异消息，
+            也没有发现漏洞。
+
+            <br><br>
+
+            更重要的是，
+            这些漏洞不是“论文里看起来挺危险”，
+            而是真能落到现实影响上：
+            <strong>
+              火警检测延迟、气候控制失效、
+              以及楼宇安防风险。
+            </strong>
+
+          </p>
+
+
+          <div class="project-takeaway">
+
+            🏢 一句话总结：
+
+            <span class="accent">
+              In a building automation system, one malformed packet can trigger cascading real-world failures.
+            </span>
+
+            <br>
+
+            真正危险的不是“某个程序崩了”，
+            而是
+            <strong>
+              一条奇怪报文，可能让整栋楼的自动化链条一起失衡。
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <!-- Tags -->
+        <div class="project-tags">
+
+          <span class="project-tag">
+            Building Automation Security
+          </span>
+
+          <span class="project-tag">
+            CPS Security
+          </span>
+
+          <span class="project-tag">
+            IoT Security
+          </span>
+
+          <span class="project-tag">
+            Fuzzing
+          </span>
+
+          <span class="project-tag">
+            BACnet
+          </span>
+
+          <span class="project-tag">
+            KNX
+          </span>
+
+        </div>
+
+
+        <!-- Links -->
+        <div class="project-links">
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💻 Code
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
+
+    
 
     <!--
       Featured Projects for Program Analysis
@@ -3877,11 +4228,11 @@ permalink: /areas/
       <div class="area-papers">
 
         <a href="#">
-          [Paper 1]
+          [CCS 2026]
         </a>
 
-        <a href="#">
-          [Paper 2]
+        <a href="https://arxiv.org/abs/2606.28981">
+          [BreakingBad]
         </a>
 
       </div>
