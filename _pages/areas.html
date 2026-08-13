@@ -1836,14 +1836,14 @@ permalink: /areas/
     <section class="research-area">
 
       <h2 class="area-title">
-        LLM Security
+        LLM & Agent Security
       </h2>
 
 
       <p class="area-description">
 
         We study the security, privacy, and trustworthiness of large language
-        models and LLM-powered applications.
+        models and LLM-powered applications (e.g., agent).
         Our research investigates jailbreak attacks, prompt injection,
         adversarial manipulation, data leakage, agent security, and practical
         defenses for real-world LLM systems.
@@ -1882,7 +1882,652 @@ permalink: /areas/
       Featured Projects for LLM Security
       Future projects can be inserted here.
     -->
+<!-- ===================================================
+     Featured Project under LLM Security / LLM for Security
+=================================================== -->
 
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- =================================================
+           Project Poster
+      ================================================== -->
+
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/flashboom-poster.png' | relative_url }}"
+          alt="Flashboom"
+        >
+
+        <div class="project-visual-label">
+          💥 LLM Security × Software Security
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           Project Content
+      ================================================== -->
+
+      <div class="project-info">
+
+
+        <div class="project-category">
+          LLM Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          Flashboom:
+
+          <span class="highlight">
+            Make the Auditor Look the Wrong Way
+          </span>
+
+        </h3>
+
+
+        <!-- =================================================
+             English
+        ================================================== -->
+
+        <p class="project-description">
+
+          What if the vulnerability is still sitting right there in the code,
+          but the LLM auditor is simply
+
+          <strong>looking somewhere else?</strong>
+
+          Flashboom exposes a new attack surface in
+          LLM-based code auditing:
+
+          <strong>the model’s own attention mechanism.</strong>
+
+          Instead of hiding or obfuscating the real vulnerability,
+          an attacker inserts carefully selected
+          <strong>attention-grabbing code</strong>
+          that naturally attracts the auditor’s focus.
+
+          The real bug remains untouched,
+          but the model becomes distracted and may fail to report it.
+
+          To automate this attack, we build
+          <strong>Crazy-Ivan</strong>,
+          which searches a codebase for high-attention functions,
+          refines them into self-contained snippets,
+          inserts them into vulnerable code,
+          and verifies whether the auditor’s attention has shifted away
+          from the true vulnerability.
+
+          Flashboom achieves up to
+          <strong>96.3% blinding success</strong>,
+          transfers across different LLMs,
+          and remains highly similar to the original program.
+
+          <strong>
+            The bug is not removed—the auditor is simply made to look
+            in the wrong direction.
+          </strong>
+
+        </p>
+
+
+        <!-- =================================================
+             Numbers
+        ================================================== -->
+
+        <div class="project-stats">
+
+
+          <div class="project-stat emphasis">
+
+            <span class="project-stat-number">
+              96.3%
+            </span>
+
+            <span class="project-stat-label">
+              Blinding Success on CodeLlama
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              &gt;87%
+            </span>
+
+            <span class="project-stat-label">
+              Cross-Model Blinding Transfer
+            </span>
+
+          </div>
+
+
+          <div class="project-stat">
+
+            <span class="project-stat-number">
+              ≥0.92
+            </span>
+
+            <span class="project-stat-label">
+              Mean Semantic Similarity
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- =================================================
+             Chinese
+        ================================================== -->
+
+        <div class="project-highlight-box">
+
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              💥
+            </span>
+
+            “声东击西”：漏洞没藏起来，只是让模型看错了地方。
+
+          </div>
+
+
+          <p>
+
+            想骗过一个代码审计模型，
+            第一反应可能是：
+
+            <strong>
+              把真正的漏洞藏得更深一点？
+            </strong>
+
+            改变量名、套几层函数、做点代码混淆……
+
+            结果我们试了一圈发现：
+            <strong>现在的 LLM 没那么好骗。</strong>
+
+            <br><br>
+
+            那就换个思路。
+
+            与其想办法把漏洞
+            <strong>“藏起来”</strong>，
+            不如想办法让审计模型
+
+            <span class="project-highlight-accent">
+              “看别处”。
+            </span>
+
+            <br><br>
+
+            想象一下：
+
+            真正的漏洞就在代码里安安静静地待着。
+
+            这时候我们往旁边放一段特别
+            <strong>“吸睛”</strong>的代码——
+
+            模型一看：
+
+            <strong>“诶？这个地方好像很值得研究。”</strong>
+
+            然后注意力就被吸过去了。
+
+            <br><br>
+
+            于是就出现了一个很有意思的场景：
+
+            <strong>
+              漏洞没改，漏洞没删，甚至漏洞还在原来的位置。
+            </strong>
+
+            但 LLM 审计器就是
+
+            <span class="project-highlight-accent">
+              没看见。🙂
+            </span>
+
+            <br><br>
+
+            我们把这种攻击叫做
+            <strong>Flashboom</strong>，
+
+            中文其实特别形象：
+
+            <strong>“声东击西”。</strong>
+
+            为了不靠人工一个个找“烟雾弹”，
+            我们还做了
+            <strong>Crazy-Ivan</strong>：
+
+            自动从代码库中寻找最容易吸引 LLM 注意力的函数，
+            自动补全依赖、插入目标代码，
+            再检查它是不是真的把模型的目光
+            从真正漏洞上“拽走了”。
+
+            <br><br>
+
+            最终 Flashboom 在 CodeLlama 上
+            最高实现了
+            <strong>96.3%</strong>
+            的 blinding success rate，
+
+            并且这种“障眼法”还能
+            <strong>跨模型迁移</strong>。
+
+            更麻烦的是，
+            攻击后的代码和原代码依然非常相似，
+            平均 semantic similarity 可以达到
+            <strong>0.92+</strong>，
+
+            人也未必一眼就能发现哪里不对。
+
+          </p>
+
+
+          <!-- =================================================
+               Takeaway
+          ================================================== -->
+
+          <div class="project-takeaway">
+
+            🎩 一句话总结：
+
+            <span class="accent">
+              Hide the bug? No. Distract the auditor.
+            </span>
+
+            <br>
+
+            真正危险的地方在于：
+
+            <strong>
+              Bug 一直都在那里，
+              只是模型的眼睛被“骗开了”。
+            </strong>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- =================================================
+             Tags
+        ================================================== -->
+
+        <div class="project-tags">
+
+          <span class="project-tag">
+            LLM Security
+          </span>
+
+          <span class="project-tag">
+            Software Security
+          </span>
+
+          <span class="project-tag">
+            Code Auditing
+          </span>
+
+          <span class="project-tag">
+            Attention Manipulation
+          </span>
+
+          <span class="project-tag">
+            Adversarial Attack
+          </span>
+
+          <span class="project-tag">
+            Vulnerability Detection
+          </span>
+
+        </div>
+
+
+        <!-- =================================================
+             Links
+        ================================================== -->
+
+        <div class="project-links">
+
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+
+          <a
+            href="https://github.com/oxygen-hunter/Flashboom"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💻 Code
+          </a>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
+
+    <!-- ===================================================
+     Featured Project under LLM Security
+=================================================== -->
+
+<section class="area-projects">
+
+  <div class="area-projects-heading">
+    Featured Project
+  </div>
+
+
+  <article class="project-card">
+
+    <div class="project-card-content">
+
+
+      <!-- Project Poster -->
+      <div class="project-visual">
+
+        <img
+          src="{{ '/images/mcp-identity-confusion-poster.png' | relative_url }}"
+          alt="Identity Confusion in MCP"
+        >
+
+        <div class="project-visual-label">
+          🧩 LLM Security × MCP Security
+        </div>
+
+      </div>
+
+
+      <!-- Project Content -->
+      <div class="project-info">
+
+        <div class="project-category">
+          LLM Security
+        </div>
+
+
+        <h3 class="project-title">
+
+          Identity Confusion in MCP:
+
+          <span class="highlight">
+            Authorizing the Server Is Not the Same as Authorizing the Caller
+          </span>
+
+        </h3>
+
+
+        <!-- English -->
+        <p class="project-description">
+
+          MCP servers are increasingly becoming the execution layer of
+          LLM-based agents, bridging model decisions with real system actions.
+          But what happens when a server remembers that it was authorized,
+          yet cannot tell <strong>who</strong> is actually making the next call?
+
+          We identify a previously underexplored vulnerability in MCP-based
+          AI systems, which we call <strong>caller identity confusion</strong>.
+          The core problem is simple but dangerous:
+          <strong>authorization is often bound to the server, not to the real invoking caller.</strong>
+          As a result, a one-time legitimate authorization may silently unlock
+          later tool executions triggered by different, potentially malicious callers.
+
+          To systematically study this problem, we design
+          <strong>MCPAuthChecker</strong>, an invocation-level analysis framework
+          that detects whether execution authority is truly bound to the caller.
+          In a large-scale study of <strong>6,137 real-world MCP servers</strong>,
+          we find that <strong>2,846 (46.4%)</strong> exhibit insecure authorization behavior,
+          and <strong>52%</strong> of developer-tool servers are insecure.
+          These flaws can directly enable remote command execution,
+          unauthorized UI control, and privileged API abuse.
+
+        </p>
+
+
+        <!-- Numbers -->
+        <div class="project-stats">
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              6,137
+            </span>
+            <span class="project-stat-label">
+              MCP Servers Analyzed
+            </span>
+          </div>
+
+          <div class="project-stat emphasis">
+            <span class="project-stat-number">
+              46.4%
+            </span>
+            <span class="project-stat-label">
+              Insecure Authorization Behavior
+            </span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat-number">
+              52%
+            </span>
+            <span class="project-stat-label">
+              Developer-Tool Servers Insecure
+            </span>
+          </div>
+
+        </div>
+
+
+        <!-- Chinese -->
+        <div class="project-highlight-box">
+
+          <div class="project-highlight-title">
+
+            <span class="project-highlight-icon">
+              MCP
+            </span>
+
+            “授权过一次” ≠ “以后谁来都能用”。
+
+          </div>
+
+
+          <p>
+
+            MCP 很像大模型时代的“工具中间层”：
+            上面是 AI Agent，下面连着数据库、文件系统、浏览器、外部 API。
+
+            问题就出在这里——
+
+            <span class="project-highlight-accent">
+              很多 MCP server 记住了“自己被授权过”，
+              却没认真区分：这次真正发起调用的人，到底是谁。
+            </span>
+
+            <br><br>
+
+            于是，一个很危险但又很自然的事情就发生了：
+
+            一个合法用户先正常完成一次授权，
+            服务器把这个“已授权状态”记下来；
+            之后，另一个调用者——甚至是恶意 agent——
+            再来请求工具调用时，
+            server 可能直接沿用之前的授权，
+            <strong>继续执行。</strong>
+
+            <br><br>
+
+            换句话说，问题不在于
+            <strong>“有没有授权逻辑”</strong>，
+            而在于：
+
+            <strong>
+              这次执行的权限，
+              到底是不是绑定在当前这个 caller 身上。
+            </strong>
+
+            <br><br>
+
+            为了系统回答这个问题，
+            我们设计了 <strong>MCPAuthChecker</strong>，
+            从 tool invocation 粒度分析：
+            工具调用到底从哪里真正落到执行、
+            路径上有没有 caller-bound authorization、
+            以及已有授权状态会不会被后续调用“继承”。
+
+            <br><br>
+
+            最后我们分析了
+            <strong>6,137 个真实世界 MCP servers</strong>，
+            发现有 <strong>2,846 个（46.4%）</strong>
+            存在不安全授权行为；
+            而在最常见的 developer-tool servers 里，
+            这个比例高达 <strong>52%</strong>。
+
+            这些问题不是“代码不够优雅”那么简单，
+            而是可能直接导致：
+
+            <strong>
+              远程命令执行、未授权界面控制、以及高权限 API 滥用。
+            </strong>
+
+          </p>
+
+
+          <div class="project-takeaway">
+
+            🔐 一句话总结：
+
+            <span class="accent">
+              Authorize the caller, not just the server.
+            </span>
+
+            <br>
+
+            真正危险的不是“授权过一次”，
+            而是
+            <strong>
+              一次授权之后，server 开始替任何后来者干活。
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <!-- Tags -->
+        <div class="project-tags">
+
+          <span class="project-tag">
+            LLM Security
+          </span>
+
+          <span class="project-tag">
+            MCP Security
+          </span>
+
+          <span class="project-tag">
+            AI Agents
+          </span>
+
+          <span class="project-tag">
+            Authorization Security
+          </span>
+
+          <span class="project-tag">
+            Program Analysis
+          </span>
+
+          <span class="project-tag">
+            Web Security
+          </span>
+
+        </div>
+
+
+        <!-- Links -->
+        <div class="project-links">
+
+          <a
+            href="#"
+            class="project-link primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Paper
+          </a>
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 Project
+          </a>
+
+          <a
+            href="#"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💻 Code
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+</section>
 
     <div class="research-divider"></div>
 
