@@ -5,7 +5,94 @@
 /*
    Default
    ========================================================================== */
+ 
 
+.author__lab {
+  margin-top: 28px;
+  width: 100%;
+}
+
+.lab-entry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: 100%;
+  max-width: 245px;
+
+  padding: 12px 14px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #ffffff;
+
+  text-decoration: none !important;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.lab-entry:hover {
+  transform: translateY(-2px);
+  border-color: #b8c4ce;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+/* 实验室图标 */
+
+.lab-entry__icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 10px;
+
+  background: #f1f5f7;
+
+  font-size: 21px;
+  color: #2f5968;
+}
+
+
+/* 文字 */
+
+.lab-entry__info {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  line-height: 1.25;
+}
+
+.lab-entry__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3f4549;
+}
+
+.lab-entry__subtitle {
+  margin-top: 3px;
+
+  font-size: 11px;
+  color: #8a9398;
+}
+
+
+/* 右箭头 */
+
+.lab-entry__arrow {
+  font-size: 11px;
+  color: #a3aaae;
+}
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
