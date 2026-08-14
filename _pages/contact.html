@@ -1806,43 +1806,13 @@ permalink: /contact/
        NAVIGATION
   ========================================================= -->
 
-  <nav class="site-nav">
-
-    <div class="site-nav-inner">
-
-      <a href="index.html">
-        Home
-      </a>
-
-      <a href="news.html">
-        News
-      </a>
-
-      <a href="team.html">
-        Team
-      </a>
-
-      <a href="areas.html">
-        Areas
-      </a>
-
-      <a href="activity.html">
-        Activity
-      </a>
-
-      <a href="memories.html">
-        Lab Memories
-      </a>
-
-      <a
-        href="contact.html"
-        class="active"
-      >
-        Contact
-      </a>
-
-    </div>
-
+   <nav class="navbar">
+    <a href="{{ '/' | relative_url }}">Homepage</a>
+    <a href="{{ '/labhome' | relative_url }}">Lab Home</a>
+    <a href="{{ '/team/' | relative_url }}">Team</a>
+    <a href="{{ '/areas/' | relative_url }}">Areas & Featured Projects</a>
+    <a href="{{ '/memories/' | relative_url }}">Memories</a>
+    <a href="{{ '/contact/' | relative_url }}">Contact</a>
   </nav>
 
 
@@ -1918,7 +1888,7 @@ permalink: /contact/
             <div class="hero-actions">
 
               <a
-                href="mailto:YOUR_EMAIL@sdu.edu.cn"
+                href="mailto:zyueinfosec@sdu.edu.cn"
                 class="btn btn-primary"
               >
 
@@ -1930,9 +1900,9 @@ permalink: /contact/
 
               </a>
 
-
+ 
               <a
-                href="areas.html"
+                href="/areas/"
                 class="btn btn-secondary"
               >
                 Explore Our Research
@@ -1979,14 +1949,19 @@ permalink: /contact/
 
 
             <div class="floating-label label-mobile">
-              Mobile & IoT
+              Mobile Security
             </div>
 
 
             <div class="floating-label label-embodied">
-              Embodied AI
+              Embodied AI & IoT Security
             </div>
-
+             <div class="floating-label label-human">
+              Human-centered Security
+            </div>
+               <div class="floating-label programanalysis">
+             Program Analysis
+            </div>
           </div>
 
         </div>
@@ -2338,140 +2313,7 @@ permalink: /contact/
 
         </div>
 
-
-
-        <!-- =====================================================
-             RESEARCH
-        ====================================================== -->
-
-        <div class="research-section">
-
-
-          <div class="research-heading">
-
-            <span class="section-kicker">
-              WHAT YOU MAY WORK ON
-            </span>
-
-
-            <h2>
-              Problems don't arrive
-              with research labels.
-            </h2>
-
-
-            <p>
-
-              We care more about interesting security questions
-              than fitting every project neatly into one box.
-              Your work may move across AI, software, devices,
-              networks, and physical systems.
-
-            </p>
-
-          </div>
-
-
-
-          <div class="research-list">
-
-
-            <div class="research-item">
-
-              <span class="research-number">
-                01
-              </span>
-
-              <div>
-
-                <h3>
-                  AI × Security
-                </h3>
-
-                <p>
-                  LLM security, agents, AI-assisted security,
-                  trustworthy and secure AI systems.
-                </p>
-
-              </div>
-
-            </div>
-
-
-
-            <div class="research-item">
-
-              <span class="research-number">
-                02
-              </span>
-
-              <div>
-
-                <h3>
-                  Software × Systems
-                </h3>
-
-                <p>
-                  Vulnerability discovery, program analysis,
-                  fuzzing, software and system security.
-                </p>
-
-              </div>
-
-            </div>
-
-
-
-            <div class="research-item">
-
-              <span class="research-number">
-                03
-              </span>
-
-              <div>
-
-                <h3>
-                  Mobile × IoT
-                </h3>
-
-                <p>
-                  Mobile security, IoT security,
-                  privacy, protocols, and ecosystem security.
-                </p>
-
-              </div>
-
-            </div>
-
-
-
-            <div class="research-item">
-
-              <span class="research-number">
-                04
-              </span>
-
-              <div>
-
-                <h3>
-                  Embodied × Physical
-                </h3>
-
-                <p>
-                  Robots, cyber-physical systems,
-                  embodied AI, and mission-critical security.
-                </p>
-
-              </div>
-
-            </div>
-
-
-          </div>
-
-        </div>
-
-
+ 
 
         <!-- =====================================================
              HOW TO APPLY
@@ -2702,7 +2544,7 @@ permalink: /contact/
 
 
           <a
-            href="mailto:YOUR_EMAIL@sdu.edu.cn"
+            href="mailto:zyueinfosec@sdu.edu.cn"
             class="final-email"
           >
 
@@ -2782,11 +2624,11 @@ permalink: /contact/
           function() {
 
             if (
-              link.href.includes("YOUR_EMAIL")
+              link.href.includes("zyueinfosec@sdu.edu.cn")
             ) {
 
               console.warn(
-                "Please replace YOUR_EMAIL@sdu.edu.cn with your actual email address."
+                "Please replace zyueinfosec@sdu.edu.cn with your actual email address."
               );
 
             }
