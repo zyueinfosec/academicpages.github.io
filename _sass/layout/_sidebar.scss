@@ -6,93 +6,7 @@
    Default
    ========================================================================== */
  
-
-.author__lab {
-  margin-top: 28px;
-  width: 100%;
-}
-
-.lab-entry {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  width: 100%;
-  max-width: 245px;
-
-  padding: 12px 14px;
-
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-
-  background: #ffffff;
-
-  text-decoration: none !important;
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
-}
-
-.lab-entry:hover {
-  transform: translateY(-2px);
-  border-color: #b8c4ce;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-}
-
-
-/* 实验室图标 */
-
-.lab-entry__icon {
-  width: 42px;
-  height: 42px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  flex-shrink: 0;
-
-  border-radius: 10px;
-
-  background: #f1f5f7;
-
-  font-size: 21px;
-  color: #2f5968;
-}
-
-
-/* 文字 */
-
-.lab-entry__info {
-  display: flex;
-  flex-direction: column;
-
-  flex: 1;
-  line-height: 1.25;
-}
-
-.lab-entry__title {
-  font-size: 15px;
-  font-weight: 700;
-  color: #3f4549;
-}
-
-.lab-entry__subtitle {
-  margin-top: 3px;
-
-  font-size: 11px;
-  color: #8a9398;
-}
-
-
-/* 右箭头 */
-
-.lab-entry__arrow {
-  font-size: 11px;
-  color: #a3aaae;
-}
+ 
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
@@ -347,5 +261,205 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+/* =========================================================
+   AIMS Lab Entrance
+   ========================================================= */
+
+.author__lab-entrance {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 34px;
+  text-align: center;
+}
+
+.aims-lab-link {
+  display: block;
+  width: 100%;
+
+  padding: 8px 8px 14px;
+
+  text-decoration: none !important;
+  border: none !important;
+  outline: none;
+
+  transition: transform 0.25s ease;
+}
+
+.aims-lab-link:hover {
+  transform: translateY(-4px);
+}
+
+
+/* -------------------------
+   圆形 Logo
+   ------------------------- */
+
+.aims-lab-logo-wrap {
+  position: relative;
+
+  width: 145px;
+  height: 145px;
+
+  margin: 0 auto 15px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 5px rgba(45, 113, 255, 0.07),
+    0 0 0 10px rgba(45, 113, 255, 0.035),
+    0 8px 25px rgba(28, 67, 120, 0.12);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.aims-lab-link:hover .aims-lab-logo-wrap {
+  transform: scale(1.035);
+
+  box-shadow:
+    0 0 0 5px rgba(45, 113, 255, 0.11),
+    0 0 0 11px rgba(45, 113, 255, 0.05),
+    0 10px 30px rgba(28, 88, 180, 0.20);
+}
+
+
+.aims-lab-logo {
+  display: block;
+
+  width: 132px;
+  height: 132px;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+/* -------------------------
+   点击的小图标
+   ------------------------- */
+
+.aims-click-icon {
+  position: absolute;
+
+  right: -3px;
+  bottom: 4px;
+
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  font-size: 18px;
+  color: #1769ff;
+
+  box-shadow: 0 3px 10px rgba(20, 70, 140, 0.20);
+
+  transition: transform 0.2s ease;
+}
+
+.aims-lab-link:hover .aims-click-icon {
+  transform: scale(1.15) rotate(-8deg);
+}
+
+
+/* -------------------------
+   AIMS Lab
+   ------------------------- */
+
+.aims-lab-title {
+  margin-top: 2px;
+
+  font-size: 27px;
+  line-height: 1.1;
+
+  font-weight: 800;
+  letter-spacing: -0.5px;
+
+  color: #15355f;
+}
+
+
+/* -------------------------
+   Click to Enter...
+   ------------------------- */
+
+.aims-lab-enter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin-top: 10px;
+
+  white-space: nowrap;
+}
+
+.aims-lab-enter span {
+  width: 22px;
+  height: 1px;
+
+  background: #aeb8c6;
+}
+
+.aims-lab-enter strong {
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #1769ff;
+}
+
+
+/* -------------------------
+   中文
+   ------------------------- */
+
+.aims-lab-cn {
+  margin-top: 5px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #2085ff;
+}
+
+
+/* -------------------------
+   Mobile
+   ------------------------- */
+
+@media (max-width: 1024px) {
+
+  .author__lab-entrance {
+    margin-top: 20px;
+  }
+
+  .aims-lab-logo-wrap {
+    width: 120px;
+    height: 120px;
+  }
+
+  .aims-lab-logo {
+    width: 108px;
+    height: 108px;
+  }
+
+  .aims-lab-title {
+    font-size: 23px;
   }
 }
