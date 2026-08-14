@@ -1,1 +1,2798 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Join AI for Mission-critical Security (AIMS) Lab at Shandong University"
+  >
+
+  <title>Join AIMS Lab</title>
+
+  <style>
+
+    /* =========================================================
+       RESET
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: #111827;
+      background: #ffffff;
+
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "PingFang SC",
+        "Hiragino Sans GB",
+        "Microsoft YaHei",
+        Arial,
+        sans-serif;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+
+    /* =========================================================
+       HEADER
+    ========================================================= */
+
+    .site-header {
+      position: relative;
+      overflow: hidden;
+
+      padding:
+        40px
+        clamp(28px, 4vw, 60px)
+        45px;
+
+      color: #ffffff;
+
+      background:
+        radial-gradient(
+          circle at 72% 0%,
+          rgba(43, 112, 220, 0.20),
+          transparent 34%
+        ),
+        linear-gradient(
+          120deg,
+          #041021 0%,
+          #071a38 55%,
+          #06142a 100%
+        );
+    }
+
+
+    .site-header::after {
+      content: "";
+
+      position: absolute;
+      inset: 0;
+
+      pointer-events: none;
+
+      opacity: .15;
+
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 26px,
+          rgba(84, 145, 232, .18) 27px,
+          transparent 28px
+        );
+    }
+
+
+    .site-header-inner {
+      position: relative;
+      z-index: 2;
+
+      width: min(1500px, 100%);
+      margin: 0 auto;
+    }
+
+
+    .site-title {
+      margin: 0;
+
+      font-size:
+        clamp(
+          30px,
+          4vw,
+          50px
+        );
+
+      line-height: 1.15;
+
+      font-weight: 700;
+
+      letter-spacing: -.025em;
+    }
+
+
+    /* =========================================================
+       NAVIGATION
+    ========================================================= */
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      background:
+        rgba(255, 255, 255, .97);
+
+      border-bottom:
+        1px solid #e8edf3;
+
+      backdrop-filter:
+        blur(12px);
+    }
+
+
+    .site-nav-inner {
+      display: flex;
+      align-items: center;
+
+      gap: 34px;
+
+      width: min(1500px, 100%);
+
+      margin: 0 auto;
+
+      padding:
+        0
+        clamp(18px, 4vw, 60px);
+
+      overflow-x: auto;
+
+      scrollbar-width: none;
+    }
+
+
+    .site-nav-inner::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    .site-nav a {
+      position: relative;
+
+      flex: 0 0 auto;
+
+      padding: 25px 0;
+
+      color: #075ed1;
+
+      text-decoration: none;
+
+      font-size: 17px;
+
+      transition: .2s ease;
+    }
+
+
+    .site-nav a:hover {
+      color: #003e97;
+    }
+
+
+    .site-nav a.active {
+      font-weight: 500;
+    }
+
+
+    .site-nav a.active::after {
+      content: "";
+
+      position: absolute;
+
+      right: 0;
+      bottom: 14px;
+      left: 0;
+
+      height: 2px;
+
+      background: #075ed1;
+    }
+
+
+    /* =========================================================
+       CONTACT PAGE
+    ========================================================= */
+
+    .aims-contact {
+      --blue: #075ed1;
+      --blue-dark: #0449a4;
+      --blue-light: #eef6ff;
+
+      --text: #101827;
+      --muted: #657286;
+      --line: #e5eaf0;
+
+      position: relative;
+
+      overflow: hidden;
+
+      padding:
+        105px
+        clamp(24px, 6vw, 90px)
+        85px;
+
+      background: #ffffff;
+    }
+
+
+    .aims-contact::before {
+      content: "";
+
+      position: absolute;
+
+      width: 560px;
+      height: 560px;
+
+      top: -260px;
+      right: -180px;
+
+      border-radius: 50%;
+
+      pointer-events: none;
+
+      background:
+        radial-gradient(
+          circle,
+          rgba(29, 102, 210, .08),
+          transparent 70%
+        );
+    }
+
+
+    .contact-inner {
+      position: relative;
+      z-index: 2;
+
+      width: min(1450px, 100%);
+
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+
+    .contact-hero {
+      display: grid;
+
+      grid-template-columns:
+        minmax(0, 1.08fr)
+        minmax(390px, .92fr);
+
+      gap: 90px;
+
+      align-items: center;
+
+      min-height: 580px;
+
+      padding-bottom: 100px;
+
+      border-bottom:
+        1px solid
+        var(--line);
+    }
+
+
+    .eyebrow {
+      display: block;
+
+      margin-bottom: 14px;
+
+      color: var(--blue);
+
+      font-size: 11px;
+
+      font-weight: 600;
+
+      letter-spacing: .19em;
+    }
+
+
+    .hero-title {
+      max-width: 800px;
+
+      margin: 0;
+
+      color: #0d1625;
+
+      font-size:
+        clamp(
+          54px,
+          7vw,
+          96px
+        );
+
+      line-height: .97;
+
+      font-weight: 600;
+
+      letter-spacing: -.065em;
+    }
+
+
+    .hero-title span {
+      display: block;
+
+      color: var(--blue);
+    }
+
+
+    .hero-description {
+      max-width: 710px;
+
+      margin: 35px 0 0;
+
+      color: #536176;
+
+      font-size: 18px;
+
+      line-height: 1.8;
+    }
+
+
+    .hero-description strong {
+      color: #162338;
+      font-weight: 500;
+    }
+
+
+    .hero-cn {
+      max-width: 690px;
+
+      margin: 18px 0 0;
+
+      color: #7a8696;
+
+      font-size: 14px;
+
+      line-height: 1.85;
+    }
+
+
+    .hero-cn strong {
+      color: var(--blue);
+      font-weight: 500;
+    }
+
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 34px;
+    }
+
+
+    .btn {
+      display: inline-flex;
+
+      align-items: center;
+      justify-content: center;
+
+      gap: 18px;
+
+      min-height: 51px;
+
+      padding: 0 21px;
+
+      border-radius: 8px;
+
+      text-decoration: none;
+
+      font-size: 13px;
+
+      font-weight: 500;
+
+      transition:
+        transform .25s ease,
+        background .25s ease,
+        border-color .25s ease;
+    }
+
+
+    .btn-primary {
+      color: #ffffff;
+
+      border:
+        1px solid
+        var(--blue);
+
+      background:
+        var(--blue);
+    }
+
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      background: var(--blue-dark);
+    }
+
+
+    .btn-secondary {
+      color: #26364b;
+
+      border:
+        1px solid
+        #d9e1eb;
+
+      background: #ffffff;
+    }
+
+
+    .btn-secondary:hover {
+      transform: translateY(-2px);
+
+      border-color:
+        #a9bfdc;
+    }
+
+
+    .btn-arrow {
+      font-size: 18px;
+    }
+
+
+    /* =========================================================
+       HERO VISUAL
+    ========================================================= */
+
+    .hero-visual {
+      position: relative;
+
+      min-height: 510px;
+
+      display: grid;
+      place-items: center;
+    }
+
+
+    .orbit {
+      position: absolute;
+
+      border:
+        1px solid
+        rgba(7, 94, 209, .14);
+
+      border-radius: 50%;
+
+      animation:
+        orbitPulse 5s ease-in-out infinite;
+    }
+
+
+    .orbit-1 {
+      width: 420px;
+      height: 420px;
+    }
+
+
+    .orbit-2 {
+      width: 315px;
+      height: 315px;
+
+      animation-delay: .7s;
+    }
+
+
+    .orbit-3 {
+      width: 210px;
+      height: 210px;
+
+      border-color:
+        rgba(7, 94, 209, .28);
+
+      animation-delay: 1.3s;
+    }
+
+
+    @keyframes orbitPulse {
+      0%,
+      100% {
+        opacity: .6;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+
+    .visual-core {
+      position: relative;
+      z-index: 3;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+
+      width: 195px;
+      height: 195px;
+
+      padding: 29px;
+
+      border-radius: 50%;
+
+      color: #ffffff;
+
+      background:
+        linear-gradient(
+          145deg,
+          #0b69df,
+          #052d72
+        );
+
+      box-shadow:
+        0 30px 80px
+        rgba(5, 73, 165, .22);
+    }
+
+
+    .core-small {
+      margin-bottom: 10px;
+
+      color:
+        rgba(255,255,255,.65);
+
+      font-size: 10px;
+
+      letter-spacing: .16em;
+    }
+
+
+    .core-main {
+      font-size: 28px;
+
+      line-height: 1.05;
+
+      font-weight: 500;
+
+      letter-spacing: -.04em;
+    }
+
+
+    .floating-label {
+      position: absolute;
+      z-index: 4;
+
+      padding:
+        8px 12px;
+
+      border:
+        1px solid
+        #dce7f4;
+
+      border-radius:
+        999px;
+
+      background:
+        rgba(255,255,255,.96);
+
+      color:
+        #456078;
+
+      font-size: 11px;
+
+      box-shadow:
+        0 8px 30px
+        rgba(31, 70, 116, .06);
+    }
+
+
+    .label-ai {
+      top: 55px;
+      right: 65px;
+    }
+
+
+    .label-system {
+      top: 190px;
+      left: 20px;
+    }
+
+
+    .label-mobile {
+      right: 10px;
+      bottom: 130px;
+    }
+
+
+    .label-embodied {
+      left: 100px;
+      bottom: 45px;
+    }
+
+
+    /* =========================================================
+       SECTION HEADING
+    ========================================================= */
+
+    .section-heading {
+      margin-top: 95px;
+
+      margin-bottom: 35px;
+    }
+
+
+    .section-kicker {
+      display: block;
+
+      margin-bottom: 13px;
+
+      color: var(--blue);
+
+      font-size: 11px;
+
+      font-weight: 600;
+
+      letter-spacing: .18em;
+    }
+
+
+    .section-heading h2,
+    .research-heading h2,
+    .application-left h2 {
+      margin: 0;
+
+      color: #101a29;
+
+      font-size:
+        clamp(
+          31px,
+          4vw,
+          48px
+        );
+
+      line-height: 1.12;
+
+      font-weight: 500;
+
+      letter-spacing: -.045em;
+    }
+
+
+    /* =========================================================
+       POSITION GRID
+    ========================================================= */
+
+    .position-grid {
+      display: grid;
+
+      grid-template-columns:
+        minmax(0, 1.18fr)
+        minmax(0, .82fr);
+
+      gap: 18px;
+    }
+
+
+    .position-card {
+      padding: 38px;
+
+      border:
+        1px solid
+        #e1e7ee;
+
+      border-radius: 17px;
+
+      background: #ffffff;
+
+      transition:
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
+    }
+
+
+    .position-card:hover {
+      transform:
+        translateY(-4px);
+
+      border-color:
+        #bdd2ec;
+
+      box-shadow:
+        0 24px 70px
+        rgba(34, 70, 110, .07);
+    }
+
+
+    .position-card.phd {
+      border-color:
+        #cfe1f7;
+
+      background:
+        linear-gradient(
+          145deg,
+          #fbfdff,
+          #f1f7ff
+        );
+    }
+
+
+    .position-top {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    .position-index {
+      color: #a1adbc;
+
+      font-size: 11px;
+
+      letter-spacing: .12em;
+    }
+
+
+    .position-tag {
+      padding:
+        6px 11px;
+
+      border-radius:
+        999px;
+
+      color: var(--blue);
+
+      background:
+        #eaf4ff;
+
+      font-size: 9px;
+
+      font-weight: 600;
+
+      letter-spacing: .09em;
+    }
+
+
+    .position-card h3 {
+      margin:
+        38px 0 15px;
+
+      color: #101827;
+
+      font-size: 30px;
+
+      font-weight: 500;
+
+      letter-spacing: -.04em;
+    }
+
+
+    .position-intro {
+      margin: 0;
+
+      color: #657286;
+
+      font-size: 14px;
+
+      line-height: 1.75;
+    }
+
+
+    .position-divider {
+      height: 1px;
+
+      margin: 28px 0;
+
+      background:
+        #e1e7ee;
+    }
+
+
+    .position-label {
+      margin-bottom: 14px;
+
+      color: #263449;
+
+      font-size: 12px;
+
+      font-weight: 600;
+    }
+
+
+    .position-card ul {
+      margin: 0;
+
+      padding: 0;
+
+      list-style: none;
+    }
+
+
+    .position-card li {
+      position: relative;
+
+      margin: 10px 0;
+
+      padding-left: 19px;
+
+      color: #667386;
+
+      font-size: 13px;
+
+      line-height: 1.65;
+    }
+
+
+    .position-card li::before {
+      content: "";
+
+      position: absolute;
+
+      top: 9px;
+      left: 0;
+
+      width: 5px;
+      height: 5px;
+
+      border-radius: 50%;
+
+      background:
+        #438be7;
+    }
+
+
+    .position-card li strong {
+      color: #263a56;
+      font-weight: 600;
+    }
+
+
+    /* =========================================================
+       PRIORITY PATH
+    ========================================================= */
+
+    .priority-path {
+      display: flex;
+
+      flex-wrap: wrap;
+
+      align-items: center;
+
+      gap: 8px;
+    }
+
+
+    .priority-item {
+      display: inline-flex;
+
+      align-items: center;
+
+      min-height: 31px;
+
+      padding:
+        6px 10px;
+
+      border:
+        1px solid
+        #dce4ee;
+
+      border-radius:
+        999px;
+
+      color: #68768a;
+
+      background:
+        rgba(255,255,255,.75);
+
+      font-size: 10.5px;
+    }
+
+
+    .priority-item.high {
+      border-color:
+        #acd0fa;
+
+      color: var(--blue);
+
+      background:
+        #e9f4ff;
+
+      font-weight: 600;
+    }
+
+
+    .priority-arrow {
+      color: #a0acbc;
+
+      font-size: 17px;
+    }
+
+
+    /* =========================================================
+       PREFERENCE CARDS
+    ========================================================= */
+
+    .plus-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+      gap: 9px;
+    }
+
+
+    .plus-item {
+      padding: 13px;
+
+      border:
+        1px solid
+        #dfe7f0;
+
+      border-radius: 10px;
+
+      background:
+        rgba(255,255,255,.70);
+    }
+
+
+    .plus-icon {
+      display: block;
+
+      margin-bottom: 8px;
+
+      color: var(--blue);
+
+      font-size: 10px;
+
+      font-weight: 700;
+
+      letter-spacing: .08em;
+    }
+
+
+    .plus-item strong {
+      display: block;
+
+      margin-bottom: 4px;
+
+      color: #28384d;
+
+      font-size: 11px;
+
+      font-weight: 600;
+    }
+
+
+    .plus-item span {
+      color: #788598;
+
+      font-size: 10px;
+
+      line-height: 1.5;
+    }
+
+
+    .position-footer {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      margin-top: 29px;
+
+      padding-top: 19px;
+
+      border-top:
+        1px solid
+        #e2e8ef;
+
+      color: #68768a;
+
+      font-size: 11px;
+    }
+
+
+    .position-footer-arrow {
+      color: var(--blue);
+
+      font-size: 21px;
+    }
+
+
+    /* =========================================================
+       MASTER
+    ========================================================= */
+
+    .master-focus {
+      margin-top: 23px;
+
+      padding: 18px;
+
+      border-radius: 10px;
+
+      background: #f7f9fc;
+    }
+
+
+    .master-focus strong {
+      display: block;
+
+      margin-bottom: 7px;
+
+      color: #2c3d54;
+
+      font-size: 12px;
+    }
+
+
+    .master-focus p {
+      margin: 0;
+
+      color: #728096;
+
+      font-size: 12px;
+
+      line-height: 1.7;
+    }
+
+
+    /* =========================================================
+       RESEARCH
+    ========================================================= */
+
+    .research-section {
+      display: grid;
+
+      grid-template-columns:
+        .85fr 1.15fr;
+
+      gap: 90px;
+
+      margin-top: 120px;
+
+      padding-top: 100px;
+
+      border-top:
+        1px solid
+        var(--line);
+    }
+
+
+    .research-heading p {
+      max-width: 470px;
+
+      margin:
+        23px 0 0;
+
+      color: #6b788b;
+
+      font-size: 14px;
+
+      line-height: 1.8;
+    }
+
+
+    .research-list {
+      border-top:
+        1px solid
+        #e1e6ed;
+    }
+
+
+    .research-item {
+      display: grid;
+
+      grid-template-columns:
+        58px 1fr;
+
+      gap: 20px;
+
+      padding: 24px 0;
+
+      border-bottom:
+        1px solid
+        #e1e6ed;
+    }
+
+
+    .research-number {
+      color: #a3afbe;
+
+      font-size: 10px;
+
+      letter-spacing: .1em;
+    }
+
+
+    .research-item h3 {
+      margin:
+        0 0 6px;
+
+      color: #182438;
+
+      font-size: 17px;
+
+      font-weight: 500;
+    }
+
+
+    .research-item p {
+      margin: 0;
+
+      color: #7a8697;
+
+      font-size: 12px;
+
+      line-height: 1.65;
+    }
+
+
+    /* =========================================================
+       APPLICATION
+    ========================================================= */
+
+    .application-box {
+      display: grid;
+
+      grid-template-columns:
+        .9fr 1.1fr;
+
+      gap: 90px;
+
+      margin-top: 120px;
+
+      padding: 65px;
+
+      border:
+        1px solid
+        #e7edf4;
+
+      border-radius: 20px;
+
+      background: #f6f9fc;
+    }
+
+
+    .application-left p {
+      max-width: 500px;
+
+      margin:
+        22px 0 0;
+
+      color: #6c798c;
+
+      font-size: 14px;
+
+      line-height: 1.8;
+    }
+
+
+    .application-note {
+      margin-top: 22px !important;
+
+      padding:
+        15px 17px;
+
+      border-left:
+        3px solid
+        var(--blue);
+
+      border-radius:
+        0 8px 8px 0;
+
+      color:
+        #536176 !important;
+
+      background:
+        #eaf4ff;
+    }
+
+
+    .application-note strong {
+      color: var(--blue);
+    }
+
+
+    .materials-title {
+      margin-bottom: 14px;
+
+      color: #39485e;
+
+      font-size: 12px;
+
+      font-weight: 600;
+    }
+
+
+    .material-item {
+      display: grid;
+
+      grid-template-columns:
+        42px 1fr;
+
+      gap: 10px;
+
+      padding:
+        17px 0;
+
+      border-bottom:
+        1px solid
+        #dce4ed;
+    }
+
+
+    .material-number {
+      padding-top: 3px;
+
+      color: var(--blue);
+
+      font-size: 9px;
+
+      letter-spacing: .09em;
+    }
+
+
+    .material-item strong {
+      display: block;
+
+      margin-bottom: 5px;
+
+      color: #263449;
+
+      font-size: 13px;
+
+      font-weight: 600;
+    }
+
+
+    .material-item p {
+      margin: 0;
+
+      color: #68768b;
+
+      font-size: 12px;
+
+      line-height: 1.65;
+    }
+
+
+    /* =========================================================
+       EMAIL FORMAT
+    ========================================================= */
+
+    .email-guide {
+      display: grid;
+
+      grid-template-columns:
+        .8fr 1.2fr;
+
+      gap: 90px;
+
+      margin-top: 110px;
+
+      padding-top: 90px;
+
+      border-top:
+        1px solid
+        var(--line);
+    }
+
+
+    .email-guide-left h2 {
+      margin: 0;
+
+      color: #101a29;
+
+      font-size:
+        clamp(
+          30px,
+          4vw,
+          46px
+        );
+
+      line-height: 1.1;
+
+      font-weight: 500;
+
+      letter-spacing: -.045em;
+    }
+
+
+    .email-guide-left p {
+      max-width: 440px;
+
+      margin:
+        22px 0 0;
+
+      color: #6d798c;
+
+      font-size: 13px;
+
+      line-height: 1.8;
+    }
+
+
+    .email-sample {
+      overflow: hidden;
+
+      border:
+        1px solid
+        #e0e7ef;
+
+      border-radius: 15px;
+
+      background: #ffffff;
+    }
+
+
+    .email-sample-top {
+      display: flex;
+
+      align-items: center;
+
+      gap: 7px;
+
+      padding:
+        15px 18px;
+
+      border-bottom:
+        1px solid
+        #e7ecf1;
+
+      background:
+        #f9fbfd;
+    }
+
+
+    .email-dot {
+      width: 7px;
+      height: 7px;
+
+      border-radius: 50%;
+
+      background: #b7c2cf;
+    }
+
+
+    .email-sample-body {
+      padding: 28px;
+    }
+
+
+    .email-row {
+      display: grid;
+
+      grid-template-columns:
+        72px 1fr;
+
+      gap: 15px;
+
+      margin-bottom: 14px;
+
+      font-size: 12px;
+    }
+
+
+    .email-row-label {
+      color: #9aa6b5;
+    }
+
+
+    .email-row-value {
+      color: #33445b;
+    }
+
+
+    .email-content {
+      margin-top: 25px;
+
+      padding-top: 22px;
+
+      border-top:
+        1px solid
+        #edf0f4;
+
+      color: #657286;
+
+      font-size: 12px;
+
+      line-height: 1.85;
+    }
+
+
+    /* =========================================================
+       FINAL CTA
+    ========================================================= */
+
+    .final-cta {
+      display: flex;
+
+      align-items: flex-end;
+      justify-content: space-between;
+
+      gap: 45px;
+
+      margin-top: 110px;
+
+      padding-top: 70px;
+
+      border-top:
+        1px solid
+        var(--line);
+    }
+
+
+    .final-kicker {
+      color: #7f8ca0;
+
+      font-size: 9px;
+
+      letter-spacing: .18em;
+    }
+
+
+    .final-cta h2 {
+      margin:
+        9px 0 0;
+
+      color: #111a29;
+
+      font-size:
+        clamp(
+          31px,
+          4vw,
+          53px
+        );
+
+      line-height: 1.05;
+
+      font-weight: 500;
+
+      letter-spacing: -.05em;
+    }
+
+
+    .final-email {
+      display: flex;
+
+      align-items: center;
+
+      gap: 30px;
+
+      min-width: 330px;
+
+      padding:
+        17px 20px;
+
+      border-bottom:
+        1px solid
+        #b9c8d9;
+
+      color: var(--blue);
+
+      text-decoration: none;
+
+      font-size: 14px;
+
+      transition: .25s ease;
+    }
+
+
+    .final-email:hover {
+      border-color: var(--blue);
+    }
+
+
+    .final-email-arrow {
+      margin-left: auto;
+
+      font-size: 19px;
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .site-footer {
+      padding:
+        25px
+        clamp(24px, 6vw, 90px)
+        36px;
+
+      color: #8b97a8;
+
+      background: #ffffff;
+
+      font-size: 11px;
+    }
+
+
+    .site-footer-inner {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 20px;
+
+      width: min(1450px, 100%);
+
+      margin: 0 auto;
+
+      padding-top: 25px;
+
+      border-top:
+        1px solid
+        #e9edf2;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .contact-hero {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+      }
+
+
+      .hero-visual {
+        min-height: 450px;
+      }
+
+
+      .position-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .research-section,
+      .application-box,
+      .email-guide {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+      }
+
+    }
+
+
+    @media (max-width: 760px) {
+
+      .site-header {
+        padding:
+          30px 22px
+          32px;
+      }
+
+
+      .site-title {
+        font-size: 30px;
+      }
+
+
+      .site-nav-inner {
+        gap: 25px;
+
+        padding:
+          0 20px;
+      }
+
+
+      .site-nav a {
+        padding: 20px 0;
+
+        font-size: 15px;
+      }
+
+
+      .aims-contact {
+        padding:
+          75px 20px
+          55px;
+      }
+
+
+      .contact-hero {
+        min-height: auto;
+
+        padding-bottom: 70px;
+      }
+
+
+      .hero-title {
+        font-size: 54px;
+      }
+
+
+      .hero-description {
+        font-size: 16px;
+      }
+
+
+      .hero-visual {
+        min-height: 380px;
+
+        transform: scale(.9);
+      }
+
+
+      .plus-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .priority-arrow {
+        display: none;
+      }
+
+
+      .research-section {
+        margin-top: 80px;
+
+        padding-top: 70px;
+      }
+
+
+      .application-box {
+        margin-top: 80px;
+
+        padding: 35px 25px;
+      }
+
+
+      .email-guide {
+        margin-top: 80px;
+
+        padding-top: 70px;
+      }
+
+
+      .final-cta {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        margin-top: 75px;
+      }
+
+
+      .final-email {
+        width: 100%;
+
+        min-width: 0;
+      }
+
+
+      .site-footer-inner {
+        flex-direction: column;
+
+        align-items: flex-start;
+      }
+
+    }
+
+
+    @media (max-width: 480px) {
+
+      .hero-title {
+        font-size: 44px;
+      }
+
+
+      .hero-visual {
+        min-height: 330px;
+
+        margin: -20px 0;
+
+        transform: scale(.78);
+      }
+
+
+      .position-card {
+        padding: 28px 23px;
+      }
+
+
+      .position-card h3 {
+        margin-top: 30px;
+
+        font-size: 26px;
+      }
+
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+
+      .btn {
+        width: 100%;
+      }
+
+
+      .application-box {
+        padding: 28px 21px;
+      }
+
+
+      .email-sample-body {
+        padding: 20px;
+      }
+
+
+      .email-row {
+        grid-template-columns: 1fr;
+
+        gap: 4px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+  <!-- =========================================================
+       HEADER
+  ========================================================= -->
+
+  <header
+    class="site-header"
+    id="home"
+  >
+
+    <div class="site-header-inner">
+
+      <h1 class="site-title">
+        AI for Mission-critical Security (AIMS) Lab
+      </h1>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =========================================================
+       NAVIGATION
+  ========================================================= -->
+
+  <nav class="site-nav">
+
+    <div class="site-nav-inner">
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="news.html">
+        News
+      </a>
+
+      <a href="team.html">
+        Team
+      </a>
+
+      <a href="areas.html">
+        Areas
+      </a>
+
+      <a href="activity.html">
+        Activity
+      </a>
+
+      <a href="memories.html">
+        Lab Memories
+      </a>
+
+      <a
+        href="contact.html"
+        class="active"
+      >
+        Contact
+      </a>
+
+    </div>
+
+  </nav>
+
+
+
+  <!-- =========================================================
+       MAIN
+  ========================================================= -->
+
+  <main>
+
+    <section
+      class="aims-contact"
+      id="contact"
+    >
+
+      <div class="contact-inner">
+
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <div class="contact-hero">
+
+
+          <!-- LEFT -->
+
+          <div>
+
+            <span class="eyebrow">
+              JOIN AIMS
+            </span>
+
+
+            <h2 class="hero-title">
+
+              Build something
+
+              <span>
+                that matters.
+              </span>
+
+            </h2>
+
+
+            <p class="hero-description">
+
+              We are looking for curious and motivated students
+              who want to explore real-world security problems
+              at the intersection of
+
+              <strong>
+                AI, software, systems, and the physical world.
+              </strong>
+
+            </p>
+
+
+            <p class="hero-cn">
+
+              如果你喜欢发现那些
+
+              <strong>
+                “本来不应该发生，但偏偏发生了”
+              </strong>
+
+              的安全问题，也愿意真正动手把问题研究明白，
+              欢迎加入 AIMS。
+
+            </p>
+
+
+            <div class="hero-actions">
+
+              <a
+                href="mailto:YOUR_EMAIL@sdu.edu.cn"
+                class="btn btn-primary"
+              >
+
+                Start a Conversation
+
+                <span class="btn-arrow">
+                  ↗
+                </span>
+
+              </a>
+
+
+              <a
+                href="areas.html"
+                class="btn btn-secondary"
+              >
+                Explore Our Research
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- RIGHT -->
+
+          <div class="hero-visual">
+
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+
+
+            <div class="visual-core">
+
+              <div class="core-small">
+                AIMS
+              </div>
+
+              <div class="core-main">
+                Think.<br>
+                Break.<br>
+                Build.
+              </div>
+
+            </div>
+
+
+            <div class="floating-label label-ai">
+              AI Security
+            </div>
+
+
+            <div class="floating-label label-system">
+              System Security
+            </div>
+
+
+            <div class="floating-label label-mobile">
+              Mobile & IoT
+            </div>
+
+
+            <div class="floating-label label-embodied">
+              Embodied AI
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             OPEN POSITIONS
+        ====================================================== -->
+
+        <div class="section-heading">
+
+          <span class="section-kicker">
+            OPEN POSITIONS
+          </span>
+
+          <h2>
+            Find your path at AIMS.
+          </h2>
+
+        </div>
+
+
+
+        <div class="position-grid">
+
+
+          <!-- =================================================
+               PHD
+          ================================================== -->
+
+          <article class="position-card phd">
+
+            <div class="position-top">
+
+              <span class="position-index">
+                01
+              </span>
+
+              <span class="position-tag">
+                PhD
+              </span>
+
+            </div>
+
+
+            <h3>
+              PhD Students
+            </h3>
+
+
+            <p class="position-intro">
+
+              We are looking for PhD students with a solid
+              research foundation in computer security or
+              closely related areas, who are interested in
+              tackling real-world security problems through
+              rigorous research and hands-on system building.
+
+            </p>
+
+
+
+            <!-- BASIC -->
+
+            <div class="position-divider"></div>
+
+
+            <div class="position-label">
+              Basic Requirements
+            </div>
+
+
+            <ul>
+
+              <li>
+
+                A research background in
+
+                <strong>
+                  computer security
+                </strong>
+
+                or related areas, including software engineering,
+                operating systems, human-computer interaction,
+                artificial intelligence, and related fields.
+
+              </li>
+
+
+              <li>
+
+                Prior research and publication experience is required.
+
+                Applicants should have
+
+                <strong>
+                  at least one representative first-author paper.
+                </strong>
+
+              </li>
+
+            </ul>
+
+
+
+            <!-- PRIORITY -->
+
+            <div class="position-divider"></div>
+
+
+            <div class="position-label">
+              Preferred Background
+            </div>
+
+
+            <div class="priority-path">
+
+              <span class="priority-item high">
+                Security / Reverse Engineering
+              </span>
+
+              <span class="priority-arrow">
+                ›
+              </span>
+
+
+              <span class="priority-item">
+                Software Engineering / OS
+              </span>
+
+              <span class="priority-arrow">
+                ›
+              </span>
+
+
+              <span class="priority-item">
+                HCI
+              </span>
+
+              <span class="priority-arrow">
+                ›
+              </span>
+
+
+              <span class="priority-item">
+                AI
+              </span>
+
+              <span class="priority-arrow">
+                ›
+              </span>
+
+
+              <span class="priority-item">
+                Others
+              </span>
+
+            </div>
+
+
+
+            <!-- STRONG PLUS -->
+
+            <div class="position-divider"></div>
+
+
+            <div class="position-label">
+              Strong Plus
+            </div>
+
+
+            <div class="plus-grid">
+
+
+              <div class="plus-item">
+
+                <span class="plus-icon">
+                  01
+                </span>
+
+                <strong>
+                  Reverse Engineering
+                </strong>
+
+                <span>
+                  Experience in reverse engineering
+                  or vulnerability analysis.
+                </span>
+
+              </div>
+
+
+
+              <div class="plus-item">
+
+                <span class="plus-icon">
+                  02
+                </span>
+
+                <strong>
+                  CTF Experience
+                </strong>
+
+                <span>
+                  Hands-on participation in
+                  cybersecurity competitions.
+                </span>
+
+              </div>
+
+
+
+              <div class="plus-item">
+
+                <span class="plus-icon">
+                  03
+                </span>
+
+                <strong>
+                  CCF Publications
+                </strong>
+
+                <span>
+                  Publications in CCF-recommended
+                  conferences or journals.
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <div class="position-footer">
+
+              <span>
+                Research · Break · Build · Publish
+              </span>
+
+              <span class="position-footer-arrow">
+                →
+              </span>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- =================================================
+               MASTER
+          ================================================== -->
+
+          <article class="position-card">
+
+            <div class="position-top">
+
+              <span class="position-index">
+                02
+              </span>
+
+              <span class="position-tag">
+                MASTER
+              </span>
+
+            </div>
+
+
+            <h3>
+              Master's Students
+            </h3>
+
+
+            <p class="position-intro">
+
+              We welcome motivated Master's students who want
+              to gain rigorous research experience and grow
+              from learning cybersecurity to actually doing
+              security research.
+
+            </p>
+
+
+            <div class="position-divider"></div>
+
+
+            <div class="position-label">
+              We value students who
+            </div>
+
+
+            <ul>
+
+              <li>
+                Are genuinely interested in cybersecurity
+                and real-world systems.
+              </li>
+
+              <li>
+                Enjoy coding, experimentation,
+                and learning by building.
+              </li>
+
+              <li>
+                Are willing to read papers critically
+                and ask their own research questions.
+              </li>
+
+              <li>
+                Want to challenge themselves with
+                meaningful research problems.
+              </li>
+
+            </ul>
+
+
+            <div class="master-focus">
+
+              <strong>
+                Hands-on experience is especially welcome.
+              </strong>
+
+              <p>
+
+                Students with experience in CTF,
+                vulnerability discovery, reverse engineering,
+                software systems, or substantial coding
+                projects are particularly encouraged to apply.
+
+              </p>
+
+            </div>
+
+
+            <div class="position-footer">
+
+              <span>
+                Learn · Explore · Create
+              </span>
+
+              <span class="position-footer-arrow">
+                →
+              </span>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             RESEARCH
+        ====================================================== -->
+
+        <div class="research-section">
+
+
+          <div class="research-heading">
+
+            <span class="section-kicker">
+              WHAT YOU MAY WORK ON
+            </span>
+
+
+            <h2>
+              Problems don't arrive
+              with research labels.
+            </h2>
+
+
+            <p>
+
+              We care more about interesting security questions
+              than fitting every project neatly into one box.
+              Your work may move across AI, software, devices,
+              networks, and physical systems.
+
+            </p>
+
+          </div>
+
+
+
+          <div class="research-list">
+
+
+            <div class="research-item">
+
+              <span class="research-number">
+                01
+              </span>
+
+              <div>
+
+                <h3>
+                  AI × Security
+                </h3>
+
+                <p>
+                  LLM security, agents, AI-assisted security,
+                  trustworthy and secure AI systems.
+                </p>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="research-item">
+
+              <span class="research-number">
+                02
+              </span>
+
+              <div>
+
+                <h3>
+                  Software × Systems
+                </h3>
+
+                <p>
+                  Vulnerability discovery, program analysis,
+                  fuzzing, software and system security.
+                </p>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="research-item">
+
+              <span class="research-number">
+                03
+              </span>
+
+              <div>
+
+                <h3>
+                  Mobile × IoT
+                </h3>
+
+                <p>
+                  Mobile security, IoT security,
+                  privacy, protocols, and ecosystem security.
+                </p>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="research-item">
+
+              <span class="research-number">
+                04
+              </span>
+
+              <div>
+
+                <h3>
+                  Embodied × Physical
+                </h3>
+
+                <p>
+                  Robots, cyber-physical systems,
+                  embodied AI, and mission-critical security.
+                </p>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             HOW TO APPLY
+        ====================================================== -->
+
+        <div class="application-box">
+
+
+          <div class="application-left">
+
+            <span class="section-kicker">
+              HOW TO APPLY
+            </span>
+
+
+            <h2>
+              Ready to join AIMS?
+            </h2>
+
+
+            <p>
+
+              If you are interested in pursuing a PhD at AIMS,
+              please send a concise introduction together with
+              the required materials listed here.
+
+            </p>
+
+
+            <p class="application-note">
+
+              <strong>
+                Please note:
+              </strong>
+
+              inquiries from PhD applicants without the required
+              materials listed here may not receive a response.
+
+            </p>
+
+          </div>
+
+
+
+          <div>
+
+
+            <div class="materials-title">
+              Required materials for PhD applicants
+            </div>
+
+
+
+            <div class="material-item">
+
+              <span class="material-number">
+                01
+              </span>
+
+              <div>
+
+                <strong>
+                  Curriculum Vitae (CV)
+                </strong>
+
+                <p>
+
+                  Please include your education,
+                  research experience, publications,
+                  projects, awards, technical skills,
+                  and other relevant experience.
+
+                </p>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="material-item">
+
+              <span class="material-number">
+                02
+              </span>
+
+              <div>
+
+                <strong>
+                  Representative First-Author Paper
+                </strong>
+
+                <p>
+
+                  Please attach at least one representative
+                  research paper on which you are the first author.
+
+                </p>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             EMAIL GUIDE
+        ====================================================== -->
+
+        <div class="email-guide">
+
+
+          <div class="email-guide-left">
+
+            <span class="section-kicker">
+              FIRST EMAIL
+            </span>
+
+
+            <h2>
+              Keep it simple.
+            </h2>
+
+
+            <p>
+
+              A short and informative email is enough.
+              Tell us who you are, what you have worked on,
+              and why AIMS is a good match for the research
+              you would like to pursue.
+
+            </p>
+
+          </div>
+
+
+
+          <div class="email-sample">
+
+
+            <div class="email-sample-top">
+
+              <span class="email-dot"></span>
+              <span class="email-dot"></span>
+              <span class="email-dot"></span>
+
+            </div>
+
+
+            <div class="email-sample-body">
+
+
+              <div class="email-row">
+
+                <span class="email-row-label">
+                  Subject
+                </span>
+
+                <span class="email-row-value">
+                  PhD Application – Your Name – Your University
+                </span>
+
+              </div>
+
+
+
+              <div class="email-row">
+
+                <span class="email-row-label">
+                  Attach
+                </span>
+
+                <span class="email-row-value">
+                  CV + First-Author Representative Paper
+                </span>
+
+              </div>
+
+
+
+              <div class="email-content">
+
+                Briefly introduce your current program and research background.
+                Highlight your strongest research or engineering experience,
+                and tell us what security problems you are interested in exploring.
+
+                <br><br>
+
+                If applicable, feel free to mention your experience in
+                reverse engineering, vulnerability research, CTF,
+                system building, open-source projects, or prior publications.
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             FINAL CTA
+        ====================================================== -->
+
+        <div class="final-cta">
+
+
+          <div>
+
+            <span class="final-kicker">
+              AI FOR MISSION-CRITICAL SECURITY
+            </span>
+
+
+            <h2>
+              Curious minds are always welcome.
+            </h2>
+
+          </div>
+
+
+
+          <a
+            href="mailto:YOUR_EMAIL@sdu.edu.cn"
+            class="final-email"
+          >
+
+            <span>
+              YOUR_EMAIL@sdu.edu.cn
+            </span>
+
+            <span class="final-email-arrow">
+              ↗
+            </span>
+
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================= -->
+
+  <footer class="site-footer">
+
+    <div class="site-footer-inner">
+
+      <span>
+        AI for Mission-critical Security (AIMS) Lab
+      </span>
+
+      <span id="copyright">
+        © 2026 AIMS Lab
+      </span>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =========================================================
+       JAVASCRIPT
+  ========================================================= -->
+
+  <script>
+
+    /* Automatic footer year */
+
+    const copyright =
+      document.getElementById("copyright");
+
+    if (copyright) {
+
+      const year =
+        new Date().getFullYear();
+
+      copyright.textContent =
+        "© " + year + " AIMS Lab";
+
+    }
+
+
+    /* Warn in console if email is not replaced */
+
+    document
+      .querySelectorAll('a[href^="mailto:"]')
+      .forEach(function(link) {
+
+        link.addEventListener(
+          "click",
+          function() {
+
+            if (
+              link.href.includes("YOUR_EMAIL")
+            ) {
+
+              console.warn(
+                "Please replace YOUR_EMAIL@sdu.edu.cn with your actual email address."
+              );
+
+            }
+
+          }
+        );
+
+      });
+
+  </script>
+
+</body>
+
+</html>
