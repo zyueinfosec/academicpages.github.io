@@ -37,19 +37,9 @@ permalink: /contact/
 
     body {
       margin: 0;
-      color: #111827;
-      background: #ffffff;
-
-      font-family:
-        Inter,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        "PingFang SC",
-        "Hiragino Sans GB",
-        "Microsoft YaHei",
-        Arial,
-        sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      background: #fff;
     }
 
     a {
@@ -64,169 +54,59 @@ permalink: /contact/
 
 
     /* =========================================================
-       HEADER
+       HEADER — same as the other AIMS Lab pages
     ========================================================= */
 
-    .site-header {
-      position: relative;
-      overflow: hidden;
-
-      padding:
-        40px
-        clamp(28px, 4vw, 60px)
-        45px;
-
-      color: #ffffff;
-
+    .top-banner {
+      height: 115px;
       background:
-        radial-gradient(
-          circle at 72% 0%,
-          rgba(43, 112, 220, 0.20),
-          transparent 34%
-        ),
         linear-gradient(
-          120deg,
-          #041021 0%,
-          #071a38 55%,
-          #06142a 100%
-        );
-    }
-
-
-    .site-header::after {
-      content: "";
-
-      position: absolute;
-      inset: 0;
-
-      pointer-events: none;
-
-      opacity: .15;
-
-      background-image:
-        repeating-linear-gradient(
-          0deg,
-          transparent,
-          transparent 26px,
-          rgba(84, 145, 232, .18) 27px,
-          transparent 28px
-        );
-    }
-
-
-    .site-header-inner {
-      position: relative;
-      z-index: 2;
-
-      width: min(1500px, 100%);
-      margin: 0 auto;
-    }
-
-
-    .site-title {
-      margin: 0;
-
-      font-size:
-        clamp(
-          30px,
-          4vw,
-          50px
-        );
-
-      line-height: 1.15;
-
-      font-weight: 700;
-
-      letter-spacing: -.025em;
-    }
-
-
-    /* =========================================================
-       NAVIGATION
-    ========================================================= */
-
-    .site-nav {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-
-      background:
-        rgba(255, 255, 255, .97);
-
-      border-bottom:
-        1px solid #e8edf3;
-
-      backdrop-filter:
-        blur(12px);
-    }
-
-
-    .site-nav-inner {
+          rgba(3, 35, 90, 0.30),
+          rgba(3, 35, 90, 0.30)
+        ),
+        url("{{ '/assets/images/lab/header.jpg' | relative_url }}");
+      background-size: cover;
+      background-position: center;
       display: flex;
       align-items: center;
+      padding-left: 40px;
+    }
 
-      gap: 34px;
+    .top-banner h1 {
+      margin: 0;
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
 
-      width: min(1500px, 100%);
+    /* =========================================================
+       NAVIGATION — same as Home / Team / Memories
+    ========================================================= */
 
-      margin: 0 auto;
-
-      padding:
-        0
-        clamp(18px, 4vw, 60px);
-
+    .navbar {
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 0 12px;
+      background: #f8f9fa;
+      border-bottom: 1px solid #eeeeee;
       overflow-x: auto;
-
-      scrollbar-width: none;
+      white-space: nowrap;
     }
 
-
-    .site-nav-inner::-webkit-scrollbar {
-      display: none;
-    }
-
-
-    .site-nav a {
-      position: relative;
-
-      flex: 0 0 auto;
-
-      padding: 25px 0;
-
-      color: #075ed1;
-
+    .navbar a {
+      color: #065dcc;
       text-decoration: none;
-
       font-size: 17px;
-
-      transition: .2s ease;
+      flex: 0 0 auto;
     }
 
-
-    .site-nav a:hover {
-      color: #003e97;
+    .navbar a:hover {
+      color: #003b82;
+      text-decoration: underline;
     }
-
-
-    .site-nav a.active {
-      font-weight: 500;
-    }
-
-
-    .site-nav a.active::after {
-      content: "";
-
-      position: absolute;
-
-      right: 0;
-      bottom: 14px;
-      left: 0;
-
-      height: 2px;
-
-      background: #075ed1;
-    }
-
 
     /* =========================================================
        CONTACT PAGE
@@ -246,9 +126,9 @@ permalink: /contact/
       overflow: hidden;
 
       padding:
-        105px
-        clamp(24px, 6vw, 90px)
-        85px;
+        72px
+        clamp(24px, 5vw, 72px)
+        80px;
 
       background: #ffffff;
     }
@@ -303,9 +183,9 @@ permalink: /contact/
 
       align-items: center;
 
-      min-height: 580px;
+      min-height: 520px;
 
-      padding-bottom: 100px;
+      padding-bottom: 78px;
 
       border-bottom:
         1px solid
@@ -337,9 +217,9 @@ permalink: /contact/
 
       font-size:
         clamp(
-          54px,
-          7vw,
-          96px
+          46px,
+          6vw,
+          72px
         );
 
       line-height: .97;
@@ -360,7 +240,7 @@ permalink: /contact/
     .hero-description {
       max-width: 710px;
 
-      margin: 35px 0 0;
+      margin: 28px 0 0;
 
       color: #536176;
 
@@ -481,7 +361,7 @@ permalink: /contact/
     .hero-visual {
       position: relative;
 
-      min-height: 510px;
+      min-height: 450px;
 
       display: grid;
       place-items: center;
@@ -503,22 +383,22 @@ permalink: /contact/
 
 
     .orbit-1 {
-      width: 420px;
-      height: 420px;
+      width: 380px;
+      height: 380px;
     }
 
 
     .orbit-2 {
-      width: 315px;
-      height: 315px;
+      width: 285px;
+      height: 285px;
 
       animation-delay: .7s;
     }
 
 
     .orbit-3 {
-      width: 210px;
-      height: 210px;
+      width: 190px;
+      height: 190px;
 
       border-color:
         rgba(7, 94, 209, .28);
@@ -549,8 +429,8 @@ permalink: /contact/
 
       justify-content: center;
 
-      width: 195px;
-      height: 195px;
+      width: 178px;
+      height: 178px;
 
       padding: 29px;
 
@@ -584,7 +464,7 @@ permalink: /contact/
 
 
     .core-main {
-      font-size: 28px;
+      font-size: 25px;
 
       line-height: 1.05;
 
@@ -641,8 +521,18 @@ permalink: /contact/
 
 
     .label-embodied {
-      left: 100px;
-      bottom: 45px;
+      left: 88px;
+      bottom: 42px;
+    }
+
+    .label-human {
+      left: 18px;
+      top: 95px;
+    }
+
+    .label-program {
+      right: 45px;
+      bottom: 52px;
     }
 
 
@@ -1086,9 +976,9 @@ permalink: /contact/
 
       gap: 90px;
 
-      margin-top: 120px;
+      margin-top: 96px;
 
-      padding-top: 100px;
+      padding-top: 78px;
 
       border-top:
         1px solid
@@ -1177,7 +1067,7 @@ permalink: /contact/
 
       gap: 90px;
 
-      margin-top: 120px;
+      margin-top: 96px;
 
       padding: 65px;
 
@@ -1306,9 +1196,9 @@ permalink: /contact/
 
       gap: 90px;
 
-      margin-top: 110px;
+      margin-top: 92px;
 
-      padding-top: 90px;
+      padding-top: 74px;
 
       border-top:
         1px solid
@@ -1450,7 +1340,7 @@ permalink: /contact/
 
       gap: 45px;
 
-      margin-top: 110px;
+      margin-top: 92px;
 
       padding-top: 70px;
 
@@ -1602,30 +1492,21 @@ permalink: /contact/
 
     @media (max-width: 760px) {
 
-      .site-header {
-        padding:
-          30px 22px
-          32px;
+      .top-banner {
+        height: 100px;
+        padding-left: 20px;
       }
 
-
-      .site-title {
-        font-size: 30px;
+      .top-banner h1 {
+        font-size: 24px;
       }
 
-
-      .site-nav-inner {
-        gap: 25px;
-
-        padding:
-          0 20px;
+      .navbar {
+        gap: 16px;
       }
 
-
-      .site-nav a {
-        padding: 20px 0;
-
-        font-size: 15px;
+      .navbar a {
+        font-size: 16px;
       }
 
 
@@ -1644,7 +1525,7 @@ permalink: /contact/
 
 
       .hero-title {
-        font-size: 54px;
+        font-size: 46px;
       }
 
 
@@ -1719,7 +1600,7 @@ permalink: /contact/
     @media (max-width: 480px) {
 
       .hero-title {
-        font-size: 44px;
+        font-size: 40px;
       }
 
 
@@ -1781,40 +1662,28 @@ permalink: /contact/
 <body>
 
 
-  <!-- =========================================================
-       HEADER
-  ========================================================= -->
-
-  <header
-    class="site-header"
-    id="home"
-  >
-
-    <div class="site-header-inner">
-
-      <h1 class="site-title">
-        AI for Mission-critical Security (AIMS) Lab
-      </h1>
-
-    </div>
-
+  <!-- =====================================================
+       Header
+       ===================================================== -->
+  <header class="top-banner">
+    <h1>AI for Mission-critical Security (AIMS) Lab</h1>
   </header>
 
-
-
-  <!-- =========================================================
-       NAVIGATION
-  ========================================================= -->
-
-   <nav class="navbar">
-    <a href="{{ '/' | relative_url }}">Homepage</a>
-    <a href="{{ '/labhome' | relative_url }}">Lab Home</a>
+  <!-- =====================================================
+       Navigation
+       ===================================================== -->
+  <nav class="navbar">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/news/' | relative_url }}">News</a>
     <a href="{{ '/team/' | relative_url }}">Team</a>
-    <a href="{{ '/areas/' | relative_url }}">Areas & Featured Projects</a>
+    <a href="{{ '/areas/' | relative_url }}">Areas</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a href="{{ '/software/' | relative_url }}">Software</a>
+    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
     <a href="{{ '/memories/' | relative_url }}">Memories</a>
     <a href="{{ '/contact/' | relative_url }}">Contact</a>
   </nav>
-
 
 
   <!-- =========================================================
@@ -1902,7 +1771,7 @@ permalink: /contact/
 
  
               <a
-                href="/areas/"
+                href="{{ '/areas/' | relative_url }}"
                 class="btn btn-secondary"
               >
                 Explore Our Research
@@ -1959,7 +1828,7 @@ permalink: /contact/
              <div class="floating-label label-human">
               Human-centered Security
             </div>
-               <div class="floating-label programanalysis">
+               <div class="floating-label label-program">
              Program Analysis
             </div>
           </div>
@@ -2549,7 +2418,7 @@ permalink: /contact/
           >
 
             <span>
-              YOUR_EMAIL@sdu.edu.cn
+              zyueinfosec@sdu.edu.cn
             </span>
 
             <span class="final-email-arrow">
@@ -2612,31 +2481,6 @@ permalink: /contact/
 
     }
 
-
-    /* Warn in console if email is not replaced */
-
-    document
-      .querySelectorAll('a[href^="mailto:"]')
-      .forEach(function(link) {
-
-        link.addEventListener(
-          "click",
-          function() {
-
-            if (
-              link.href.includes("zyueinfosec@sdu.edu.cn")
-            ) {
-
-              console.warn(
-                "Please replace zyueinfosec@sdu.edu.cn with your actual email address."
-              );
-
-            }
-
-          }
-        );
-
-      });
 
   </script>
 
