@@ -66,7 +66,7 @@ Selected Publications ([Complete List](\publications\)):
 <span style="color: blue;">**Ranking Statistics:** CCF A: 38 papers, CCF B: 7 papers, CCF C: 5 papers  </span>   
 
 **2027:**  
-1. <span style="color: blue;">**[NDSS 27]**</span> - Xinhui Shao, Zhen Ling, Yue Zhang, Yumeng Wei, Huaiyu Yan, Junzhou Luo, Jianping Wang, Xinwen Fu. “The SLIP Problem: Detecting Shared Legacy Isolation-breaking Pointers in MCU-Oriented Real-Time Operating Systems.” In Proceedings of the 34th Network and Distributed System Security Symposium (NDSS). **[Tier 1] [BIG4] [CCF-A]**
+1. <span style="color: blue;">**[NDSS 27]**</span> - Xinhui Shao, Zhen Ling, **Yue Zhang**, Yumeng Wei, Huaiyu Yan, Junzhou Luo, Jianping Wang, Xinwen Fu. “The SLIP Problem: Detecting Shared Legacy Isolation-breaking Pointers in MCU-Oriented Real-Time Operating Systems.” In Proceedings of the 34th Network and Distributed System Security Symposium (NDSS). **[Tier 1] [BIG4] [CCF-A]**
 
 **2026:**  
 
