@@ -14,7 +14,7 @@ redirect_from:
  
 个人简历:
 ------
-张悦，山东大学教授，博士/硕士生导师。曾在IEEE S&P，USENIX Security，ACM CCS，NDSS等安全领域顶级会议发表学术论文50余篇，谷歌引用4000余次。曾获ACM CCS最佳论文提名，USENIX Security 最佳论文提名，NDSS最佳审稿人，USENIX Security杰出审稿人，省自然科学奖一等奖、省CCF最佳论文一等奖，ACM青岛分会新星奖等诸多奖项；担任IEEE MASS，IEEE MSN等CCF推荐会议分论坛主席，可信数字经济中心陕西省高校工程研究中心的副主任；担任NDSS，ACM CCS，USENIX Security等著名安全会议程序委员会委员；担任T-IFS、HCC、PeerJ CS等期刊副主编或编委。曾多次发现 Bluetooth SIG，谷歌、Apple、德州仪器、MQTT、腾讯等组织、知名公司的高危严重漏洞，获得Apple，德州仪器，以太坊，谷歌等公司公开致谢，漏洞赏金或立项支持。成果被中央电视台、新浪等媒体报道。
+张悦，山东大学教授，博导，可信数字经济中心陕西省高校工程研究中心的副主任，中国计算机学会区块链专委会执行委员，中国计算机学会网络与系统安全专委会执行委员。曾在美国德雷塞尔大学助理教授，2025年回国加入山东大学。在IEEE S&P，USENIX Security，ACM CCS，NDSS等安全领域顶级会议发表学术论文70余篇（安全四大顶会25篇），授权专利30余项（包括多项美国专利），谷歌引用6000余次，单篇引用量2000次。曾获ACM CCS最佳论文提名，USENIX Security 最佳论文提名，NDSS最佳审稿人，USENIX Security杰出审稿人，广东省自然科学奖一等奖、广东省省CCF最佳论文一等奖，ACM青岛分会新星奖等诸多奖项；主持国家自然科学基金优秀青年项目（海外），国自然面上，山东省重大基础研究项目，青岛市重点技术攻关项目，以太坊基金会发展项目等多个项目。担任IEEE MASS，IEEE MSN等CCF推荐会议分论坛主席；担任NDSS，ACM CCS，USENIX Security等著名安全会议程序委员会委员20余次；担任T-IFS（CCF-A）、FCS (CCF-B)、HCC (CCF-C)等多家期刊编委。曾多次发现 Bluetooth SIG，谷歌、Apple、德州仪器、MQTT、腾讯等组织、知名公司的高危严重漏洞，获得Apple，德州仪器，以太坊，谷歌等公司公开致谢，漏洞赏金或立项支持。成果被中央电视台、新华社、新浪等媒体报道。
 
 背景经历:
 ------
@@ -33,7 +33,7 @@ redirect_from:
 代表作 ([完整论文清单](\publications\)):  
 ------
 
-<span style="color: blue;">我曾在IEEE S&P、USENIX Security、ACM CCS、NDSS等安全顶级会议和TDSC等顶级期刊上发表了40多篇论文。谷歌引用超3000次。 </span>  
+<span style="color: blue;">我曾在IEEE S&P、USENIX Security、ACM CCS、NDSS等安全顶级会议和TDSC等顶级期刊上发表了60多篇论文。谷歌引用超6000次。 </span>  
 
 <span style="color: blue;">安全顶会 (19 papers): IEEE S&P ('25), USENIX-Security ('24,  '23, '20, '25x3), CCS ('24x3, '23x2, '22x2),  NDSS ('23x3, '25x2)  </span>
 
