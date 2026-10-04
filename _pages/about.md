@@ -71,7 +71,7 @@ Selected Publications ([Complete List](\publications\)):
 
 **2026:**  
 
-1.**[TDSC 2026]** - Kun Li, Shichao Zhuang, **Yue Zhang**, Ruoxi Wang, Kaidi Xu, Hao Wu, Guangyong Shang, Minghui Xu, I’m Spartacus, No, I’m Spartacus: Identity Confusion in LLMs and Its Impact on Trust in AI-Generated Content, IEEE Transactions on Dependable and Secure Computing (TDSC), 2026 **[CCF-A]**  
+1. **[TDSC 2026]** - Kun Li, Shichao Zhuang, **Yue Zhang**, Ruoxi Wang, Kaidi Xu, Hao Wu, Guangyong Shang, Minghui Xu, I’m Spartacus, No, I’m Spartacus: Identity Confusion in LLMs and Its Impact on Trust in AI-Generated Content, IEEE Transactions on Dependable and Secure Computing (TDSC), 2026 **[CCF-A]**  
 2. **[NeurIPS 2026]** - Hanwen Li, Jinhao Duan, Xiaoshuang Shi, **Yue Zhang**, Tianlong Chen, Kaidi Xu, Chenxi Yuan, UMAS: System-Level Uncertainty Quantification for Multi-Agent LLM Systems, NeurIPS 2026 **[CCF-A]**
 3. **[EMNLP 2026]** - Xuelong Dai, Jianyu Ma, Boyang Ma, Biwei Yan, Yijun Yang, **Yue Zhang**, MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents,  EMNLP 2026 Findings **[CCF-B]**  
 4. **[ASE 26]** Rui Jiao, **Yue Zhang**, Zhexuan Feng, and Jinku Li. LaMAR: Latent Multi-Agent Collaboration via KV-Cache Communication for Automated Program Repair. To appear in Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026), Munich, Germany, Oct. 2026.
