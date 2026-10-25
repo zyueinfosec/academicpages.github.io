@@ -18,7 +18,9 @@ I am currently a professor of School of Computer Science and Technology at [Shan
 You can also visit my Chinese page ([中文页面](\cn)).
  
 News:
-------
+------  
+**✯** [2026/09] - I will serve a TPC Member for ACM CCS 2027 and USENIX conference on Secure Agentic AI Systems 2027 **- 𝕟𝕖𝕨 !** 
+**✯** [2026/10] - One paper accepted by ACSAC and one paper accepted by T-IFS **- 𝕟𝕖𝕨 !**  
 **✯** [2026/09] - One paper accepted by NeurIPS and one paper accepted by TDSC **- 𝕟𝕖𝕨 !**   
 **✯** [2026/08] - One paper accepted by ASE and one paper accepted by T-IFS **- 𝕟𝕖𝕨 !**   
 **✯** [2026/07] - One paper accepted by T-IFS and one paper accepted by **CCS 2026 - 𝕟𝕖𝕨 !**   
