@@ -20,7 +20,7 @@ You can also visit my Chinese page ([中文页面](\cn)).
 News:
 ------  
 
-**✯** [2026/04] - I will serve as a TPC Member for EuroS&P - **𝕟𝕖𝕨 !**   
+**✯** [2026/11] - I will serve as a TPC Member for EuroS&P - **𝕟𝕖𝕨 !**   
 **✯** [2026/11] - One paper accepted by TDSC **- 𝕟𝕖𝕨 !**   
 **✯** [2026/10] - I will serve a TPC Member for ACM CCS 2027 and USENIX conference on Secure Agentic AI Systems 2027 **- 𝕟𝕖𝕨 !**   
 **✯** [2026/10] - One paper accepted by ACSAC and one paper accepted by T-IFS **- 𝕟𝕖𝕨 !**   
