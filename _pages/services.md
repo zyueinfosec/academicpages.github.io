@@ -21,14 +21,17 @@ redirect_from:
 
 **TPC Member:**
 
-- TPC Member for The Network and Distributed System Security Symposium 2024  (<span style="color: blue;">NDSS 2027</span>) 
+- TPC Member for ACM CCS 2027 and USENIX conference on Secure Agentic AI Systems 2027  
+- TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P 2027)  
+- TPC Member for ACM CCS 2027, Network Security Track (<span style="color: blue;">ACM CCS 2027 </span>)  
+- TPC Member for The Network and Distributed System Security Symposium 2024  (<span style="color: blue;">NDSS 2027</span>)  
 - TPC Member for The International Symposium on Research in Attacks, Intrusions and Defenses 2026 (RAID 2026)  
 - TPC Member for the Annual Computer Security Applications Conference 2026 (ACSAC 2026)   
 - TPC Member for SciSec 2026  
 - TPC Member for The 6th International Conference on Emerging Information Security and Applications (EISA) 2026   
 - TPC Member for the IEEE European Symposium on Security and Privacy (Euro S&P  2026)  
 - TPC Member for WWWW 2026 (Security and Privacy Track)  
-- TPC Member for ACM CCS 2025, Network Security Track (<span style="color: blue;">ACM CCS 2026</span>) 
+- TPC Member for ACM CCS 2026, Network Security Track (<span style="color: blue;">ACM CCS 2026</span>) 
 - TPC Member for Workshop on Smart Living with IoT, Cloud and Edge Computing (SLICE) 2025
 - TPC Member for ACM Workshop on Secure and Trustworthy Superapps (SaTS) 2025  
 - TPC Member for USENIX Security Symposium 2026 (<span style="color: blue;">USENIX Security 2026</span>) 
@@ -61,6 +64,7 @@ redirect_from:
 
 **Editor:**
 
+- A member of the Early Career Editorial Board of Frontiers of Computer Science **(CCF-B)** 
 - Associate Editor,  **IEEE Transactions on Information Forensics and Security (TIFS) (ISSN 1556-6021)**, 2024 - 
 - Associate Editor, High-Confidence Computing (ISSN 2667-2952), 2024 -
 - Guest Editor, Special Issue “[Safeguarding the Communication and Networking for AIoT Systems](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/call-for-papers/si-2025-001208)”, IET Communications (ISSN 1751-8628), JCR-Q2, IF 1.6 2025 - 
